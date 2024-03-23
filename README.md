@@ -1,1 +1,3 @@
-# definitions
+# DiceBear Avatar Style Definitions
+
+

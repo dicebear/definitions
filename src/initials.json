@@ -14,7 +14,12 @@
       "url": "https://www.dicebear.com"
     }
   },
-  "body": "<text x=\"50%\" y=\"50%\" font-family=\"{{options.fontFamily}}, sans-serif\" font-size=\"{{options.fontSize}}\" fill=\"{{colors.text}}\" text-anchor=\"middle\" style=\"transform: translateY(calc({{options.fontSize}}px * .356))\">{{prng.initials}}</text>",
+  "body": {
+    "content": "<text x=\"50%\" y=\"50%\" font-family=\"{{options.fontFamily}}, sans-serif\" font-size=\"{{options.fontSize}}\" fill=\"{{colors.text}}\" text-anchor=\"middle\" style=\"transform: translateY(calc({{options.fontSize}}px * .356))\">{{prng.initials}}</text>",
+    "dependencies": {
+      "colors": ["text"]
+    }
+  },
   "attributes": {
     "viewBox": "0 0 100 100"
   },
