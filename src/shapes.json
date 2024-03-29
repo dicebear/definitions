@@ -13,6 +13,10 @@
     "source": {
       "name": "Shapes",
       "url": "https://www.dicebear.com"
+    },
+    "size": {
+      "width": 100,
+      "height": 100
     }
   },
   "body": {
@@ -25,20 +29,27 @@
       ]
     }
   },
-  "attributes": {
-    "viewBox": "0 0 100 100",
-    "fill": "none",
-    "shapeRendering": "auto"
-  },
-  "components": {
-    "shape1": {
+  "attributes": [
+    {
+      "name": "fill",
+      "value": "none"
+    },
+    {
+      "name": "shape-rendering",
+      "value": "auto"
+    }
+  ],
+  "components": [
+    {
+      "name": "shape1",
       "rotation": 160,
       "offset": {
         "x": 75,
         "y": 75
       },
-      "values": {
-        "rectangle": {
+      "values": [
+        {
+          "name": "rectangle",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M90 10H10v80h80zM0 0v100h100V0z\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -47,7 +58,8 @@
           },
           "default": false
         },
-        "rectangleFilled": {
+        {
+          "name": "rectangleFilled",
           "content": "<path d=\"M0 0h100v100H0z\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -56,7 +68,8 @@
           },
           "default": true
         },
-        "ellipseFilled": {
+        {
+          "name": "ellipseFilled",
           "content": "<path d=\"M100 50A50 50 0 1 1 0 50a50 50 0 0 1 100 0\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -65,7 +78,8 @@
           },
           "default": true
         },
-        "ellipse": {
+        {
+          "name": "ellipse",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M50 90a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10A50 50 0 1 0 50 0a50 50 0 0 0 0 100\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -74,7 +88,8 @@
           },
           "default": false
         },
-        "polygonFilled": {
+        {
+          "name": "polygonFilled",
           "content": "<path d=\"m50 7 50 86.6H0z\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -83,7 +98,8 @@
           },
           "default": true
         },
-        "polygon": {
+        {
+          "name": "polygon",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M50 7 0 93.6h100zm0 20L17.3 83.6h65.4z\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -92,7 +108,8 @@
           },
           "default": false
         },
-        "line": {
+        {
+          "name": "line",
           "content": "<rect x=\"45\" y=\"-150\" width=\"10\" height=\"400\" fill=\"url(#color-shape1)\"/>",
           "dependencies": {
             "colors": [
@@ -101,16 +118,18 @@
           },
           "default": false
         }
-      }
+      ]
     },
-    "shape2": {
+    {
+      "name": "shape2",
       "rotation": 180,
       "offset": {
         "x": 50,
         "y": 50
       },
-      "values": {
-        "rectangle": {
+      "values": [
+        {
+          "name": "rectangle",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M90 10H10v80h80zM0 0v100h100V0z\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -119,7 +138,8 @@
           },
           "default": false
         },
-        "rectangleFilled": {
+        {
+          "name": "rectangleFilled",
           "content": "<path d=\"M0 0h100v100H0z\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -128,7 +148,8 @@
           },
           "default": true
         },
-        "ellipseFilled": {
+        {
+          "name": "ellipseFilled",
           "content": "<path d=\"M100 50A50 50 0 1 1 0 50a50 50 0 0 1 100 0\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -137,7 +158,8 @@
           },
           "default": true
         },
-        "ellipse": {
+        {
+          "name": "ellipse",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M50 90a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10A50 50 0 1 0 50 0a50 50 0 0 0 0 100\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -146,7 +168,8 @@
           },
           "default": false
         },
-        "polygonFilled": {
+        {
+          "name": "polygonFilled",
           "content": "<path d=\"m50 7 50 86.6H0z\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -155,7 +178,8 @@
           },
           "default": true
         },
-        "polygon": {
+        {
+          "name": "polygon",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M50 7 0 93.6h100zm0 20L17.3 83.6h65.4z\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -164,7 +188,8 @@
           },
           "default": false
         },
-        "line": {
+        {
+          "name": "line",
           "content": "<rect x=\"45\" y=\"-150\" width=\"10\" height=\"400\" fill=\"url(#color-shape2)\"/>",
           "dependencies": {
             "colors": [
@@ -173,16 +198,18 @@
           },
           "default": true
         }
-      }
+      ]
     },
-    "shape3": {
+    {
+      "name": "shape3",
       "rotation": 180,
       "offset": {
         "x": 25,
         "y": 25
       },
-      "values": {
-        "rectangle": {
+      "values": [
+        {
+          "name": "rectangle",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M90 10H10v80h80zM0 0v100h100V0z\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -191,7 +218,8 @@
           },
           "default": true
         },
-        "rectangleFilled": {
+        {
+          "name": "rectangleFilled",
           "content": "<path d=\"M0 0h100v100H0z\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -200,7 +228,8 @@
           },
           "default": true
         },
-        "ellipseFilled": {
+        {
+          "name": "ellipseFilled",
           "content": "<path d=\"M100 50A50 50 0 1 1 0 50a50 50 0 0 1 100 0\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -209,7 +238,8 @@
           },
           "default": true
         },
-        "ellipse": {
+        {
+          "name": "ellipse",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M50 90a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10A50 50 0 1 0 50 0a50 50 0 0 0 0 100\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -218,7 +248,8 @@
           },
           "default": true
         },
-        "polygonFilled": {
+        {
+          "name": "polygonFilled",
           "content": "<path d=\"m50 7 50 86.6H0z\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -227,7 +258,8 @@
           },
           "default": true
         },
-        "polygon": {
+        {
+          "name": "polygon",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M50 7 0 93.6h100zm0 20L17.3 83.6h65.4z\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -236,7 +268,8 @@
           },
           "default": true
         },
-        "line": {
+        {
+          "name": "line",
           "content": "<rect x=\"45\" y=\"-150\" width=\"10\" height=\"400\" fill=\"url(#color-shape3)\"/>",
           "dependencies": {
             "colors": [
@@ -245,11 +278,22 @@
           },
           "default": true
         }
-      }
+      ]
     }
-  },
-  "colors": {
-    "shape1": {
+  ],
+  "colors": [
+    {
+      "name": "background",
+      "values": [
+        "0a5b83",
+        "1c799f",
+        "69d2e7",
+        "f1f4dc",
+        "f88c49"
+      ]
+    },
+    {
+      "name": "shape1",
       "differentFromColor": "background",
       "values": [
         "0a5b83",
@@ -259,7 +303,8 @@
         "f88c49"
       ]
     },
-    "shape2": {
+    {
+      "name": "shape2",
       "differentFromColor": "shape1",
       "values": [
         "0a5b83",
@@ -269,7 +314,8 @@
         "f88c49"
       ]
     },
-    "shape3": {
+    {
+      "name": "shape3",
       "differentFromColor": "shape2",
       "values": [
         "0a5b83",
@@ -279,21 +325,5 @@
         "f88c49"
       ]
     }
-  },
-  "additionalOptions": {
-    "backgroundColor": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "^(transparent|[a-fA-F0-9]{6})$"
-      },
-      "default": [
-        "0a5b83",
-        "1c799f",
-        "69d2e7",
-        "f1f4dc",
-        "f88c49"
-      ]
-    }
-  }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@dicebear/definitions",
-  "version": "8.0.0-rc.2",
+  "version": "9.0.0-alpha.1",
   "description": "Definition files of the DiceBear avatar styles.",
   "keywords": [
     "dicebear"
@@ -12,46 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/dicebear/definitions.git"
   },
-  "type": "module",
-  "exports": {
-    "./adventurer.json": "./src/adventurer.json",
-    "./adventurer-neutral.json": "./src/adventurer-neutral.json",
-    "./avataaars.json": "./src/avataaars.json",
-    "./avataaars-neutral.json": "./src/avataaars-neutral.json",
-    "./big-ears.json": "./src/big-ears.json",
-    "./big-ears-neutral.json": "./src/big-ears-neutral.json",
-    "./big-smile.json": "./src/big-smile.json",
-    "./bottts.json": "./src/bottts.json",
-    "./bottts-neutral.json": "./src/bottts-neutral.json",
-    "./croodles.json": "./src/croodles.json",
-    "./croodles-neutral.json": "./src/croodles-neutral.json",
-    "./fun-emoji.json": "./src/fun-emoji.json",
-    "./icons.json": "./src/icons.json",
-    "./identicon.json": "./src/identicon.json",
-    "./initials.json": "./src/initials.json",
-    "./lorelei.json": "./src/lorelei.json",
-    "./lorelei-neutral.json": "./src/lorelei-neutral.json",
-    "./micah.json": "./src/micah.json",
-    "./miniavs.json": "./src/miniavs.json",
-    "./notionists.json": "./src/notionists.json",
-    "./notionists-neutral.json": "./src/notionists-neutral.json",
-    "./open-peeps.json": "./src/open-peeps.json",
-    "./personas.json": "./src/personas.json",
-    "./pixel-art.json": "./src/pixel-art.json",
-    "./pixel-art-neutral.json": "./src/pixel-art-neutral.json",
-    "./rings.json": "./src/rings.json",
-    "./shapes.json": "./src/shapes.json",
-    "./thumbs.json": "./src/thumbs.json"
-  },
   "files": [
     "LICENSE",
     "src",
     "README.md"
   ],
-  "devDependencies": {},
-  "peerDependencies": {
-    "@dicebear/core": "^8.0.0-rc.2"
-  },
   "publishConfig": {
     "access": "public"
   }

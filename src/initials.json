@@ -12,6 +12,10 @@
     "source": {
       "name": "DiceBear",
       "url": "https://www.dicebear.com"
+    },
+    "size": {
+      "width": 100,
+      "height": 100
     }
   },
   "body": {
@@ -20,14 +24,13 @@
       "colors": ["text"]
     }
   },
-  "attributes": {
-    "viewBox": "0 0 100 100"
-  },
-  "colors": {
-    "text": {
+  "components": [],
+  "colors": [
+    {
+      "name": "text",
       "values": ["#000000"]
     }
-  },
+  ],
   "additionalOptions": {
     "fontFamily": {
       "type": "string",
