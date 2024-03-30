@@ -14,9 +14,8 @@
       "name": "Identicon",
       "url": "https://dicebear.com"
     },
-    "size": {
-      "width": 5,
-      "height": 5
+    "canvas": {
+      "size": 5
     }
   },
   "body": {

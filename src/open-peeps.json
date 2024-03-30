@@ -14,9 +14,8 @@
       "name": "Open Peeps",
       "url": "https://www.openpeeps.com/"
     },
-    "size": {
-      "width": 704,
-      "height": 704
+    "canvas": {
+      "size": 704
     }
   },
   "body": {

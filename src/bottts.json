@@ -14,9 +14,8 @@
       "name": "Bottts",
       "url": "https://bottts.com/"
     },
-    "size": {
-      "width": 180,
-      "height": 180
+    "canvas": {
+      "size": 180
     }
   },
   "body": {

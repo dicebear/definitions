@@ -14,9 +14,8 @@
       "name": "Miniavs - Free Avatar Creator",
       "url": "https://www.figma.com/community/file/923211396597067458"
     },
-    "size": {
-      "width": 64,
-      "height": 64
+    "canvas": {
+      "size": 64
     }
   },
   "body": {

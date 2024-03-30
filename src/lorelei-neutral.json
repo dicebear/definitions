@@ -14,9 +14,8 @@
       "name": "Lorelei Neutral",
       "url": "https://www.figma.com/community/file/1198749693280469639"
     },
-    "size": {
-      "width": 600,
-      "height": 600
+    "canvas": {
+      "size": 600
     }
   },
   "body": {

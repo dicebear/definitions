@@ -15,9 +15,8 @@
       "name": "Bootstrap Icons",
       "url": "https://github.com/twbs/icons"
     },
-    "size": {
-      "width": 24,
-      "height": 24
+    "canvas": {
+      "size": 24
     }
   },
   "body": {

@@ -14,9 +14,8 @@
       "name": "Personas by Draftbit",
       "url": "https://personas.draftbit.com/"
     },
-    "size": {
-      "width": 64,
-      "height": 64
+    "canvas": {
+      "size": 64
     }
   },
   "body": {

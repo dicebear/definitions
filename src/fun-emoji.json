@@ -14,9 +14,8 @@
       "name": "Fun Emoji Set",
       "url": "https://www.figma.com/community/file/968125295144990435"
     },
-    "size": {
-      "width": 200,
-      "height": 200
+    "canvas": {
+      "size": 200
     }
   },
   "body": {

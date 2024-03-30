@@ -14,9 +14,8 @@
       "name": "Avataaars",
       "url": "https://avataaars.com/"
     },
-    "size": {
-      "width": 280,
-      "height": 280
+    "canvas": {
+      "size": 280
     }
   },
   "body": {

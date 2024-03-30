@@ -14,9 +14,8 @@
       "name": "Adventurer Neutral",
       "url": "https://www.figma.com/community/file/1184595184137881796"
     },
-    "size": {
-      "width": 400,
-      "height": 400
+    "canvas": {
+      "size": 400
     }
   },
   "body": {

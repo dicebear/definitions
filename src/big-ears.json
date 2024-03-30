@@ -14,9 +14,8 @@
       "name": "Face Generator",
       "url": "https://www.figma.com/community/file/986078800058673824"
     },
-    "size": {
-      "width": 440,
-      "height": 440
+    "canvas": {
+      "size": 440
     }
   },
   "body": {

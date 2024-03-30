@@ -14,9 +14,8 @@
       "name": "Adventurer",
       "url": "https://www.figma.com/community/file/1184595184137881796"
     },
-    "size": {
-      "width": 762,
-      "height": 762
+    "canvas": {
+      "size": 762
     }
   },
   "body": {

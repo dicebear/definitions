@@ -14,9 +14,8 @@
       "name": "Avatar Illustration System",
       "url": "https://www.figma.com/community/file/829741575478342595"
     },
-    "size": {
-      "width": 360,
-      "height": 360
+    "canvas": {
+      "size": 360
     }
   },
   "body": {

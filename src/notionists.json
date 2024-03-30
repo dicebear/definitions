@@ -14,9 +14,8 @@
       "name": "Notionists",
       "url": "https://heyzoish.gumroad.com/l/notionists"
     },
-    "size": {
-      "width": 1744,
-      "height": 1744
+    "canvas": {
+      "size": 1744
     }
   },
   "body": {
