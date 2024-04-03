@@ -3,6 +3,7 @@
   "version": "9.0.0-alpha.1",
   "description": "Definition files of the DiceBear avatar styles.",
   "keywords": [
+    "avatar",
     "dicebear"
   ],
   "bugs": {
@@ -11,6 +12,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dicebear/definitions.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*",
+    "./package.json": "./package.json"
   },
   "files": [
     "LICENSE",
