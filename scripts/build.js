@@ -22,11 +22,11 @@ for (const file of files) {
   licsenseMd += `\n\n## ${capitalCase(basename(file, ".json"))}\n\n`;
 
   licsenseMd += markdownTable([
+    ["File", `[src/${basename(file)}](./src/${basename(file)})`],
+    ["Designer", `[${metadata.creator.name}](${metadata.creator.url})`],
     ["License", `[${metadata.license.name}](${metadata.license.url})`],
     ["Source", `[${metadata.source.name}](${metadata.source.url})`],
-    ["Designer", `[${metadata.creator.name}](${metadata.creator.url})`],
-    ["Definition File", `[src/${basename(file)}](./src/${basename(file)})`],
-  ]);
+  ], {align: ['r', 'l']});
 }
 
 await writeFile(join(__dirname, "..", "LICENSE.md"), licsenseMd);
