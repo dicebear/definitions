@@ -15,10 +15,6 @@
   },
   "sideEffects": false,
   "type": "module",
-  "exports": {
-    "./*": "./src/*",
-    "./package.json": "./package.json"
-  },
   "files": [
     "LICENSE",
     "src",
