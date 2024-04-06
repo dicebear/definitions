@@ -5,6 +5,12 @@ import { readFile, writeFile } from "node:fs/promises";
 import { markdownTable } from "markdown-table";
 import { capitalCase } from "change-case";
 
+type Metadata = {
+  creator: { name: string; url: string };
+  license: { name: string; url: string };
+  source: { name: string; url: string };
+};
+
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const files = (await glob(join(__dirname, "..", "src", "*.json"))).sort(
   (a, b) => basename(a, ".json").localeCompare(basename(b, ".json"))
@@ -17,7 +23,7 @@ choose themselves.`;
 
 for (const file of files) {
   const content = JSON.parse(await readFile(file, "utf-8"));
-  const metadata = content.metadata;
+  const metadata = content.metadata as Metadata;
 
   licsenseMd += `\n\n## ${capitalCase(basename(file, ".json"))}\n\n`;
 

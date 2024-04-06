@@ -16,7 +16,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "node ./scripts/build.js"
+    "build": "tsx ./scripts/build.ts"
   },
   "files": [
     "LICENSE",
@@ -27,8 +27,11 @@
     "access": "public"
   },
   "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "@types/node": "^20.12.5",
     "change-case": "^5.4.4",
     "glob": "^10.3.12",
-    "markdown-table": "^3.0.3"
+    "markdown-table": "^3.0.3",
+    "tsx": "^4.7.2"
   }
 }
