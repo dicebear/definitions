@@ -1,6 +1,6 @@
 {
   "$schema": "https://www.dicebear.com/schema/definition.json",
-  "meta": {
+  "metadata": {
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
