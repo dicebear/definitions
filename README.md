@@ -8,6 +8,10 @@ with the corresponding DiceBear wrapper. The JSON schema for the avatar style
 definitions can be found here:
 [https://www.dicebear.com/schema/definition.json](https://www.dicebear.com/schema/definition.json)
 
+> [!NOTE]  
+> This project is still in alpha stage and will only be used in future versions
+> of DiceBear.
+
 ## Generate definitions
 
 Most of the JSON files were created using the
