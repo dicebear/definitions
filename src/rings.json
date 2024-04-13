@@ -39,7 +39,10 @@
   "components": [
     {
       "name": "ring",
-      "rotation": 180,
+      "rotation": [
+        -180,
+        180
+      ],
       "values": [
         {
           "name": "container",
@@ -59,7 +62,10 @@
     },
     {
       "name": "ringFive",
-      "rotation": 180,
+      "rotation": [
+        -180,
+        180
+      ],
       "values": [
         {
           "name": "eighth",
@@ -105,7 +111,10 @@
     },
     {
       "name": "ringFour",
-      "rotation": 180,
+      "rotation": [
+        -180,
+        180
+      ],
       "values": [
         {
           "name": "eighth",
@@ -151,7 +160,10 @@
     },
     {
       "name": "ringOne",
-      "rotation": 180,
+      "rotation": [
+        -180,
+        180
+      ],
       "values": [
         {
           "name": "half",
@@ -197,7 +209,10 @@
     },
     {
       "name": "ringThree",
-      "rotation": 180,
+      "rotation": [
+        -180,
+        180
+      ],
       "values": [
         {
           "name": "eighth",
@@ -243,7 +258,10 @@
     },
     {
       "name": "ringTwo",
-      "rotation": 180,
+      "rotation": [
+        -180,
+        180
+      ],
       "values": [
         {
           "name": "eighth",
