@@ -19,16 +19,7 @@
     }
   },
   "body": {
-    "content": "<use href=\"url(#component-row1)\"/><use href=\"url(#component-row2)\"/><use href=\"url(#component-row3)\"/><use href=\"url(#component-row4)\"/><use href=\"url(#component-row5)\"/>",
-    "dependencies": {
-      "components": [
-        "row1",
-        "row2",
-        "row3",
-        "row4",
-        "row5"
-      ]
-    }
+    "content": "<use href=\"url(#component-row1)\"/><use href=\"url(#component-row2)\"/><use href=\"url(#component-row3)\"/><use href=\"url(#component-row4)\"/><use href=\"url(#component-row5)\"/>"
   },
   "attributes": [
     {
@@ -47,71 +38,36 @@
         {
           "name": "xooox",
           "content": "<path d=\"M1 0H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxoxx",
           "content": "<path d=\"M2 0H0v1h2zm3 0H3v1h2z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xoxox",
           "content": "<path d=\"M0 0h1v1H0zm4 0h1v1H4zM3 0H2v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxxxo",
           "content": "<rect x=\"1\" width=\"3\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxxxx",
           "content": "<rect width=\"5\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxoxo",
           "content": "<path d=\"M2 0H1v1h1zm2 0H3v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "ooxoo",
           "content": "<rect x=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         }
       ]
@@ -122,71 +78,36 @@
         {
           "name": "xooox",
           "content": "<path d=\"M1 1H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxoxx",
           "content": "<path d=\"M2 1H0v1h2zm3 0H3v1h2z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xoxox",
           "content": "<path d=\"M0 1h1v1H0zm4 0h1v1H4zM3 1H2v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxxxo",
           "content": "<rect x=\"1\" y=\"1\" width=\"3\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxxxx",
           "content": "<rect y=\"1\" width=\"5\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxoxo",
           "content": "<path d=\"M2 1H1v1h1zm2 0H3v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "ooxoo",
           "content": "<rect x=\"2\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         }
       ]
@@ -197,71 +118,36 @@
         {
           "name": "xooox",
           "content": "<path d=\"M1 2H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxoxx",
           "content": "<path d=\"M2 2H0v1h2zm3 0H3v1h2z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xoxox",
           "content": "<path d=\"M0 2h1v1H0zm4 0h1v1H4zM3 2H2v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxxxo",
           "content": "<rect x=\"1\" y=\"2\" width=\"3\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxxxx",
           "content": "<rect y=\"2\" width=\"5\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxoxo",
           "content": "<path d=\"M2 2H1v1h1zm2 0H3v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "ooxoo",
           "content": "<rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         }
       ]
@@ -272,71 +158,36 @@
         {
           "name": "xooox",
           "content": "<path d=\"M1 3H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxoxx",
           "content": "<path d=\"M2 3H0v1h2zm3 0H3v1h2z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xoxox",
           "content": "<path d=\"M0 3h1v1H0zm4 0h1v1H4zM3 3H2v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxxxo",
           "content": "<rect x=\"1\" y=\"3\" width=\"3\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxxxx",
           "content": "<rect y=\"3\" width=\"5\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxoxo",
           "content": "<path d=\"M2 3H1v1h1zm2 0H3v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "ooxoo",
           "content": "<rect x=\"2\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         }
       ]
@@ -347,71 +198,36 @@
         {
           "name": "xooox",
           "content": "<path d=\"M1 4H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxoxx",
           "content": "<path d=\"M2 4H0v1h2zm3 0H3v1h2z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xoxox",
           "content": "<path d=\"M0 4h1v1H0zm4 0h1v1H4zM3 4H2v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxxxo",
           "content": "<rect x=\"1\" y=\"4\" width=\"3\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "xxxxx",
           "content": "<rect y=\"4\" width=\"5\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "oxoxo",
           "content": "<path d=\"M2 4H1v1h1zm2 0H3v1h1z\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         },
         {
           "name": "ooxoo",
           "content": "<rect x=\"2\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-row)\"/>",
-          "dependencies": {
-            "colors": [
-              "row"
-            ]
-          },
           "default": true
         }
       ]

@@ -19,22 +19,7 @@
     }
   },
   "body": {
-    "content": "<path d=\"M4 2h8v1h1v3h1v2h-1v3h-1v1H9v1h4v1h1v2H2v-2h1v-1h4v-1H4v-1H3V8H2V6h1V3h1z\" fill=\"url(#color-skin)\"/><path d=\"M4 2h8v1h1v3h1v2h-1v3h-1v1H4v-1H3V8H2V6h1V3h1z\" fill=\"white\" fill-opacity=\"0.1\"/><use href=\"url(#component-accessories)\"/><use href=\"url(#component-clothing)\"/><use href=\"url(#component-eyes)\"/><use href=\"url(#component-glasses)\"/><use href=\"url(#component-beard)\"/><use href=\"url(#component-mouth)\"/><use href=\"url(#component-hair)\"/><use href=\"url(#component-hat)\"/>",
-    "dependencies": {
-      "components": [
-        "accessories",
-        "clothing",
-        "eyes",
-        "glasses",
-        "beard",
-        "mouth",
-        "hair",
-        "hat"
-      ],
-      "colors": [
-        "skin"
-      ]
-    }
+    "content": "<path d=\"M4 2h8v1h1v3h1v2h-1v3h-1v1H9v1h4v1h1v2H2v-2h1v-1h4v-1H4v-1H3V8H2V6h1V3h1z\" fill=\"url(#color-skin)\"/><path d=\"M4 2h8v1h1v3h1v2h-1v3h-1v1H4v-1H3V8H2V6h1V3h1z\" fill=\"white\" fill-opacity=\"0.1\"/><use href=\"url(#component-accessories)\"/><use href=\"url(#component-clothing)\"/><use href=\"url(#component-eyes)\"/><use href=\"url(#component-glasses)\"/><use href=\"url(#component-beard)\"/><use href=\"url(#component-mouth)\"/><use href=\"url(#component-hair)\"/><use href=\"url(#component-hat)\"/>"
   },
   "attributes": [
     {
@@ -54,41 +39,21 @@
         {
           "name": "variant04",
           "content": "<rect x=\"2\" y=\"7\" width=\"1\" height=\"1\" fill=\"url(#color-accessories)\"/><rect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"url(#color-accessories)\"/>",
-          "dependencies": {
-            "colors": [
-              "accessories"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant03",
           "content": "<rect x=\"13\" y=\"7\" width=\"1\" height=\"2\" fill=\"url(#color-accessories)\"/><rect x=\"2\" y=\"7\" width=\"1\" height=\"2\" fill=\"url(#color-accessories)\"/>",
-          "dependencies": {
-            "colors": [
-              "accessories"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant02",
           "content": "<rect x=\"13\" y=\"7\" width=\"1\" height=\"2\" fill=\"url(#color-accessories)\"/><rect x=\"2\" y=\"7\" width=\"1\" height=\"2\" fill=\"url(#color-accessories)\"/><rect x=\"2\" y=\"7\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/>",
-          "dependencies": {
-            "colors": [
-              "accessories"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant01",
           "content": "<rect x=\"13\" y=\"7\" width=\"2\" height=\"2\" fill=\"url(#color-accessories)\"/><rect x=\"1\" y=\"7\" width=\"2\" height=\"2\" fill=\"url(#color-accessories)\"/>",
-          "dependencies": {
-            "colors": [
-              "accessories"
-            ]
-          },
           "default": true
         }
       ]
@@ -100,81 +65,41 @@
         {
           "name": "variant08",
           "content": "<mask id=\"beardVariant08-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"6\" width=\"10\" height=\"6\"><path opacity=\"0.9\" d=\"M3 6h1v3h8V6h1v5h-1v1H4v-1H3z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant08-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant07",
           "content": "<mask id=\"beardVariant07-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"9\" width=\"10\" height=\"3\"><path opacity=\"0.9\" d=\"M3 9v2h1v1h8v-1h1V9z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant07-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant06",
           "content": "<mask id=\"beardVariant06-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"9\" width=\"10\" height=\"3\"><path opacity=\"0.9\" d=\"M3 9h3v1h4V9h3v2h-1v1H4v-1H3z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant06-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant05",
           "content": "<mask id=\"beardVariant05-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"6\" width=\"10\" height=\"6\"><path opacity=\"0.9\" d=\"M3 6h1v2h1v1h6V8h1V6h1v5h-1v1H4v-1H3z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant05-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant04",
           "content": "<mask id=\"beardVariant04-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"6\" y=\"11\" width=\"4\" height=\"1\"><rect opacity=\"0.9\" x=\"6\" y=\"11\" width=\"4\" height=\"1\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant04-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant03",
           "content": "<mask id=\"beardVariant03-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"9\" width=\"10\" height=\"5\"><path opacity=\"0.9\" d=\"M3 9h2v1h6V9h2v2h-1v2h-1v1H5v-1H4v-2H3z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant03-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant02",
           "content": "<mask id=\"beardVariant02-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"5\" y=\"11\" width=\"6\" height=\"3\"><path opacity=\"0.9\" d=\"M5 11h6v1h-1v1H9v1H7v-1H6v-1H5z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant02-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant01",
           "content": "<mask id=\"beardVariant01-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"8\" width=\"10\" height=\"4\"><path opacity=\"0.9\" d=\"M3 8h2v1h1v1h4V9h1V8h2v3h-1v1H4v-1H3z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant01-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         }
       ]
@@ -185,231 +110,116 @@
         {
           "name": "variant23",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v1h4z\" fill=\"url(#color-clothing)\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant22",
           "content": "<path d=\"M6 13H4v3h2zm6 0h-2v3h2z\" fill=\"url(#color-clothing)\"/><rect x=\"5\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"10\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant21",
           "content": "<path d=\"M5 13H4v3h3v-1H6v-1H5zm7 0h-1v1h-1v1H9v1h3z\" fill=\"url(#color-clothing)\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"6\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"9\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"10\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"11\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"10\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"5\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant20",
           "content": "<rect x=\"4\" y=\"14\" width=\"8\" height=\"2\" fill=\"url(#color-clothing)\"/><rect x=\"4\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"11\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant19",
           "content": "<path d=\"M4 13h1v1h6v-1h1v3H4z\" fill=\"url(#color-clothing)\"/><rect x=\"9\" y=\"15\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant18",
           "content": "<path d=\"M4 13h2v1h1v1h2v-1h1v-1h2v3H4z\" fill=\"url(#color-clothing)\"/><rect x=\"10\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"10\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"8\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 6 14)\" fill=\"white\" fill-opacity=\"0.3\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 5 13)\" fill=\"white\" fill-opacity=\"0.3\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 7 15)\" fill=\"white\" fill-opacity=\"0.3\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 7 14)\" fill=\"white\" fill-opacity=\"0.5\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 6 13)\" fill=\"white\" fill-opacity=\"0.5\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 8 15)\" fill=\"white\" fill-opacity=\"0.5\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant17",
           "content": "<path d=\"M4 13h2v1h1v1h2v-1h1v-1h2v1h1v2H3v-2h1z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant16",
           "content": "<path d=\"M5 13H3v1H2v2h5v-1H6v-1H5zm8 0h-2v1h-1v1H9v1h5v-2h-1z\" fill=\"url(#color-clothing)\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"10\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"6\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant15",
           "content": "<path d=\"M6 14H4v1H3v1h4v-1H6zm6 1h1v1H9v-1h1v-1h2z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant14",
           "content": "<path d=\"M5 13H3v1H2v2h12v-2h-1v-1h-2v1h-1v1H6v-1H5z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant13",
           "content": "<path d=\"M5 13H3v1H2v2h12v-2h-1v-1h-2v1H5z\" fill=\"url(#color-clothing)\"/><rect x=\"2\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"6\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"8\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"10\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"12\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant12",
           "content": "<path d=\"M7 12h2v1h4v1h1v2H2v-2h1v-1h4z\" fill=\"url(#color-clothing)\"/><rect x=\"7\" y=\"12\" width=\"2\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant11",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v1h1v1h2v-1h1z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant10",
           "content": "<path d=\"M4 13h1v1h6v-1h1v1h1v2H3v-2h1z\" fill=\"url(#color-clothing)\"/><rect x=\"9\" y=\"15\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant09",
           "content": "<path d=\"M4 13h1v2h6v-2h1v2h1v1H3v-1h1z\" fill=\"url(#color-clothing)\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant08",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v2h4z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant07",
           "content": "<path d=\"M5 13H4v3h3v-1H6v-1H5zm7 0h-1v1h-1v1H9v1h3z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant06",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v1h4z\" fill=\"url(#color-clothing)\"/><rect x=\"3\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"2\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"3\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"4\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"5\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"5\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"6\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"8\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"9\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"10\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"11\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"12\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant05",
           "content": "<path d=\"M5 13H3v1H2v2h12v-2h-1v-1h-2v1h-1v1H6v-1H5z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant04",
           "content": "<path d=\"M5 13H3v1H2v2h12v-2h-1v-1h-2v1H5z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant03",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v1h4z\" fill=\"url(#color-clothing)\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant02",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v2h4z\" fill=\"url(#color-clothing)\"/><rect x=\"5\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"4.00784\" y=\"15\" width=\"1\" height=\"1\" transform=\"rotate(.4 4 15)\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7.00784\" y=\"15\" width=\"1\" height=\"1\" transform=\"rotate(.4 7 15)\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"3\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"2\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"12\" y=\"13\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"11\" y=\"14\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"10\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"15\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant01",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v1h4z\" fill=\"url(#color-clothing)\"/><rect x=\"11\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"4\" y=\"14\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "clothing"
-            ]
-          },
           "default": true
         }
       ]
@@ -420,121 +230,61 @@
         {
           "name": "variant12",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5 6h1v2H4V7h1zm5 0h1v2H9V7h1z\" fill=\"white\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 6v1H5v1h2V6zm5 0v1h-1v1h2V6z\" fill=\"url(#color-eyes)\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 6v1h1V6zM5 7v1h1V7zm6-1v1h1V6zm-1 1v1h1V7z\" fill=\"white\" fill-opacity=\"0.5\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant11",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\"/><rect x=\"4\" y=\"6\" width=\"2\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"9\" y=\"6\" width=\"2\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.7\"/><rect x=\"9\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.7\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant10",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\"/><rect x=\"10\" y=\"5\" width=\"2\" height=\"2\" fill=\"url(#color-eyes)\"/><rect x=\"5\" y=\"5\" width=\"2\" height=\"2\" fill=\"url(#color-eyes)\"/><rect x=\"5\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.4\"/><rect x=\"6\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.4\"/><rect x=\"10\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.4\"/><rect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.4\"/><rect x=\"11\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.7\"/><rect x=\"6\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.7\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant09",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\"/><rect x=\"10\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant08",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"9\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant07",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"6\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant06",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"10\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant05",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"2\" fill=\"white\"/><path d=\"M11 5h-1v1H9v1h3V6h-1z\" fill=\"url(#color-eyes)\"/><rect x=\"9\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"10\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><path d=\"M6 5H5v1H4v1h3V6H6z\" fill=\"url(#color-eyes)\"/><rect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"5\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/><rect x=\"6\" y=\"6\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.5\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant04",
           "content": "<path d=\"M6 5H5v2h2V6H6zm5 0h-1v2h2V6h-1z\" fill=\"white\"/><rect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/><rect x=\"10\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-eyes)\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant03",
           "content": "<path d=\"M10 5h1v2H9V6h1zM5 5h1v2H4V6h1z\" fill=\"white\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 11 6)\" fill=\"url(#color-eyes)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 6 6)\" fill=\"url(#color-eyes)\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant02",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11 5h-1v2h2V6h-1zM6 5H5v2h2V6H6z\" fill=\"white\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10 5v1h1v1H9V5zM5 5v1h1v1H4V5z\" fill=\"url(#color-eyes)\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10 5v1H9V5zm1 1v1h-1V6zM5 5v1H4V5zm1 1v1H5V6z\" fill=\"white\" fill-opacity=\"0.5\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant01",
           "content": "<rect width=\"3\" height=\"3\" transform=\"matrix(-1 0 0 1 12 5)\" fill=\"white\"/><rect width=\"3\" height=\"3\" transform=\"matrix(-1 0 0 1 7 5)\" fill=\"white\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 12 6)\" fill=\"url(#color-eyes)\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 7 6)\" fill=\"url(#color-eyes)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 12 6)\" fill=\"white\" fill-opacity=\"0.7\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 7 6)\" fill=\"white\" fill-opacity=\"0.7\"/>",
-          "dependencies": {
-            "colors": [
-              "eyes"
-            ]
-          },
           "default": true
         }
       ]
@@ -546,141 +296,71 @@
         {
           "name": "light07",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 4H9v1H7V4H4v1H2v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5h-2zm0 1v3H9V5zM7 8H4V5h3z\" fill=\"url(#color-glasses)\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "light06",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2 5v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5zm10 3H9V6h3zM7 8H4V6h3z\" fill=\"url(#color-glasses)\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "light05",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2 5v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5H9v1H7V5zm5 1v2H4V6zm2 0v2h3V6z\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "light04",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"12\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "light03",
           "content": "<rect x=\"2\" y=\"5\" width=\"12\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"3\" y=\"7\" width=\"10\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"3\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"12\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"8\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "light02",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 5H2v1h1v2h4V7h2v1h4V6h1zm-2 1H9v1h3zM7 7H4V6h3z\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "light01",
           "content": "<path d=\"M2 5h5v1H4v1H3V6H2zm5 2v1H4V7zm2 0H7V6h2zm3 0H9v1h3zm0-1H9V5h5v1h-1v1h-1z\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark07",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 4H9v1H7V4H4v1H2v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5h-2zm0 1v3H9V5zM7 8H4V5h3z\" fill=\"url(#color-glasses)\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark06",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2 5v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5zm10 3H9V6h3zM7 8H4V6h3z\" fill=\"url(#color-glasses)\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"2\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"2\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark05",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M2 5v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5H9v1H7V5zm5 1v2H4V6zm2 0v2h3V6z\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"2\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"2\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark04",
           "content": "<rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"12\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark03",
           "content": "<rect x=\"2\" y=\"5\" width=\"12\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"3\" y=\"7\" width=\"10\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"3\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"12\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"8\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark02",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 5H2v1h1v2h4V7h2v1h4V6h1zm-2 1H9v1h3zM7 7H4V6h3z\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "dark01",
           "content": "<path d=\"M2 5h5v1H4v1H3V6H2zm5 2v1H4V7zm2 0H7V6h2zm3 0H9v1h3zm0-1H9V5h5v1h-1v1h-1z\" fill=\"url(#color-glasses)\"/><rect x=\"4\" y=\"6\" width=\"3\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"6\" width=\"3\" height=\"1\" fill=\"black\" fill-opacity=\"0.3\"/><rect x=\"12\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"2\" y=\"5\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"7\" y=\"6\" width=\"2\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         }
       ]
@@ -691,451 +371,226 @@
         {
           "name": "short24",
           "content": "<path d=\"M11 2H5v1h1v1h4V3h1zM3 3h1v2H3zm10 0h-1v2h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short23",
           "content": "<rect x=\"6\" y=\"2\" width=\"4\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short22",
           "content": "<path d=\"M4 2h8v1h1v2h-2V4H5v1H3V3h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short21",
           "content": "<rect x=\"7\" y=\"1\" width=\"2\" height=\"2\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short20",
           "content": "<rect x=\"6\" y=\"2\" width=\"4\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"7\" y=\"3\" width=\"2\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short19",
           "content": "<rect x=\"4\" y=\"2\" width=\"8\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"3\" width=\"3\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"10\" y=\"3\" width=\"3\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short18",
           "content": "<rect x=\"2\" y=\"3\" width=\"2\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"3\" width=\"2\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"3\" width=\"2\" height=\"3\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short17",
           "content": "<rect x=\"12\" y=\"3\" width=\"2\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"3\" width=\"2\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"2\" width=\"10\" height=\"2\" fill=\"url(#color-hair)\"/><rect x=\"4\" y=\"1\" width=\"8\" height=\"2\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short16",
           "content": "<rect x=\"3\" y=\"2\" width=\"10\" height=\"2\" fill=\"url(#color-hair)\"/><rect x=\"4\" y=\"1\" width=\"8\" height=\"2\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short15",
           "content": "<rect x=\"3\" y=\"3\" width=\"10\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"4\" y=\"2\" width=\"8\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"4\" width=\"2\" height=\"2\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"4\" width=\"2\" height=\"2\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short14",
           "content": "<rect x=\"3\" y=\"4\" width=\"1\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"4\" width=\"1\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"2\" width=\"10\" height=\"2\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short13",
           "content": "<rect x=\"3\" y=\"2\" width=\"10\" height=\"2\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"6\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"8\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short12",
           "content": "<rect x=\"4\" y=\"2\" width=\"1\" height=\"3\" fill=\"url(#color-hair)\"/><rect x=\"6\" y=\"2\" width=\"1\" height=\"2\" fill=\"url(#color-hair)\"/><rect x=\"8\" y=\"2\" width=\"1\" height=\"2\" fill=\"url(#color-hair)\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"2\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short11",
           "content": "<rect x=\"4\" y=\"2\" width=\"8\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"1\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"1\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"1\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"1\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect y=\"7\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"1\" y=\"8\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"5\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"6\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"7\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"8\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"9\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"11\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"10\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"12\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"14\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"15\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"15\" y=\"4\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"14\" y=\"8\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"15\" y=\"6\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"15\" y=\"7\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"2\" y=\"2\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"1\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short10",
           "content": "<rect x=\"3\" y=\"2\" width=\"10\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"3\" width=\"2\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"7\" y=\"1\" width=\"5\" height=\"1\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 13 3)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short09",
           "content": "<rect x=\"7\" y=\"1\" width=\"5\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"4\" y=\"2\" width=\"7\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"3\" width=\"5\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short08",
           "content": "<rect x=\"5\" y=\"1\" width=\"5\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"4\" y=\"2\" width=\"8\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"9\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"11\" y=\"3\" width=\"2\" height=\"1\" fill=\"url(#color-hair)\"/><rect x=\"3\" y=\"3\" width=\"2\" height=\"1\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short07",
           "content": "<rect x=\"3\" y=\"3\" width=\"1\" height=\"1\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 5 2)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 12 2)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 13 3)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short06",
           "content": "<rect width=\"1\" height=\"3\" transform=\"matrix(-1 0 0 1 4 2)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"3\" transform=\"matrix(-1 0 0 1 13 2)\" fill=\"url(#color-hair)\"/><rect width=\"9\" height=\"2\" transform=\"matrix(-1 0 0 1 12 1)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"2\" transform=\"matrix(-1 0 0 1 4 2)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"2\" transform=\"matrix(-1 0 0 1 14 2)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short05",
           "content": "<rect width=\"1\" height=\"3\" transform=\"matrix(-1 0 0 1 9 1)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"2\" transform=\"matrix(-1 0 0 1 8 2)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"3\" transform=\"matrix(-1 0 0 1 10 0)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 11 1)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short04",
           "content": "<rect width=\"1\" height=\"2\" transform=\"matrix(-1 0 0 1 4 3)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"2\" transform=\"matrix(-1 0 0 1 13 3)\" fill=\"url(#color-hair)\"/><rect width=\"8\" height=\"1\" transform=\"matrix(-1 0 0 1 12 2)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short03",
           "content": "<rect width=\"8\" height=\"1\" transform=\"matrix(-1 0 0 1 12 2)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 13 3)\" fill=\"url(#color-hair)\"/><rect width=\"3\" height=\"1\" transform=\"matrix(-1 0 0 1 6 3)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 5 4)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short02",
           "content": "<rect width=\"8\" height=\"1\" transform=\"matrix(-1 0 0 1 12 2)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 13 3)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 13 4)\" fill=\"url(#color-hair)\"/><rect width=\"3\" height=\"1\" transform=\"matrix(-1 0 0 1 6 3)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 5 4)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 4 5)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "short01",
           "content": "<rect width=\"8\" height=\"1\" transform=\"matrix(-1 0 0 1 12 2)\" fill=\"url(#color-hair)\"/><rect width=\"6\" height=\"1\" transform=\"matrix(-1 0 0 1 13 3)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 13 4)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 13 5)\" fill=\"url(#color-hair)\"/><rect width=\"3\" height=\"1\" transform=\"matrix(-1 0 0 1 6 4)\" fill=\"url(#color-hair)\"/><rect width=\"4\" height=\"1\" transform=\"matrix(-1 0 0 1 7 3)\" fill=\"url(#color-hair)\"/><rect width=\"2\" height=\"1\" transform=\"matrix(-1 0 0 1 5 5)\" fill=\"url(#color-hair)\"/><rect width=\"1\" height=\"1\" transform=\"matrix(-1 0 0 1 4 6)\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long21",
           "content": "<path d=\"M13 1H3v1H2v4h1V3h10v3h1V2h-1zM2 8h1v3h1v1H2zm10 3h1V8h1v4h-2z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long20",
           "content": "<path d=\"M4 1h8v1h1v1h1v3h-1V4h-1V3H6v1H3v2H2V3h1V2h1zM2 8h1v3h1v1h3v1H2zm10 4H9v1h5V8h-1v3h-1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long19",
           "content": "<path d=\"M13 2H3v1H2v3h1V4h10v2h1V3h-1zM3 8H2v1H1v2H0v1h1v-1h1v-1h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long18",
           "content": "<path d=\"M13 2H3v1H2v3h1V4h10v2h1V3h-1zM2 8h1v2H2v1H1V9h1zm-1 3v1H0v-1zm15 0h-1V9h-1V8h-1v2h1v1h1v1h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long17",
           "content": "<path d=\"M5 1h7v1h1v1h1v3h-1V4h-2V3H5v1H4v1H3v1H2v2h1v3h1v1H1V4h1V3h1V2h2z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long16",
           "content": "<path d=\"M3 1h8v1h2v1h1v3h-1V4h-2V3H6v1H5V3H4v1H3v2H2v2h1v2H1V3h1V2h1zm11 7h-1v2h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long15",
           "content": "<g fill=\"url(#color-hair)\"><path d=\"M5 0h1v1H5z\"/><path d=\"M2 3h1V1h2v1h1V1h1v1h1V1H7V0h2v2h1V1h1v1h1V1h1v1h1v1h-1v1H4v1H3v1H2V5H1V4h1z\"/><path d=\"M2 3H1V2h1zM1 6H0V5h1zm1 2H1V6h1zm0 0h1v2H2z\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 4h-1v2h2V5h1V4h-1V3h-1zm0 0h1v1h-1z\"/><path d=\"M12 1h-1V0h1zm1 7h1v2h-1z\"/></g>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long14",
           "content": "<path d=\"M5 1H3v1H2v2h1v1h1V4h8v1h1V4h1V2h-1V1h-2v1H5z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long13",
           "content": "<path d=\"M13 1H3v1H2v1H1v11h2V4h10v10h2V3h-1V2h-1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long12",
           "content": "<path d=\"M5 4V3h7v1h1v2h1v2h-1v3h-1v1H9v1h4v1h1v3h1V3h-1V2h-1V1H3v1H2v1H1v14h1v-3h1v-1h4v-1H4v-1H3V8H2V6h1V5h1V4z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long11",
           "content": "<path d=\"M6 1v1H3v2H2v2h1V5h4V4h3V3h2v1h1v2h1V2h-2V1zM2 8h1v2H2zm12 0h-1v2h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long10",
           "content": "<path d=\"M4 1v1H3v1H2v1H1v6h2V8H2V6h1V4h1V3h2v1h1V3h1V2H7V1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long09",
           "content": "<path d=\"M2 1h12v1h1v11h-1v-1h-1V8h1V6h-1V3H3v3H2v2h1v4H2v1H1V2h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long08",
           "content": "<path d=\"M2 1h12v1h1v11h-1v-1h-1V8h1V6h-1V3h-1v1h-1V3H8v1H7v1H6v1H5v1H4v1H3v4H2v1H1V2h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long07",
           "content": "<path d=\"M3 1h10v1h1v1h1v10h-1v-1h-1V8h1V6h-1V4h-1V3H5v1H4v1H3v1H2v2h1v4H2v1H1V3h1V2h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long06",
           "content": "<path d=\"M3 2h10v1h1v3h-1V4H3v2H2V3h1zm10 6h1v1h1v2h-1v-1h-1zm2 3h1v1h-1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long05",
           "content": "<path d=\"M4 0H1v3h2v1H2v2h1V5h2V4h1V3h5v1h1v1h1v1h1V3h-1V2h-1V1H6v1H4zM2 8h1v1H2zm12 0h-1v1h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long04",
           "content": "<path d=\"M12 1H5v1H4v1H3v1H2v2h2V5h1V4h1V3h5v1h1v1h1v1h1V3h-1V2h-1zm1 7h1v4h-2v-1h1zM2 8h1v3h1v1H2z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long03",
           "content": "<path d=\"M4 2h8v1h1v2h1v6h1v2h-2v-1h-1V5h-1V4H5v1H4v7H3v1H1v-2h1V5h1V3h1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long02",
           "content": "<path d=\"M4 2h8v1h1v2h1v7h-1v-1h-1V5h-1V4H5v1H4v6H3v1H2V5h1V3h1zM2 12v1H1v-1zm12 0h1v1h-1z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         },
         {
           "name": "long01",
           "content": "<path d=\"M12 1H5v1H4v1H3v1H2v2h2V5h1V4h1V3h5v1h1v1h1v1h1V3h-1V2h-1zm1 7h1v6h-1v-1H9v-1h3v-1h1zM2 8h1v3h1v1h3v1H3v1H2z\" fill=\"url(#color-hair)\"/>",
-          "dependencies": {
-            "colors": [
-              "hair"
-            ]
-          },
           "default": true
         }
       ]
@@ -1147,101 +602,51 @@
         {
           "name": "variant10",
           "content": "<path d=\"M12 0H4v2H2v3h12V2h-2z\" fill=\"url(#color-hat)\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant09",
           "content": "<path d=\"M4 0h8v1h1v1h1v3H2V2h1V1h1z\" fill=\"url(#color-hat)\"/><rect x=\"11\" y=\"2\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"2\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant08",
           "content": "<path d=\"M4 0h8v1h1v1h1v2H2V2h1V1h1z\" fill=\"url(#color-hat)\"/><rect x=\"12\" y=\"2\" width=\"1\" height=\"3\" transform=\"rotate(90 12 2)\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant07",
           "content": "<path d=\"M12 1H4v1H3v2h12V3h-2V2h-1z\" fill=\"url(#color-hat)\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant06",
           "content": "<path d=\"M13 0H3v3H1v1h14V3h-2z\" fill=\"url(#color-hat)\"/><rect x=\"11\" y=\"1\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant05",
           "content": "<path d=\"M4 0h8v1h1v1h1v2H2V2h1V1h1z\" fill=\"url(#color-hat)\"/><rect x=\"12\" y=\"1\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"11\" y=\"2\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"10\" y=\"3\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"10\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"9\" y=\"1\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"8\" y=\"2\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"7\" y=\"3\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant04",
           "content": "<path d=\"M4 0h8v1h1v1h1v3H2V2h1V1h1z\" fill=\"url(#color-hat)\"/><rect x=\"13\" y=\"1\" width=\"1\" height=\"10\" transform=\"rotate(90 13 1)\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"12\" transform=\"rotate(90 14 3)\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant03",
           "content": "<path d=\"M4 0h8v1h1v1h1v2H2V2h1V1h1z\" fill=\"url(#color-hat)\"/><rect x=\"13\" y=\"1\" width=\"1\" height=\"10\" transform=\"rotate(90 13 1)\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"14\" y=\"3\" width=\"1\" height=\"12\" transform=\"rotate(90 14 3)\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant02",
           "content": "<path d=\"M12 1H4v1H3v2h12V3h-2V2h-1z\" fill=\"url(#color-hat)\"/><rect x=\"11\" y=\"4\" width=\"1\" height=\"3\" transform=\"rotate(-180 11 4)\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant01",
           "content": "<path d=\"M4 0h8v1h1v1h1v3H2V2h1V1h1z\" fill=\"url(#color-hat)\"/><rect x=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"1\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"3\" y=\"2\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"3\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.3\"/>",
-          "dependencies": {
-            "colors": [
-              "hat"
-            ]
-          },
           "default": true
         }
       ]
@@ -1252,231 +657,116 @@
         {
           "name": "sad10",
           "content": "<path d=\"M7 9v1h1v1h1V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad09",
           "content": "<path d=\"M6 10v1h1v-1h3V9H7v1z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad08",
           "content": "<path d=\"M6 9v1h3v1h1v-1H9V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad07",
           "content": "<path d=\"M7 9h2v1H7z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad06",
           "content": "<path d=\"M6 9h4v1H6z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad05",
           "content": "<path d=\"M7 9h3v1H7z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad04",
           "content": "<path d=\"M6 9h3v1H6z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad03",
           "content": "<path d=\"M9 9v1H7v1H6v-1h1V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad02",
           "content": "<path d=\"M7 9v1h2v1h1v-1H9V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "sad01",
           "content": "<path d=\"M7 9h2v1H7zm0 1v1H6v-1zm2 0v1h1v-1z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy13",
           "content": "<path d=\"M6 10v1h1v1h2v-1h1v-1H9V9H7v1z\" fill=\"url(#color-mouth)\"/><path d=\"M7 10v1h2v-1z\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy12",
           "content": "<path d=\"M6 10v1h1v1h2v-1h1v-1H9V9H7v1z\" fill=\"url(#color-mouth)\"/><path d=\"M7 10v1h2v-1z\" fill=\"white\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy11",
           "content": "<path d=\"M6 9v1h1v1h2v-1H7V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy10",
           "content": "<path d=\"M10 9v1H9v1H7v-1h2V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy09",
           "content": "<path d=\"M7 11h2v-1H7zm0-1V9H6v1zm2 0V9h1v1z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy08",
           "content": "<path d=\"M6 11v-1h3V9h1v1H9v1z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy07",
           "content": "<path d=\"M10 11v-1H7V9H6v1h1v1z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy06",
           "content": "<path d=\"M6 9v1h1v1h2v-1h1V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy05",
           "content": "<path d=\"M7 9v2h2v-1H8V9z\" fill=\"url(#color-mouth)\"/><path d=\"M9 11v-1H8V9H7v1h1v1z\" fill=\"white\" fill-opacity=\"0.2\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy04",
           "content": "<path d=\"M9 9v1H8v1h2V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy03",
           "content": "<path d=\"M7 9v1h1v1H6V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy02",
           "content": "<path d=\"M8 10v1h1v-1z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         },
         {
           "name": "happy01",
           "content": "<path d=\"M7 9v2h2V9z\" fill=\"url(#color-mouth)\"/>",
-          "dependencies": {
-            "colors": [
-              "mouth"
-            ]
-          },
           "default": true
         }
       ]
@@ -1485,13 +775,7 @@
   "colors": [
     {
       "name": "accessories",
-      "values": [
-        "a9a9a9",
-        "d3d3d3",
-        "daa520",
-        "fafad2",
-        "ffd700"
-      ]
+      "values": ["a9a9a9", "d3d3d3", "daa520", "fafad2", "ffd700"]
     },
     {
       "name": "clothing",
@@ -1512,25 +796,11 @@
     },
     {
       "name": "eyes",
-      "values": [
-        "588387",
-        "5b7c8b",
-        "647b90",
-        "697b94",
-        "76778b",
-        "876658"
-      ]
+      "values": ["588387", "5b7c8b", "647b90", "697b94", "76778b", "876658"]
     },
     {
       "name": "glasses",
-      "values": [
-        "191919",
-        "323232",
-        "43677d",
-        "4b4b4b",
-        "5f705c",
-        "a04b5d"
-      ]
+      "values": ["191919", "323232", "43677d", "4b4b4b", "5f705c", "a04b5d"]
     },
     {
       "name": "hair",
@@ -1562,12 +832,7 @@
     },
     {
       "name": "mouth",
-      "values": [
-        "c98276",
-        "d29985",
-        "de0f0d",
-        "e35d6a"
-      ]
+      "values": ["c98276", "d29985", "de0f0d", "e35d6a"]
     },
     {
       "name": "skin",

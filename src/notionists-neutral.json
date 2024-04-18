@@ -19,16 +19,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(136 328)\"><use href=\"url(#component-lips)\"/></g><g transform=\"translate(246 125)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(-45 137)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-45 137)\"><use href=\"url(#component-glasses)\"/></g><g transform=\"translate(119 114)\"><use href=\"url(#component-brows)\"/></g>",
-    "dependencies": {
-      "components": [
-        "lips",
-        "nose",
-        "eyes",
-        "glasses",
-        "brows"
-      ]
-    }
+    "content": "<g transform=\"translate(136 328)\"><use href=\"url(#component-lips)\"/></g><g transform=\"translate(246 125)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(-45 137)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-45 137)\"><use href=\"url(#component-glasses)\"/></g><g transform=\"translate(119 114)\"><use href=\"url(#component-brows)\"/></g>"
   },
   "attributes": [
     {
@@ -466,9 +457,7 @@
   "colors": [
     {
       "name": "background",
-      "values": [
-        "ffffff"
-      ]
+      "values": ["ffffff"]
     }
   ]
 }

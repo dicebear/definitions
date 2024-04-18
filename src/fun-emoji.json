@@ -19,13 +19,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(37.5 110.94)scale(1.5625)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(31.25 59.38)scale(1.5625)\"><use href=\"url(#component-eyes)\"/></g>",
-    "dependencies": {
-      "components": [
-        "mouth",
-        "eyes"
-      ]
-    }
+    "content": "<g transform=\"translate(37.5 110.94)scale(1.5625)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(31.25 59.38)scale(1.5625)\"><use href=\"url(#component-eyes)\"/></g>"
   },
   "attributes": [
     {
@@ -202,14 +196,7 @@
   "colors": [
     {
       "name": "background",
-      "values": [
-        "059ff2",
-        "71cf62",
-        "d84be5",
-        "d9915b",
-        "f6d594",
-        "fcbc34"
-      ]
+      "values": ["059ff2", "71cf62", "d84be5", "d9915b", "f6d594", "fcbc34"]
     }
   ]
 }

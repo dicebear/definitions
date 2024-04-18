@@ -19,12 +19,7 @@
     }
   },
   "body": {
-    "content": "<use href=\"url(#component-ring)\"/>",
-    "dependencies": {
-      "components": [
-        "ring"
-      ]
-    }
+    "content": "<use href=\"url(#component-ring)\"/>"
   },
   "attributes": [
     {
@@ -39,268 +34,141 @@
   "components": [
     {
       "name": "ring",
-      "rotation": [
-        -180,
-        180
-      ],
+      "rotation": [-180, 180],
       "values": [
         {
           "name": "container",
           "content": "<use href=\"url(#component-ringOne)\"/><use href=\"url(#component-ringTwo)\"/><use href=\"url(#component-ringThree)\"/><use href=\"url(#component-ringFour)\"/><use href=\"url(#component-ringFive)\"/><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringOne)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringTwo)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringThree)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringFour)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringFive)\"/></g><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"white\" stroke-opacity=\"0.25\" stroke-width=\"10\" style=\"mix-blend-mode:lighten\"/><circle cx=\"50\" cy=\"50\" r=\"25\" stroke=\"white\" stroke-opacity=\"0.25\" stroke-width=\"10\" style=\"mix-blend-mode:lighten\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" fill-opacity=\"0.25\" style=\"mix-blend-mode:lighten\"/>",
-          "dependencies": {
-            "components": [
-              "ringOne",
-              "ringTwo",
-              "ringThree",
-              "ringFour",
-              "ringFive"
-            ]
-          },
           "default": true
         }
       ]
     },
     {
       "name": "ringFive",
-      "rotation": [
-        -180,
-        180
-      ],
+      "rotation": [-180, 180],
       "values": [
         {
           "name": "eighth",
           "content": "<path d=\"m42.929 42.929 7.07 7.07h-10a9.97 9.97 0 0 1 2.93-7.07\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "quarter",
           "content": "<path d=\"M50 40v10H40c0-5.523 4.477-10 10-10\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "half",
           "content": "<path d=\"M60 50c0-5.523-4.477-10-10-10s-10 4.477-10 10z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "full",
           "content": "<circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         }
       ]
     },
     {
       "name": "ringFour",
-      "rotation": [
-        -180,
-        180
-      ],
+      "rotation": [-180, 180],
       "values": [
         {
           "name": "eighth",
           "content": "<path d=\"M40 50a9.97 9.97 0 0 1 2.929-7.071l-7.071-7.071A19.94 19.94 0 0 0 30 50z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "quarter",
           "content": "<path d=\"M50 30c-11.046 0-20 8.954-20 20h10c0-5.523 4.477-10 10-10z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "half",
           "content": "<path d=\"M70 50c0-11.046-8.954-20-20-20s-20 8.954-20 20h10c0-5.523 4.477-10 10-10s10 4.477 10 10z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "full",
           "content": "<circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"url(#color-ring)\" stroke-width=\"10\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         }
       ]
     },
     {
       "name": "ringOne",
-      "rotation": [
-        -180,
-        180
-      ],
+      "rotation": [-180, 180],
       "values": [
         {
           "name": "half",
           "content": "<path d=\"M90 50h10c0-27.614-22.386-50-50-50S0 22.386 0 50h10c0-22.091 17.909-40 40-40s40 17.909 40 40\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "quarter",
           "content": "<path d=\"M50 10V0C22.386 0 0 22.386 0 50h10c0-22.091 17.909-40 40-40\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "eighth",
           "content": "<path d=\"M21.716 21.716C14.476 28.954 10 38.954 10 50H0c0-13.807 5.596-26.307 14.645-35.355z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "full",
           "content": "<circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"url(#color-ring)\" stroke-width=\"10\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         }
       ]
     },
     {
       "name": "ringThree",
-      "rotation": [
-        -180,
-        180
-      ],
+      "rotation": [-180, 180],
       "values": [
         {
           "name": "eighth",
           "content": "<path d=\"M30 50a19.94 19.94 0 0 1 5.858-14.142l-7.071-7.07A29.9 29.9 0 0 0 20 50z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "quarter",
           "content": "<path d=\"M50 20c-16.568 0-30 13.432-30 30h10c0-11.046 8.954-20 20-20z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "half",
           "content": "<path d=\"M80 50c0-16.568-13.431-30-30-30-16.568 0-30 13.432-30 30h10c0-11.046 8.954-20 20-20s20 8.954 20 20z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "full",
           "content": "<circle cx=\"50\" cy=\"50\" r=\"25\" stroke=\"url(#color-ring)\" stroke-width=\"10\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         }
       ]
     },
     {
       "name": "ringTwo",
-      "rotation": [
-        -180,
-        180
-      ],
+      "rotation": [-180, 180],
       "values": [
         {
           "name": "eighth",
           "content": "<path d=\"M20 50c0-8.284 3.358-15.784 8.787-21.213l-7.071-7.071C14.476 28.954 10 38.954 10 50z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         },
         {
           "name": "quarter",
           "content": "<path d=\"M50 10c-22.091 0-40 17.909-40 40h10c0-16.568 13.432-30 30-30z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "half",
           "content": "<path d=\"M90 50c0-22.091-17.909-40-40-40S10 27.909 10 50h10c0-16.568 13.432-30 30-30 16.569 0 30 13.432 30 30z\" fill=\"url(#color-ring)\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": true
         },
         {
           "name": "full",
           "content": "<circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"url(#color-ring)\" stroke-width=\"10\"/>",
-          "dependencies": {
-            "colors": [
-              "ring"
-            ]
-          },
           "default": false
         }
       ]

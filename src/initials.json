@@ -14,14 +14,11 @@
       "url": "https://www.dicebear.com"
     },
     "canvas": {
-      "size":  100
+      "size": 100
     }
   },
   "body": {
-    "content": "<text x=\"50%\" y=\"50%\" font-family=\"system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'\" font-size=\"50\" fill=\"{{colors.text}}\" text-anchor=\"middle\" dy=\"17.8\">{{prng.initials}}</text>",
-    "dependencies": {
-      "colors": ["text"]
-    }
+    "content": "<text x=\"50%\" y=\"50%\" font-family=\"system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'\" font-size=\"50\" fill=\"{{colors.text}}\" text-anchor=\"middle\" dy=\"17.8\">{{prng.initials}}</text>"
   },
   "components": [],
   "colors": [

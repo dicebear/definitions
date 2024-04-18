@@ -20,12 +20,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(4 4)\"><use href=\"url(#component-icon)\"/></g>",
-    "dependencies": {
-      "components": [
-        "icon"
-      ]
-    }
+    "content": "<g transform=\"translate(4 4)\"><use href=\"url(#component-icon)\"/></g>"
   },
   "attributes": [
     {

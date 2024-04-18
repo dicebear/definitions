@@ -19,15 +19,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(2 63)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(28 51)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(0 19)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(0 11)\"><use href=\"url(#component-eyebrows)\"/></g>",
-    "dependencies": {
-      "components": [
-        "mouth",
-        "nose",
-        "eyes",
-        "eyebrows"
-      ]
-    }
+    "content": "<g transform=\"translate(2 63)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(28 51)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(0 19)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(0 11)\"><use href=\"url(#component-eyebrows)\"/></g>"
   },
   "attributes": [
     {

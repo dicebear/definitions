@@ -19,13 +19,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(22 68)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(8 20)\"><use href=\"url(#component-eyes)\"/></g>",
-    "dependencies": {
-      "components": [
-        "mouth",
-        "eyes"
-      ]
-    }
+    "content": "<g transform=\"translate(22 68)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(8 20)\"><use href=\"url(#component-eyes)\"/></g>"
   },
   "attributes": [
     {

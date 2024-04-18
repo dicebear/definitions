@@ -19,14 +19,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(7 4)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(47 46)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(30 93)\"><use href=\"url(#component-mouth)\"/></g>",
-    "dependencies": {
-      "components": [
-        "eyes",
-        "nose",
-        "mouth"
-      ]
-    }
+    "content": "<g transform=\"translate(7 4)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(47 46)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(30 93)\"><use href=\"url(#component-mouth)\"/></g>"
   },
   "attributes": [
     {
@@ -50,31 +43,16 @@
         {
           "name": "variant15",
           "content": "<path d=\"M25.5 18.2a17 17 0 0 1 11.3-1.9c4.5.6 6.4 2.3 7.7 4.3M73 20c2-2.8 5.8-3.3 8.2-3.4q3.8-.3 7.2.6\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m4 20.6 13.7 8.5M48.2 33a32 32 0 0 1 20.5-2m28.2-2.2c2.5-1.3 10.6-8.8 13.1-10.6M18.1 29.7c-.3 3.7-.4 13.1 4.4 16.6 4.7 3.5 23.5-.3 25.2-1 1.7-.5 1.7-7.7-.9-14.3-2.1-5.5-20.5-3.7-28-2.3\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70.5 28c6-2.7 22-1 25 0 3.7 1 4.1 10.3 3.8 13.7C98.9 45 78.8 45 74 44.9c-3.7-.1-4.9-11.6-4-16.5\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M33.4 32.3c-.4.2-1 1-.8 1.9.4 1 3.4 2.5 3.5.8q0-2.6-1.2-1.6m46.7-2.2c-.6.6-1.7 1.8-1 2.3 1 .7 4.3 2.3 4 0-.2-1.8-1.1-1.7-1.5-1.4l-.8.8\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant14",
           "content": "<path d=\"M20.8 12.3c1.7-1.3 6.2-2.6 11.3-2 4.5.7 6.4 2.3 7.7 4.3m33.1-.4c2-3 5.7-3.7 8-4q3.8-.4 7.3.4\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m4 21.2 13.7 6.5m30.5 3.8a32 32 0 0 1 20.5-1.8m28.2-2.4a193 193 0 0 0 13.1-8.6M24.6 49.9c-5-3.1-10.5-15.7-5.9-22.7 5.3-7.8 23.8-8.7 28.1 2.4a23 23 0 0 1 1 14.3 15.3 15.3 0 0 1-23.2 6m70.9-23.4c-5.6-8-21-8.3-25.4.4-1.9 3.7-3 14.2 4.4 20.2 3.8 3 18 8.2 22.8-5.2 2.2-6.3.4-12.2-1.8-15.4\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M34.4 29.8c-.4.2-1.1 1-.8 1.8.4 1.2 3.4 2.5 3.5.9q0-2.6-1.2-1.6M81 27.7c-.6.5-1.7 1.8-1 2.3 1 .6 4.2 2.3 4 0-.3-1.9-1.1-1.7-1.5-1.4l-.9.7\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant13",
           "content": "<path d=\"M26.8 19.1c1.3 1.2 4.7 2.4 8.6 1.7 3.5-.5 5-2 6-3.9m28.6-.8c2 2.6 5.4 3.4 7.6 3.6 2.2 0 5-.8 7.2-2\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M4 20.5 17.7 29m30.5 3.8A32 32 0 0 1 68.7 31m28.2-2.3c2.5-1.4 10.6-7.8 13.1-9.7\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M22.6 46c-8.3-3.1-7.6-11.4-3.7-17.2 3-3.8 22.8-2.2 27.2 1.8 4.2 3.8 2.3 11.8-1.8 14.3-3.4 2-16.2 3.1-21.7 1m71.8-19.2c-3.6-1.2-18.2-1-24 2.6-3.8 2.5-6.5 14.7 3.6 16 4.6.7 14.9 0 18.7-1.8 8.2-3.9 6.8-15.2 1.7-16.8\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M29.7 35.3a5 5 0 0 1 4.1-2.6c3.1 0 4 1.3 4.7 2.1m39.5.5c1-2 3.1-2.6 4-2.6 3.2 0 4 1.3 4.7 2.1\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
@@ -90,21 +68,11 @@
         {
           "name": "variant10",
           "content": "<path d=\"M20.4 39.8c2.2-3.1 9-8.4 19-4\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M29 35.3c-1 .5-2.8 2.1-1.6 4.5 1.5 3 6.5.5 6-1.5-.4-1.6-2.1-2-3-2M17 24.6C21.8 23 33.2 21 40 27m31.4-2.4c4.8-1.7 16.2-3.6 23 2.3\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M68 28c6.4-.8 24.3 1.6 27 3.2 3 1.8 3.5 15.2 1.2 21.6-1.2 3.2-13.3 6.7-23.8 0-7.5-4.7-5.9-18.8-5-23.7\" stroke=\"url(#color-eyepatch)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70.6 31c-.7 1.9-1.8 8.5-2.5 10.8l5-10.2c-.7 3.2-3.5 14.2-3.3 15.2.3 1.2 5.9-15.3 6.5-15.2.6 0-4.4 16.9-4.4 17.9s5.8-17.2 6.7-17.2-4.4 17.9-3.8 18.8 5.2-17.3 6-18.2S76.1 53 77 53s6.1-21 6.9-19c.7 2-5.1 22-3.2 20.3 2-1.6 5.6-21.8 7-20.3s-4.4 20.8-3.2 20.3S90 35 90.6 35s-2.4 20.8-1.8 19.4l5-19.4c.3-1.2 0 3 0 6.9-.1 3-2.2 10.5-2.5 12.5l4.4-14.6c0 2.3 0 7.6-.3 10.1q-.6 3.7-1 4M6 3a254 254 0 0 0 58.6 26c3 .8 28 4.5 32 2.3 3.3-1.7 11.2-14 13-16\" stroke=\"url(#color-eyepatch)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-          "dependencies": {
-            "colors": [
-              "eyepatch"
-            ]
-          },
           "default": true
         },
         {
           "name": "variant09",
           "content": "<path d=\"M23.2 17.6c1.6.8 6 1.7 11.2 1.3 4.5-.4 6.5-1.5 7.8-2.9m33-1c2.1 1.9 5.9 2.3 8.3 2.3 2.3.1 5 0 7.1-.4\" stroke=\"black\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M4 18.5 17.7 26m30.5 3.8A32 32 0 0 1 68.7 28m28.2-2.4c2.5-1.3 10.6-7.7 13.1-9.6M18.1 26.6c-.3 3.7-1.7 15.6 0 17.6 2.6 3 27.8-1 29.5-1.5s2-8.8-.5-15.4c-2.2-5.5-20.8-3.1-28.4-1.8\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m19.5 31.9 2.8-5.4c-.8 3.3-3 11-2.8 12 .3 1.2 5.7-12.6 6.3-12.6.6.1-4.5 16-4.5 17s6-17 6.9-17-4.2 15.6-3.6 16.5 5.4-16 6.2-16.9-4.3 18.2-3.4 18.1 6.1-21 6.9-19c.7 2-4.9 21.2-3 19.5s5.4-21 6.8-19.5-3.6 20-2.4 19.5 4.6-17.6 5.2-17.6-1 17.1-.5 17.1 3.3-14 3.7-15.1c.3-1.2 1-.5 1 3.4-.1 3-1.3 9-1.6 11l3-7.6M70.8 33l2.8-7c-.8 3.3-2.3 10-2 10.9.2 1.2 5-11.5 5.5-11.4s-3.5 13.1-3.5 14 5-14 5.9-14-3.6 14.8-3 15.7S81.3 26 82.1 25s-4.3 18.2-3.4 18.1 6.1-21 6.9-19c.7 2-5.1 20.7-3.2 19 2-1.6 5.6-20.5 7-19s-3.6 20-2.4 19.6C88.3 43 91.6 26 92.2 26s-1 17-.5 17 2.7-12.7 3-13.9c.4-1.1 1.3-.5 1.2 3.3 0 3.1-.8 7.9-1.1 9.9l3-7.6\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M70.5 24.8c6-2.7 22.2-1 25.2 0 3.8 1.1 3.6 14.7 3.3 18s-22.1.2-26.8 0c-3.7-.1-3-12.7-2.1-17.6\" stroke=\"url(#color-glasses)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>",
-          "dependencies": {
-            "colors": [
-              "glasses"
-            ]
-          },
           "default": true
         },
         {
@@ -298,15 +266,11 @@
   "colors": [
     {
       "name": "eyepatch",
-      "values": [
-        "000000"
-      ]
+      "values": ["000000"]
     },
     {
       "name": "glasses",
-      "values": [
-        "000000"
-      ]
+      "values": ["000000"]
     }
   ]
 }

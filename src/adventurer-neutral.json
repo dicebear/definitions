@@ -19,15 +19,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-glasses)\"/></g>",
-    "dependencies": {
-      "components": [
-        "eyes",
-        "eyebrows",
-        "mouth",
-        "glasses"
-      ]
-    }
+    "content": "<g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-glasses)\"/></g>"
   },
   "attributes": [
     {
@@ -445,12 +437,7 @@
   "colors": [
     {
       "name": "background",
-      "values": [
-        "763900",
-        "9e5622",
-        "ecad80",
-        "f2d3b1"
-      ]
+      "values": ["763900", "9e5622", "ecad80", "f2d3b1"]
     }
   ]
 }
