@@ -10,7 +10,7 @@ It contains all necessary information like available elements and colors. The
 JSON files are ideal for creating avatars in different programming languages
 with the corresponding DiceBear wrapper. The JSON schema for the avatar style
 definitions can be found here:
-[https://www.dicebear.com/schema/definition.json](https://www.dicebear.com/schema/definition.json)
+[https://static.dicebear.com/schema/definition.json](https://static.dicebear.com/schema/definition.json)
 
 ## Generate definitions
 
