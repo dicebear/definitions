@@ -18,9 +18,7 @@
       "size": 200
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(37.5 110.94)scale(1.5625)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(31.25 59.38)scale(1.5625)\"><use href=\"url(#component-eyes)\"/></g>"
-  },
+  "body": "<g transform=\"translate(37.5 110.94)scale(1.5625)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(31.25 59.38)scale(1.5625)\"><use href=\"url(#component-eyes)\"/></g>",
   "attributes": [
     {
       "name": "fill",

@@ -18,9 +18,7 @@
       "size": 280
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(8)\"><use href=\"url(#component-style)\"/></g>"
-  },
+  "body": "<g transform=\"translate(8)\"><use href=\"url(#component-style)\"/></g>",
   "attributes": [
     {
       "name": "fill",

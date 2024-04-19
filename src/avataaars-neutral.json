@@ -18,9 +18,7 @@
       "size": 112
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(2 63)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(28 51)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(0 19)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(0 11)\"><use href=\"url(#component-eyebrows)\"/></g>"
-  },
+  "body": "<g transform=\"translate(2 63)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(28 51)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(0 19)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(0 11)\"><use href=\"url(#component-eyebrows)\"/></g>",
   "attributes": [
     {
       "name": "fill",

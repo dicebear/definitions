@@ -18,9 +18,7 @@
       "size": 100
     }
   },
-  "body": {
-    "content": "<use href=\"url(#component-shape)\"/>"
-  },
+  "body": "<use href=\"url(#component-shape)\"/>",
   "attributes": [
     {
       "name": "fill",
@@ -219,10 +217,19 @@
     },
     {
       "name": "face",
-      "rotation": [-20, 20],
+      "rotation": [
+        -20,
+        20
+      ],
       "offset": {
-        "x": [-15, 15],
-        "y": [-15, 15]
+        "x": [
+          -15,
+          15
+        ],
+        "y": [
+          -15,
+          15
+        ]
       },
       "values": [
         {
@@ -284,10 +291,19 @@
     },
     {
       "name": "shape",
-      "rotation": [-20, 20],
+      "rotation": [
+        -20,
+        20
+      ],
       "offset": {
-        "x": [-5, 5],
-        "y": [-5, 5]
+        "x": [
+          -5,
+          5
+        ],
+        "y": [
+          -5,
+          5
+        ]
       },
       "values": [
         {
@@ -301,22 +317,40 @@
   "colors": [
     {
       "name": "background",
-      "values": ["0a5b83", "1c799f", "69d2e7", "f1f4dc", "f88c49"]
+      "values": [
+        "0a5b83",
+        "1c799f",
+        "69d2e7",
+        "f1f4dc",
+        "f88c49"
+      ]
     },
     {
       "name": "shape",
       "differentFromColor": "background",
-      "values": ["0a5b83", "1c799f", "69d2e7", "f1f4dc", "f88c49"]
+      "values": [
+        "0a5b83",
+        "1c799f",
+        "69d2e7",
+        "f1f4dc",
+        "f88c49"
+      ]
     },
     {
       "name": "eyes",
       "contrastColor": "shape",
-      "values": ["000000", "ffffff"]
+      "values": [
+        "000000",
+        "ffffff"
+      ]
     },
     {
       "name": "mouth",
       "contrastColor": "shape",
-      "values": ["000000", "ffffff"]
+      "values": [
+        "000000",
+        "ffffff"
+      ]
     }
   ]
 }

@@ -18,9 +18,7 @@
       "size": 120
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(22 68)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(8 20)\"><use href=\"url(#component-eyes)\"/></g>"
-  },
+  "body": "<g transform=\"translate(22 68)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(8 20)\"><use href=\"url(#component-eyes)\"/></g>",
   "attributes": [
     {
       "name": "fill",

@@ -18,9 +18,7 @@
       "size": 180
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(0 66)\"><use href=\"url(#component-sides)\"/></g><g transform=\"translate(41)\"><use href=\"url(#component-top)\"/></g><g transform=\"translate(25 44)\"><use href=\"url(#component-face)\"/></g><g transform=\"translate(52 124)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(38 76)\"><use href=\"url(#component-eyes)\"/></g>"
-  },
+  "body": "<g transform=\"translate(0 66)\"><use href=\"url(#component-sides)\"/></g><g transform=\"translate(41)\"><use href=\"url(#component-top)\"/></g><g transform=\"translate(25 44)\"><use href=\"url(#component-face)\"/></g><g transform=\"translate(52 124)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(38 76)\"><use href=\"url(#component-eyes)\"/></g>",
   "attributes": [
     {
       "name": "fill",

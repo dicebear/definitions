@@ -18,9 +18,7 @@
       "size": 64
     }
   },
-  "body": {
-    "content": "<use href=\"url(#component-head)\"/><use href=\"url(#component-body)\"/><use href=\"url(#component-hair)\"/><g transform=\"translate(1)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(0 -1)\"><use href=\"url(#component-eyes)\"/></g><use href=\"url(#component-glasses)\"/><use href=\"url(#component-mustache)\"/>"
-  },
+  "body": "<use href=\"url(#component-head)\"/><use href=\"url(#component-body)\"/><use href=\"url(#component-hair)\"/><g transform=\"translate(1)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(0 -1)\"><use href=\"url(#component-eyes)\"/></g><use href=\"url(#component-glasses)\"/><use href=\"url(#component-mustache)\"/>",
   "attributes": [
     {
       "name": "fill",

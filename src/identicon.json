@@ -18,9 +18,7 @@
       "size": 5
     }
   },
-  "body": {
-    "content": "<use href=\"url(#component-row1)\"/><use href=\"url(#component-row2)\"/><use href=\"url(#component-row3)\"/><use href=\"url(#component-row4)\"/><use href=\"url(#component-row5)\"/>"
-  },
+  "body": "<use href=\"url(#component-row1)\"/><use href=\"url(#component-row2)\"/><use href=\"url(#component-row3)\"/><use href=\"url(#component-row4)\"/><use href=\"url(#component-row5)\"/>",
   "attributes": [
     {
       "name": "fill",

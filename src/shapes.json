@@ -18,9 +18,7 @@
       "size": 100
     }
   },
-  "body": {
-    "content": "<g transform=\"matrix(1.2 0 0 1.2 -10 -10)\"><use href=\"url(#component-shape1)\"/></g><g transform=\"matrix(.8 0 0 .8 10 10)\"><use href=\"url(#component-shape2)\"/></g><g transform=\"matrix(.4 0 0 .4 30 30)\"><use href=\"url(#component-shape3)\"/></g>"
-  },
+  "body": "<g transform=\"matrix(1.2 0 0 1.2 -10 -10)\"><use href=\"url(#component-shape1)\"/></g><g transform=\"matrix(.8 0 0 .8 10 10)\"><use href=\"url(#component-shape2)\"/></g><g transform=\"matrix(.4 0 0 .4 30 30)\"><use href=\"url(#component-shape3)\"/></g>",
   "attributes": [
     {
       "name": "fill",

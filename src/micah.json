@@ -18,9 +18,7 @@
       "size": 360
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(80 23)\"><use href=\"url(#component-base)\"/></g><g transform=\"translate(170 183)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(114 125.3)\"><use href=\"url(#component-facialHair)\"/></g><g transform=\"translate(110 102)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(49 11)\"><use href=\"url(#component-hair)\"/></g><g transform=\"translate(142 119)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"rotate(-8 1149.44 -1186.92)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(84 154)\"><use href=\"url(#component-ears)\"/></g><g transform=\"translate(53 272)\"><use href=\"url(#component-shirt)\"/></g>"
-  },
+  "body": "<g transform=\"translate(80 23)\"><use href=\"url(#component-base)\"/></g><g transform=\"translate(170 183)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(114 125.3)\"><use href=\"url(#component-facialHair)\"/></g><g transform=\"translate(110 102)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(49 11)\"><use href=\"url(#component-hair)\"/></g><g transform=\"translate(142 119)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"rotate(-8 1149.44 -1186.92)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(84 154)\"><use href=\"url(#component-ears)\"/></g><g transform=\"translate(53 272)\"><use href=\"url(#component-shirt)\"/></g>",
   "attributes": [
     {
       "name": "fill",

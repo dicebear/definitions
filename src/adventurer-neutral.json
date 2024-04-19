@@ -18,9 +18,7 @@
       "size": 400
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-glasses)\"/></g>"
-  },
+  "body": "<g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(-279 -322)\"><use href=\"url(#component-glasses)\"/></g>",
   "attributes": [
     {
       "name": "fill",

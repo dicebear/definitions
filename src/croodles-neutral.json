@@ -18,9 +18,7 @@
       "size": 128
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(7 4)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(47 46)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(30 93)\"><use href=\"url(#component-mouth)\"/></g>"
-  },
+  "body": "<g transform=\"translate(7 4)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(47 46)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(30 93)\"><use href=\"url(#component-mouth)\"/></g>",
   "attributes": [
     {
       "name": "fill",

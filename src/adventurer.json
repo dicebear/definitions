@@ -18,9 +18,7 @@
       "size": 762
     }
   },
-  "body": {
-    "content": "<use href=\"url(#component-base)\"/><g transform=\"translate(-161 -83)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-features)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-glasses)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-hair)\"/></g>"
-  },
+  "body": "<use href=\"url(#component-base)\"/><g transform=\"translate(-161 -83)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-eyebrows)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-features)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-glasses)\"/></g><g transform=\"translate(-161 -83)\"><use href=\"url(#component-hair)\"/></g>",
   "attributes": [
     {
       "name": "fill",
@@ -759,7 +757,12 @@
     },
     {
       "name": "skin",
-      "values": ["763900", "9e5622", "ecad80", "f2d3b1"]
+      "values": [
+        "763900",
+        "9e5622",
+        "ecad80",
+        "f2d3b1"
+      ]
     }
   ]
 }

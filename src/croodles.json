@@ -18,9 +18,7 @@
       "size": 256
     }
   },
-  "body": {
-    "content": "<use href=\"url(#component-face)\"/>"
-  },
+  "body": "<use href=\"url(#component-face)\"/>",
   "attributes": [
     {
       "name": "fill",

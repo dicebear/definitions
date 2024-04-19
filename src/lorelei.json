@@ -18,9 +18,7 @@
       "size": 980
     }
   },
-  "body": {
-    "content": "<g transform=\"translate(10 -60)\"><use href=\"url(#component-hair)\"/></g><g transform=\"translate(10 -60)\"><use href=\"url(#component-hairAccessories)\"/></g>"
-  },
+  "body": "<g transform=\"translate(10 -60)\"><use href=\"url(#component-hair)\"/></g><g transform=\"translate(10 -60)\"><use href=\"url(#component-hairAccessories)\"/></g>",
   "attributes": [
     {
       "name": "fill",
