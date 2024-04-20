@@ -1,6 +1,6 @@
 {
   "name": "@dicebear/definitions",
-  "version": "9.0.0-alpha.1",
+  "version": "9.0.0-beta.1",
   "description": "Definition files of the DiceBear avatar styles.",
   "keywords": [
     "avatar",
