@@ -21,8 +21,30 @@
   },
   "colors": [
     {
+      "name": "background",
+      "values": [
+        "00acc1",
+        "1e88e5",
+        "5e35b1",
+        "7cb342",
+        "8e24aa",
+        "039be5",
+        "43a047",
+        "00897b",
+        "3949ab",
+        "c0ca33",
+        "d81b60",
+        "e53935",
+        "f4511e",
+        "fb8c00",
+        "fdd835",
+        "ffb300"
+      ]
+    },
+    {
       "name": "text",
-      "values": ["000000"]
+      "values": ["000000", "ffffff"],
+      "contrastTo": "background"
     }
   ]
 }
