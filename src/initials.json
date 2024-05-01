@@ -23,23 +23,29 @@
     {
       "name": "background",
       "values": [
-        "f64c4c",
-        "f2590d",
-        "0bd00b",
-        "0ac247",
-        "0ca2ed",
-        "4781f5",
-        "6e6ef7",
-        "8e5af6",
-        "bb47f5",
-        "f42af4",
-        "f538b6",
-        "f5427e"
+        "c44f4f",
+        "ac6039",
+        "8e6e2f",
+        "777728",
+        "627e2a",
+        "48822b",
+        "2d862d",
+        "2b8248",
+        "2b8265",
+        "2a7e7e",
+        "347a9d",
+        "4b73c3",
+        "6a6acd",
+        "825ec9",
+        "9f53c6",
+        "bb3ebb",
+        "c14497",
+        "c34b73"
       ]
     },
     {
       "name": "text",
-      "values": ["000000", "ffffff"],
+      "values": ["ffffff", "000000"],
       "contrastTo": "background"
     }
   ]
