@@ -336,7 +336,9 @@
     },
     {
       "name": "shape",
-      "differentFromColor": "background",
+      "notEqualTo": [
+        "background"
+      ],
       "values": [
         "0a5b83",
         "1c799f",
@@ -347,7 +349,7 @@
     },
     {
       "name": "eyes",
-      "contrastColor": "shape",
+      "contrastTo": "shape",
       "values": [
         "000000",
         "ffffff"
@@ -355,7 +357,7 @@
     },
     {
       "name": "mouth",
-      "contrastColor": "shape",
+      "contrastTo": "shape",
       "values": [
         "000000",
         "ffffff"

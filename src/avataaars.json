@@ -645,86 +645,19 @@
   "colors": [
     {
       "name": "circle",
+      "notEqualTo": [
+        "background"
+      ],
       "values": [
         "65c9ff"
       ]
     },
     {
       "name": "accessories",
-      "differentFromColor": "circle",
-      "values": [
-        "25557c",
-        "262e33",
-        "3c4f5c",
-        "5199e4",
-        "65c9ff",
-        "929598",
-        "a7ffc4",
-        "b1e2ff",
-        "e6e6e6",
-        "ff488e",
-        "ff5c5c",
-        "ffafb9",
-        "ffdeb5",
-        "ffffb1",
-        "ffffff"
-      ]
-    },
-    {
-      "name": "clothes",
-      "differentFromColor": "circle",
-      "values": [
-        "25557c",
-        "262e33",
-        "3c4f5c",
-        "5199e4",
-        "65c9ff",
-        "929598",
-        "a7ffc4",
-        "b1e2ff",
-        "e6e6e6",
-        "ff488e",
-        "ff5c5c",
-        "ffafb9",
-        "ffffb1",
-        "ffffff"
-      ]
-    },
-    {
-      "name": "facialHair",
-      "differentFromColor": "circle",
-      "values": [
-        "2c1b18",
-        "4a312c",
-        "724133",
-        "a55728",
-        "b58143",
-        "c93305",
-        "d6b370",
-        "e8e1e1",
-        "ecdcbf",
-        "f59797"
-      ]
-    },
-    {
-      "name": "hair",
-      "differentFromColor": "circle",
-      "values": [
-        "2c1b18",
-        "4a312c",
-        "724133",
-        "a55728",
-        "b58143",
-        "c93305",
-        "d6b370",
-        "e8e1e1",
-        "ecdcbf",
-        "f59797"
-      ]
-    },
-    {
-      "name": "hat",
-      "differentFromColor": "circle",
+      "notEqualTo": [
+        "circle",
+        "background"
+      ],
       "values": [
         "25557c",
         "262e33",
@@ -745,7 +678,10 @@
     },
     {
       "name": "skin",
-      "differentFromColor": "circle",
+      "notEqualTo": [
+        "circle",
+        "background"
+      ],
       "values": [
         "614335",
         "ae5d29",
@@ -754,6 +690,94 @@
         "f8d25c",
         "fd9841",
         "ffdbb4"
+      ]
+    },
+    {
+      "name": "clothes",
+      "notEqualTo": [
+        "circle",
+        "skin",
+        "background"
+      ],
+      "values": [
+        "25557c",
+        "262e33",
+        "3c4f5c",
+        "5199e4",
+        "65c9ff",
+        "929598",
+        "a7ffc4",
+        "b1e2ff",
+        "e6e6e6",
+        "ff488e",
+        "ff5c5c",
+        "ffafb9",
+        "ffffb1",
+        "ffffff"
+      ]
+    },
+    {
+      "name": "facialHair",
+      "notEqualTo": [
+        "circle",
+        "skin",
+        "background"
+      ],
+      "values": [
+        "2c1b18",
+        "4a312c",
+        "724133",
+        "a55728",
+        "b58143",
+        "c93305",
+        "d6b370",
+        "e8e1e1",
+        "ecdcbf",
+        "f59797"
+      ]
+    },
+    {
+      "name": "hair",
+      "notEqualTo": [
+        "circle",
+        "background"
+      ],
+      "values": [
+        "2c1b18",
+        "4a312c",
+        "724133",
+        "a55728",
+        "b58143",
+        "c93305",
+        "d6b370",
+        "e8e1e1",
+        "ecdcbf",
+        "f59797"
+      ]
+    },
+    {
+      "name": "hat",
+      "notEqualTo": [
+        "circle",
+        "skin",
+        "background"
+      ],
+      "values": [
+        "25557c",
+        "262e33",
+        "3c4f5c",
+        "5199e4",
+        "65c9ff",
+        "929598",
+        "a7ffc4",
+        "b1e2ff",
+        "e6e6e6",
+        "ff488e",
+        "ff5c5c",
+        "ffafb9",
+        "ffdeb5",
+        "ffffb1",
+        "ffffff"
       ]
     }
   ]

@@ -213,7 +213,9 @@
     },
     {
       "name": "shape1",
-      "differentFromColor": "background",
+      "notEqualTo": [
+        "background"
+      ],
       "values": [
         "0a5b83",
         "1c799f",
@@ -224,7 +226,10 @@
     },
     {
       "name": "shape2",
-      "differentFromColor": "shape1",
+      "notEqualTo": [
+        "shape1",
+        "background"
+      ],
       "values": [
         "0a5b83",
         "1c799f",
@@ -235,7 +240,11 @@
     },
     {
       "name": "shape3",
-      "differentFromColor": "shape2",
+      "notEqualTo": [
+        "shape2",
+        "shape1",
+        "background"
+      ],
       "values": [
         "0a5b83",
         "1c799f",

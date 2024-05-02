@@ -316,6 +316,9 @@
   "colors": [
     {
       "name": "base",
+      "notEqualTo": [
+        "background"
+      ],
       "values": [
         "77311d",
         "ac6651",
@@ -324,7 +327,9 @@
     },
     {
       "name": "earring",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "000000",
         "6bd9e9",
@@ -343,7 +348,9 @@
     },
     {
       "name": "eyeShadow",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "d2eff3",
         "e0ddff",
@@ -354,28 +361,36 @@
     },
     {
       "name": "eyebrows",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "000000"
       ]
     },
     {
       "name": "eyes",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "000000"
       ]
     },
     {
       "name": "facialHair",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "000000"
       ]
     },
     {
       "name": "glasses",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "000000",
         "6bd9e9",
@@ -394,7 +409,10 @@
     },
     {
       "name": "hair",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base",
+        "background"
+      ],
       "values": [
         "000000",
         "6bd9e9",
@@ -413,14 +431,20 @@
     },
     {
       "name": "mouth",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "base"
+      ],
       "values": [
         "000000"
       ]
     },
     {
       "name": "shirt",
-      "differentFromColor": "base",
+      "notEqualTo": [
+        "hair",
+        "base",
+        "background"
+      ],
       "values": [
         "000000",
         "6bd9e9",
