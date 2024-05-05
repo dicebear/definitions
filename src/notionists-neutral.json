@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(136 328)\"><use href=\"url(#component-lips)\"/></g><g transform=\"translate(246 125)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(-45 137)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-45 137)\"><use href=\"url(#component-glasses)\"/></g><g transform=\"translate(119 114)\"><use href=\"url(#component-brows)\"/></g>",
+    "content": "<g transform=\"translate(136 328)\"><use href=\"#component-lips\"/></g><g transform=\"translate(246 125)\"><use href=\"#component-nose\"/></g><g transform=\"translate(-45 137)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(-45 137)\"><use href=\"#component-glasses\"/></g><g transform=\"translate(119 114)\"><use href=\"#component-brows\"/></g>",
     "width": 560,
     "height": 560
   },

@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(-1 -2)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(-1 -2)\"><use href=\"url(#component-glasses)\"/></g><g transform=\"translate(-1)\"><use href=\"url(#component-mouth)\"/></g>",
+    "content": "<g transform=\"translate(-1 -2)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(-1 -2)\"><use href=\"#component-glasses\"/></g><g transform=\"translate(-1)\"><use href=\"#component-mouth\"/></g>",
     "width": 14,
     "height": 14
   },

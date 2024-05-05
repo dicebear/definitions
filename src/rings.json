@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<use href=\"url(#component-ring)\"/>",
+    "content": "<use href=\"#component-ring\"/>",
     "width": 100,
     "height": 100
   },
@@ -42,7 +42,7 @@
       "values": [
         {
           "name": "container",
-          "content": "<use href=\"url(#component-ringOne)\"/><use href=\"url(#component-ringTwo)\"/><use href=\"url(#component-ringThree)\"/><use href=\"url(#component-ringFour)\"/><use href=\"url(#component-ringFive)\"/><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringOne)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringTwo)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringThree)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringFour)\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"url(#component-ringFive)\"/></g><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"white\" stroke-opacity=\"0.25\" stroke-width=\"10\" style=\"mix-blend-mode:lighten\"/><circle cx=\"50\" cy=\"50\" r=\"25\" stroke=\"white\" stroke-opacity=\"0.25\" stroke-width=\"10\" style=\"mix-blend-mode:lighten\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" fill-opacity=\"0.25\" style=\"mix-blend-mode:lighten\"/>",
+          "content": "<use href=\"#component-ringOne\"/><use href=\"#component-ringTwo\"/><use href=\"#component-ringThree\"/><use href=\"#component-ringFour\"/><use href=\"#component-ringFive\"/><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"#component-ringOne\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"#component-ringTwo\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"#component-ringThree\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"#component-ringFour\"/></g><g transform=\"matrix(1 0 0 -1 0 100)\"><use href=\"#component-ringFive\"/></g><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"white\" stroke-opacity=\"0.25\" stroke-width=\"10\" style=\"mix-blend-mode:lighten\"/><circle cx=\"50\" cy=\"50\" r=\"25\" stroke=\"white\" stroke-opacity=\"0.25\" stroke-width=\"10\" style=\"mix-blend-mode:lighten\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" fill-opacity=\"0.25\" style=\"mix-blend-mode:lighten\"/>",
           "default": true
         }
       ]

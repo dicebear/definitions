@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<use href=\"url(#component-row1)\"/><use href=\"url(#component-row2)\"/><use href=\"url(#component-row3)\"/><use href=\"url(#component-row4)\"/><use href=\"url(#component-row5)\"/>",
+    "content": "<use href=\"#component-row1\"/><use href=\"#component-row2\"/><use href=\"#component-row3\"/><use href=\"#component-row4\"/><use href=\"#component-row5\"/>",
     "width": 5,
     "height": 5
   },

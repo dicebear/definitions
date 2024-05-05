@@ -17,7 +17,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(4 4)\"><use href=\"url(#component-icon)\"/></g>",
+    "content": "<g transform=\"translate(4 4)\"><use href=\"#component-icon\"/></g>",
     "width": 24,
     "height": 24
   },

@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(38 110.94)scale(1.5625)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"matrix(1.55291 0 0 1.56067 32 59.38)\"><use href=\"url(#component-eyes)\"/></g>",
+    "content": "<g transform=\"translate(38 110.94)scale(1.5625)\"><use href=\"#component-mouth\"/></g><g transform=\"matrix(1.55291 0 0 1.56067 32 59.38)\"><use href=\"#component-eyes\"/></g>",
     "width": 200,
     "height": 200
   },

@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(85 138.9)scale(.71856)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(1 11)scale(.71856)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(13 89.2)scale(.71856)\"><use href=\"url(#component-cheek)\"/></g><g transform=\"translate(77 79.8)scale(.71856)\"><use href=\"url(#component-nose)\"/></g>",
+    "content": "<g transform=\"translate(85 138.9)scale(.71856)\"><use href=\"#component-mouth\"/></g><g transform=\"translate(1 11)scale(.71856)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(13 89.2)scale(.71856)\"><use href=\"#component-cheek\"/></g><g transform=\"translate(77 79.8)scale(.71856)\"><use href=\"#component-nose\"/></g>",
     "width": 210,
     "height": 210
   },

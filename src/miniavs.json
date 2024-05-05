@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<use href=\"url(#component-head)\"/><use href=\"url(#component-body)\"/><use href=\"url(#component-hair)\"/><g transform=\"translate(1)\"><use href=\"url(#component-mouth)\"/></g><g transform=\"translate(0 -1)\"><use href=\"url(#component-eyes)\"/></g><use href=\"url(#component-glasses)\"/><use href=\"url(#component-mustache)\"/>",
+    "content": "<use href=\"#component-head\"/><use href=\"#component-body\"/><use href=\"#component-hair\"/><g transform=\"translate(1)\"><use href=\"#component-mouth\"/></g><g transform=\"translate(0 -1)\"><use href=\"#component-eyes\"/></g><use href=\"#component-glasses\"/><use href=\"#component-mustache\"/>",
     "width": 64,
     "height": 64
   },
@@ -68,17 +68,17 @@
       "values": [
         {
           "name": "normal",
-          "content": "<rect x=\"30\" y=\"36\" width=\"3\" height=\"4\" rx=\"1.5\" fill=\"url(#color-hair)\"/><rect x=\"40\" y=\"36\" width=\"3\" height=\"4\" rx=\"1.5\" fill=\"url(#color-hair)\"/><use href=\"url(#component-blushes)\"/>",
+          "content": "<rect x=\"30\" y=\"36\" width=\"3\" height=\"4\" rx=\"1.5\" fill=\"url(#color-hair)\"/><rect x=\"40\" y=\"36\" width=\"3\" height=\"4\" rx=\"1.5\" fill=\"url(#color-hair)\"/><use href=\"#component-blushes\"/>",
           "default": true
         },
         {
           "name": "confident",
-          "content": "<use href=\"url(#component-blushes)\"/><path d=\"M43 37.5a1.5 1.5 0 0 1-3 0v-1.23c0-.15.12-.27.27-.27h2.46c.15 0 .27.12.27.27zm-10 0a1.5 1.5 0 0 1-3 0v-1.23c0-.15.12-.27.27-.27h2.46c.15 0 .27.12.27.27z\" fill=\"url(#color-hair)\"/><line x1=\"29.5\" y1=\"36.5\" x2=\"33.5\" y2=\"36.5\" stroke=\"url(#color-hair)\" stroke-linecap=\"round\"/><line x1=\"39.5\" y1=\"36.5\" x2=\"43.5\" y2=\"36.5\" stroke=\"url(#color-hair)\" stroke-linecap=\"round\"/>",
+          "content": "<use href=\"#component-blushes\"/><path d=\"M43 37.5a1.5 1.5 0 0 1-3 0v-1.23c0-.15.12-.27.27-.27h2.46c.15 0 .27.12.27.27zm-10 0a1.5 1.5 0 0 1-3 0v-1.23c0-.15.12-.27.27-.27h2.46c.15 0 .27.12.27.27z\" fill=\"url(#color-hair)\"/><line x1=\"29.5\" y1=\"36.5\" x2=\"33.5\" y2=\"36.5\" stroke=\"url(#color-hair)\" stroke-linecap=\"round\"/><line x1=\"39.5\" y1=\"36.5\" x2=\"43.5\" y2=\"36.5\" stroke=\"url(#color-hair)\" stroke-linecap=\"round\"/>",
           "default": true
         },
         {
           "name": "happy",
-          "content": "<use href=\"url(#component-blushes)\"/><path d=\"M30 37.5a1.5 1.5 0 0 1 3 0v1.23c0 .15-.12.27-.27.27h-2.46a.27.27 0 0 1-.27-.27zm10 0a1.5 1.5 0 0 1 3 0v1.23c0 .15-.12.27-.27.27h-2.46a.27.27 0 0 1-.27-.27z\" fill=\"#1B0B47\"/>",
+          "content": "<use href=\"#component-blushes\"/><path d=\"M30 37.5a1.5 1.5 0 0 1 3 0v1.23c0 .15-.12.27-.27.27h-2.46a.27.27 0 0 1-.27-.27zm10 0a1.5 1.5 0 0 1 3 0v1.23c0 .15-.12.27-.27.27h-2.46a.27.27 0 0 1-.27-.27z\" fill=\"#1B0B47\"/>",
           "default": true
         }
       ]

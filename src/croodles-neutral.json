@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<g transform=\"translate(7 4)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(47 46)\"><use href=\"url(#component-nose)\"/></g><g transform=\"translate(30 93)\"><use href=\"url(#component-mouth)\"/></g>",
+    "content": "<g transform=\"translate(7 4)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(47 46)\"><use href=\"#component-nose\"/></g><g transform=\"translate(30 93)\"><use href=\"#component-mouth\"/></g>",
     "width": 128,
     "height": 128
   },

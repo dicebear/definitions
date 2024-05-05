@@ -16,7 +16,7 @@
     }
   },
   "body": {
-    "content": "<use href=\"url(#component-shape)\"/>",
+    "content": "<use href=\"#component-shape\"/>",
     "width": 100,
     "height": 100
   },
@@ -239,27 +239,27 @@
       "values": [
         {
           "name": "variant1",
-          "content": "<g transform=\"translate(0 5)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(6 23)\"><use href=\"url(#component-mouth)\"/></g>",
+          "content": "<g transform=\"translate(0 5)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(6 23)\"><use href=\"#component-mouth\"/></g>",
           "default": true
         },
         {
           "name": "variant2",
-          "content": "<g transform=\"translate(0 4)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(6 24)\"><use href=\"url(#component-mouth)\"/></g>",
+          "content": "<g transform=\"translate(0 4)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(6 24)\"><use href=\"#component-mouth\"/></g>",
           "default": true
         },
         {
           "name": "variant3",
-          "content": "<g transform=\"translate(0 3)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(6 25)\"><use href=\"url(#component-mouth)\"/></g>",
+          "content": "<g transform=\"translate(0 3)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(6 25)\"><use href=\"#component-mouth\"/></g>",
           "default": true
         },
         {
           "name": "variant5",
-          "content": "<g transform=\"translate(0 1)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(6 27)\"><use href=\"url(#component-mouth)\"/></g>",
+          "content": "<g transform=\"translate(0 1)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(6 27)\"><use href=\"#component-mouth\"/></g>",
           "default": true
         },
         {
           "name": "variant4",
-          "content": "<g transform=\"translate(0 2)\"><use href=\"url(#component-eyes)\"/></g><g transform=\"translate(6 26)\"><use href=\"url(#component-mouth)\"/></g>",
+          "content": "<g transform=\"translate(0 2)\"><use href=\"#component-eyes\"/></g><g transform=\"translate(6 26)\"><use href=\"#component-mouth\"/></g>",
           "default": true
         }
       ]
@@ -317,7 +317,7 @@
       "values": [
         {
           "name": "default",
-          "content": "<path d=\"M95 53.33C95 29.4 74.85 10 50 10S5 29.4 5 53.33V140h90z\" fill=\"url(#color-shape)\"/><g transform=\"translate(29 33)\"><use href=\"url(#component-face)\"/></g>",
+          "content": "<path d=\"M95 53.33C95 29.4 74.85 10 50 10S5 29.4 5 53.33V140h90z\" fill=\"url(#color-shape)\"/><g transform=\"translate(29 33)\"><use href=\"#component-face\"/></g>",
           "default": true
         }
       ]
