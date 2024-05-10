@@ -4,7 +4,8 @@
   "metadata": {
     "license": {
       "name": "CC0 1.0",
-      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "text": "Remix of „Identicon” (https://dicebear.com) by „Florian Körner”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
     },
     "creator": {
       "name": "Florian Körner",
