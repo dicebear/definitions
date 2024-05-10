@@ -117,11 +117,11 @@ choose themselves.
 
 ## Initials
 
-|     File | [src/initials.json](./src/initials.json)                      |
-| -------: | :------------------------------------------------------------ |
-| Designer | [DiceBear](https://www.dicebear.com)                          |
-|  License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-|   Source | [DiceBear](https://www.dicebear.com)                          |
+|    File | [src/initials.json](./src/initials.json)                      |
+| ------: | :------------------------------------------------------------ |
+|         |                                                               |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|         |                                                               |
 
 ## Lorelei
 
