@@ -41,7 +41,7 @@ const files = (await glob(join(__dirname, "..", "src", "*.json"))).sort(
 
 let licsenseMd = `# License
 
-The designs are licensed under different licenses, which the designers can
+The avatar styles are licensed under different licenses, which the artists can
 choose themselves.`;
 
 for (const file of files) {

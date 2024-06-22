@@ -1,6 +1,6 @@
 # License
 
-The designs are licensed under different licenses, which the designers can
+The avatar styles are licensed under different licenses, which the artists can
 choose themselves.
 
 ## Adventurer
