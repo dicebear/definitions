@@ -56,7 +56,7 @@ for (const file of files) {
     [
       ["File", `[${jsonFile}](./${jsonFile})`],
       metadata.creator?.name
-        ? ["Designer", `[${metadata.creator.name}](${metadata.creator.url})`]
+        ? ["Artist", `[${metadata.creator.name}](${metadata.creator.url})`]
         : [],
       metadata.license?.name
         ? ["License", `[${metadata.license.name}](${metadata.license.url})`]
