@@ -16,7 +16,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "build": "tsx ./scripts/build-license.ts",
+    "build": "tsx ./scripts/build.ts",
     "test": "echo \"No test specified\""
   },
   "files": [
@@ -32,6 +32,8 @@
     "@types/node": "^20.12.5",
     "change-case": "^5.4.4",
     "markdown-table": "^3.0.3",
+    "p-props": "^6.0.0",
+    "sort-keys": "^5.1.0",
     "tsx": "^4.7.2",
     "typescript": "^5.4.5"
   }
