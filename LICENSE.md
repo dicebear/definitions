@@ -1,6 +1,7 @@
 # License
 
-The avatar styles are licensed under different licenses. See the following table:
+The avatar styles are subject to different licences. You can find the licence in
+the following list or in the individual files.
 
 ## Adventurer
 
