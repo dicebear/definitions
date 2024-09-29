@@ -21,52 +21,52 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { glob } from "glob";
-import { fileURLToPath } from "node:url";
-import { join, basename } from "node:path";
-import { readFile, writeFile } from "node:fs/promises";
-import { markdownTable } from "markdown-table";
-import { capitalCase, pascalCase } from "change-case";
 
-type Metadata = {
-  creator?: { name?: string; url?: string };
-  license?: { name?: string; url?: string };
-  source?: { name?: string; url?: string };
-};
+import { fileURLToPath } from "node:url";
+import { join } from "node:path";
+import { writeFile } from "node:fs/promises";
+import { markdownTable } from "markdown-table";
+import { capitalCase, kebabCase } from "change-case";
+import * as collection from "./collection";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
-const files = (await glob(join(__dirname, "..", "src", "*.json"))).sort(
-  (a, b) => basename(a, ".json").localeCompare(basename(b, ".json"))
-);
 
 let licsenseMd = `# License
 
 The avatar styles are licensed under different licenses, which the artists can
 choose themselves.`;
 
-for (const file of files) {
-  const content = JSON.parse(await readFile(file, "utf-8"));
-  const metadata = content.metadata as Metadata;
+for (const styleName in collection) {
+  const style = collection[styleName as keyof typeof collection];
 
-  licsenseMd += `\n\n## ${capitalCase(basename(file, ".json"))}\n\n`;
+  licsenseMd += `\n\n## ${capitalCase(styleName)}\n\n`;
 
-  const jsonFile = `src/${basename(file)}`;
+  const jsonFile = `src/${kebabCase(styleName)}.json`;
 
-  licsenseMd += markdownTable(
-    [
-      ["File", `[${jsonFile}](./${jsonFile})`],
-      metadata.creator?.name
-        ? ["Artist", `[${metadata.creator.name}](${metadata.creator.url})`]
-        : [],
-      metadata.license?.name
-        ? ["License", `[${metadata.license.name}](${metadata.license.url})`]
-        : [],
-      metadata.source?.name
-        ? ["Source", `[${metadata.source.name}](${metadata.source.url})`]
-        : [],
-    ],
-    { align: ["r", "l"] }
-  );
+  const tableRows: [string, string][] = [
+    ["File", `[${jsonFile}](./${jsonFile})`],
+  ];
+
+  if ("creator" in style.metadata) {
+    tableRows.push([
+      "Artist",
+      `[${style.metadata.creator.name}](${style.metadata.creator.url})`,
+    ]);
+  }
+
+  tableRows.push([
+    "License",
+    `[${style.metadata.license.name}](${style.metadata.license.url})`,
+  ]);
+
+  if ("source" in style.metadata) {
+    tableRows.push([
+      "Source",
+      `[${style.metadata.source.name}](${style.metadata.source.url})`,
+    ]);
+  }
+
+  licsenseMd += markdownTable(tableRows, { align: ["r", "l"] });
 }
 
 await writeFile(join(__dirname, "..", "LICENSE.md"), licsenseMd);

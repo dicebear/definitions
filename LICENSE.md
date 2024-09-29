@@ -135,9 +135,7 @@ choose themselves.
 
 |    File | [src/initials.json](./src/initials.json)                      |
 | ------: | :------------------------------------------------------------ |
-|         |                                                               |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-|         |                                                               |
 
 ## Lorelei
 
