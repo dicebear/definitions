@@ -4,12 +4,12 @@
 > This project is still in beta stage and will only be used in future versions
 > of DiceBear.
 
-This repository contains all official avatar style definitions for DiceBear. An
-avatar style definition is a JSON file that describes how to create an avatar.
-It contains all necessary information like available elements and colors. The
-JSON files are ideal for creating avatars in different programming languages
-with the corresponding DiceBear wrapper. The JSON schema for the avatar style
-definitions can be found here:
+This repository contains all official avatar style definitions for
+[DiceBear](https://www.dicebear.com). An avatar style definition is a JSON file
+that describes how to create an avatar. It contains all necessary information
+like available elements and colors. The JSON files are ideal for creating
+avatars in different programming languages with the corresponding DiceBear
+wrapper. The JSON schema for the avatar style definitions can be found here:
 [https://static.dicebear.com/schema/definition.json](https://static.dicebear.com/schema/definition.json)
 
 ## Generate definitions
@@ -36,6 +36,8 @@ found in the file [LICENSE.md](./LICENSE.md) or in the definition files
 themselves.
 
 ## Sponsors
+
+Many thanks to our sponsors who provide us with free or discounted products.
 
 <a href="https://bunny.net/" target="_blank" rel="noopener noreferrer">
     <picture>

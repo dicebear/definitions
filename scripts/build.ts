@@ -79,7 +79,7 @@ async function getCollection() {
 }
 
 async function buildLicenseFile(
-  collection: UnwrapPromise<ReturnType<typeof getCollection>>
+  collection: UnwrapPromise<ReturnType<typeof getCollection>>,
 ) {
   let licsenseMd = `# License
 
