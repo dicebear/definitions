@@ -38,6 +38,9 @@ themselves.
 ## Sponsors
 
 <a href="https://bunny.net/" target="_blank" rel="noopener noreferrer">
-    <img src="https://www.dicebear.com/sponsors/bunny-dark.svg#gh-light-mode-only" alt="bunny.net" height="64" />
-    <img src="https://www.dicebear.com/sponsors/bunny-light.svg#gh-dark-mode-only" alt="bunny.net" height="64" />
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://www.dicebear.com/sponsors/bunny-light.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://www.dicebear.com/sponsors/bunny-dark.svg">
+        <img alt="bunny.net" src="https://www.dicebear.com/sponsors/bunny-dark.svg" height="64">
+    </picture>
 </a>
