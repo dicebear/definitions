@@ -24,6 +24,7 @@
   "files": [
     "LICENSE",
     "src",
+    "types",
     "README.md"
   ],
   "publishConfig": {
