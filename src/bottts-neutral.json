@@ -36,7 +36,7 @@
       "name": "eyes",
       "width": 104,
       "height": 48,
-      "values": [
+      "variants": [
         {
           "name": "bulging",
           "content": "<circle cx=\"28\" cy=\"24\" r=\"18\" fill=\"black\" fill-opacity=\"0.2\"/><circle cx=\"74\" cy=\"24\" r=\"18\" fill=\"black\" fill-opacity=\"0.2\"/><circle cx=\"28\" cy=\"24\" r=\"15\" fill=\"#F1EEDA\"/><circle cx=\"74\" cy=\"24\" r=\"15\" fill=\"#F1EEDA\"/><rect x=\"26\" y=\"15\" width=\"10\" height=\"10\" rx=\"2\" fill=\"black\" fill-opacity=\"0.8\"/><rect x=\"74\" y=\"15\" width=\"10\" height=\"10\" rx=\"2\" fill=\"black\" fill-opacity=\"0.8\"/>",
@@ -113,7 +113,7 @@
       "name": "mouth",
       "width": 76,
       "height": 32,
-      "values": [
+      "variants": [
         {
           "name": "bite",
           "content": "<rect x=\"4\" y=\"5\" width=\"68\" height=\"22\" rx=\"5\" fill=\"black\" fill-opacity=\"0.2\"/><rect x=\"8\" y=\"9\" width=\"60\" height=\"14\" rx=\"2\" fill=\"black\" fill-opacity=\"0.6\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"m20 17 6-8H14zm12 0 6-8H26zm12 0 6-8H38zm12 0 6-8H50z\" fill=\"#E1E6E8\"/>",

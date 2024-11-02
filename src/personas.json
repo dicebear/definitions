@@ -36,7 +36,7 @@
       "name": "body",
       "width": 42,
       "height": 20,
-      "values": [
+      "variants": [
         {
           "name": "squared",
           "content": "<path d=\"M16 5v3a5 5 0 0 0 10 0V5l6.65 2.05a9 9 0 0 1 6.35 8.6V20H3v-4.35a9 9 0 0 1 6.35-8.6z\" fill=\"url(#color-clothing)\"/>",
@@ -63,7 +63,7 @@
       "name": "eyes",
       "width": 24,
       "height": 10,
-      "values": [
+      "variants": [
         {
           "name": "open",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M4 4.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0m13 0a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0\" fill=\"#1B0640\"/>",
@@ -101,7 +101,7 @@
       "width": 36,
       "height": 29,
       "probability": 10,
-      "values": [
+      "variants": [
         {
           "name": "beardMustache",
           "content": "<path d=\"m12.47 9.46 2.43-.83A2.5 2.5 0 0 1 18 10a2.5 2.5 0 0 1 3.1-1.37l2.43.83A18.7 18.7 0 0 0 32 2.7V9A14 14 0 1 1 4 9V2.7c2.05 2.94 5 5.43 8.47 6.76\" fill=\"url(#color-hair)\"/><mask id=\"facialHairBeardMustache-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"4\" y=\"2\" width=\"28\" height=\"21\"><path d=\"m12.47 9.46 2.43-.83A2.5 2.5 0 0 1 18 10a2.5 2.5 0 0 1 3.1-1.37l2.43.83A18.7 18.7 0 0 0 32 2.7V9A14 14 0 1 1 4 9V2.7c2.05 2.94 5 5.43 8.47 6.76\" fill=\"white\"/></mask><g mask=\"url(#facialHairBeardMustache-a)\"><path d=\"M32 9V2.7c-2.05 2.94-5 5.43-8.47 6.76l2.8.96a1 1 0 0 1-.07 1.91l-5.08 1.3A2.7 2.7 0 0 1 18 12.05a2.7 2.7 0 0 1-3.18 1.58l-5.08-1.3a1 1 0 0 1-.08-1.91l2.81-.96A18.7 18.7 0 0 1 4 2.7V9a14 14 0 1 0 28 0\" fill=\"white\" style=\"mix-blend-mode:overlay\" opacity=\"0.26\"/><path d=\"M22 13.42v.08a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3.08l.82.21A2.7 2.7 0 0 0 18 12.05a2.7 2.7 0 0 0 3.18 1.58z\" fill=\"#FFFEFD\"/></g>",
@@ -138,7 +138,7 @@
       "name": "hair",
       "width": 60,
       "height": 60,
-      "values": [
+      "variants": [
         {
           "name": "long",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M44 26q-2.7-3-3.97-7.47-2.8 3.42-8.03 3.97-8.75.91-14.95-2.82A14 14 0 0 0 16 25v1.03q-1.11.13-2 .73V25.5C14 16.39 21.16 9 30 9s16 7.39 16 16.5v1.26a4.5 4.5 0 0 0-2-.73zm2 8.24v6.6c0 7.32-4.61 13.52-11 15.68V44.08A14 14 0 0 0 43.42 35h.08c.93 0 1.78-.28 2.5-.76m-32 6.6c0 7.37 4.68 13.6 11.13 15.73L25 49.55v-5.47A14 14 0 0 1 16.58 35h-.08c-.93 0-1.78-.28-2.5-.76z\" fill=\"url(#color-hair)\"/><path d=\"M40.03 18.53A18.5 18.5 0 0 0 44 26v.03q1.11.13 2 .73V25.5C46 16.39 38.84 9 30 9s-16 7.39-16 16.5v1.26q.89-.6 2-.73V25q.02-2.84 1.05-5.32 6.2 3.74 14.95 2.82 5.22-.56 8.03-3.97\" fill=\"white\" style=\"mix-blend-mode:overlay\" opacity=\"0.258254\"/>",
@@ -245,7 +245,7 @@
       "name": "mouth",
       "width": 18,
       "height": 10,
-      "values": [
+      "variants": [
         {
           "name": "smile",
           "content": "<path d=\"M5 5.87a1 1 0 1 1 1-1.74A6 6 0 0 0 9 5a6 6 0 0 0 3-.87 1 1 0 1 1 1 1.74A8 8 0 0 1 9 7a8 8 0 0 1-4-1.13\" fill=\"#1B0640\"/>",
@@ -287,7 +287,7 @@
       "name": "nose",
       "width": 16,
       "height": 12,
-      "values": [
+      "variants": [
         {
           "name": "mediumRound",
           "content": "<path d=\"M4.25 5a.75.75 0 0 1 1.5 0c0 .84.91 1.75 2.25 1.75s2.25-.91 2.25-1.75a.75.75 0 0 1 1.5 0c0 1.66-1.59 3.25-3.75 3.25S4.25 6.66 4.25 5\" fill=\"black\" style=\"mix-blend-mode:overlay\" opacity=\"0.36\"/>",

@@ -36,7 +36,7 @@
       "name": "eyes",
       "width": 16,
       "height": 16,
-      "values": [
+      "variants": [
         {
           "name": "variant12",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5 6h1v2H4V7h1zm5 0h1v2H9V7h1z\" fill=\"white\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 6v1H5v1h2V6zm5 0v1h-1v1h2V6z\" fill=\"url(#color-eyes)\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 6v1h1V6zM5 7v1h1V7zm6-1v1h1V6zm-1 1v1h1V7z\" fill=\"white\" fill-opacity=\"0.5\"/>",
@@ -104,7 +104,7 @@
       "width": 16,
       "height": 16,
       "probability": 10,
-      "values": [
+      "variants": [
         {
           "name": "light07",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 4H9v1H7V4H4v1H2v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5h-2zm0 1v3H9V5zM7 8H4V5h3z\" fill=\"url(#color-glasses)\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
@@ -181,7 +181,7 @@
       "name": "mouth",
       "width": 16,
       "height": 16,
-      "values": [
+      "variants": [
         {
           "name": "sad10",
           "content": "<path d=\"M7 9v1h1v1h1V9z\" fill=\"url(#color-mouth)\"/>",

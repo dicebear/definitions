@@ -36,7 +36,7 @@
       "name": "eyes",
       "width": 88,
       "height": 30,
-      "values": [
+      "variants": [
         {
           "name": "sad",
           "content": "<path d=\"M74.38 30a13 13 0 0 0 13-13v-.66C87.38 5.9 75.83-.87 68.45.1c-6.54.84-7.07 5.02-7.07 11.24V17a13 13 0 0 0 13 13\" fill=\"black\"/><path d=\"M70.2 9.67a2.29 2.29 0 1 0 0-4.58 2.29 2.29 0 0 0 0 4.58\" fill=\"white\"/><path opacity=\"0.1\" d=\"M74.44 18.48a5.32 5.32 0 1 0 0-10.64 5.32 5.32 0 0 0 0 10.64\" fill=\"white\"/><path d=\"M13.37 30a13 13 0 0 1-13-13v-.66C.38 5.9 11.93-.87 19.32.1c6.56.84 7.07 5.02 7.07 11.24V17a13 13 0 0 1-13 13\" fill=\"black\"/><path d=\"M9.22 9.67a2.29 2.29 0 1 0 0-4.58 2.29 2.29 0 0 0 0 4.58\" fill=\"white\"/><path opacity=\"0.1\" d=\"M13.46 18.48a5.32 5.32 0 1 0 0-10.64 5.32 5.32 0 0 0 0 10.64\" fill=\"white\"/>",
@@ -118,7 +118,7 @@
       "name": "mouth",
       "width": 80,
       "height": 50,
-      "values": [
+      "variants": [
         {
           "name": "plain",
           "content": "<path d=\"M25 24c4.5 3.87 25.04 4.13 30 0z\" fill=\"black\" style=\"mix-blend-mode:soft-light\" opacity=\"0.4\"/><path d=\"M64.43 18.86h-48.5a1.47 1.47 0 1 1 0-2.79h48.5a1.47 1.47 0 1 1 0 2.8\" fill=\"black\"/>",

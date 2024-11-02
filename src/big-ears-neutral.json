@@ -37,7 +37,7 @@
       "width": 257,
       "height": 77,
       "probability": 50,
-      "values": [
+      "variants": [
         {
           "name": "variant06",
           "content": "<rect x=\"20\" y=\"16\" width=\"43.4013\" height=\"43.4013\" rx=\"21.7007\" fill=\"#F88888\"/><rect x=\"193\" y=\"16\" width=\"43.4013\" height=\"43.4013\" rx=\"21.7007\" fill=\"#F88888\"/>",
@@ -74,7 +74,7 @@
       "name": "eyes",
       "width": 290,
       "height": 166,
-      "values": [
+      "variants": [
         {
           "name": "variant32",
           "content": "<path d=\"M67 60.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"8.27506\" stroke-linecap=\"round\"/><path d=\"M67 97.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"4.13753\" stroke-linecap=\"round\"/><path d=\"M176 60.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"8.27506\" stroke-linecap=\"round\"/><path d=\"M176 97.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"4.13753\" stroke-linecap=\"round\"/>",
@@ -241,7 +241,7 @@
       "name": "mouth",
       "width": 56,
       "height": 56,
-      "values": [
+      "variants": [
         {
           "name": "variant0708",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M-1.7 8c1.5 0 2.9 1 3 2.4.8 5.3 8.5 19 37.5 20.4a2.7 2.7 0 1 1-.2 5.5C7.9 34.8-3 19.9-4 11.2c-.2-1.5.8-3 2.3-3.1\" fill=\"black\"/>",
@@ -438,7 +438,7 @@
       "name": "nose",
       "width": 78,
       "height": 78,
-      "values": [
+      "variants": [
         {
           "name": "variant12",
           "content": "<path d=\"M22.6 34.4a17 17 0 1 0 32.6 0 16.9 16.9 0 0 1-32.6 0\" fill=\"black\" fill-opacity=\"0.2\"/>",

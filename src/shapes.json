@@ -50,7 +50,7 @@
           75
         ]
       },
-      "values": [
+      "variants": [
         {
           "name": "rectangle",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M90 10H10v80h80zM0 0v100h100V0z\" fill=\"url(#color-shape1)\"/>",
@@ -106,7 +106,7 @@
           50
         ]
       },
-      "values": [
+      "variants": [
         {
           "name": "rectangle",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M90 10H10v80h80zM0 0v100h100V0z\" fill=\"url(#color-shape2)\"/>",
@@ -162,7 +162,7 @@
           25
         ]
       },
-      "values": [
+      "variants": [
         {
           "name": "rectangle",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M90 10H10v80h80zM0 0v100h100V0z\" fill=\"url(#color-shape3)\"/>",

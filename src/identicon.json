@@ -36,7 +36,7 @@
       "name": "row1",
       "width": 5,
       "height": 5,
-      "values": [
+      "variants": [
         {
           "name": "xooox",
           "content": "<path d=\"M1 0H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
@@ -78,7 +78,7 @@
       "name": "row2",
       "width": 5,
       "height": 5,
-      "values": [
+      "variants": [
         {
           "name": "xooox",
           "content": "<path d=\"M1 1H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
@@ -120,7 +120,7 @@
       "name": "row3",
       "width": 5,
       "height": 5,
-      "values": [
+      "variants": [
         {
           "name": "xooox",
           "content": "<path d=\"M1 2H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
@@ -162,7 +162,7 @@
       "name": "row4",
       "width": 5,
       "height": 5,
-      "values": [
+      "variants": [
         {
           "name": "xooox",
           "content": "<path d=\"M1 3H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",
@@ -204,7 +204,7 @@
       "name": "row5",
       "width": 5,
       "height": 5,
-      "values": [
+      "variants": [
         {
           "name": "xooox",
           "content": "<path d=\"M1 4H0v1h1zm4 0H4v1h1z\" fill=\"url(#color-row)\"/>",

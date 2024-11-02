@@ -37,7 +37,7 @@
       "width": 257,
       "height": 77,
       "probability": 50,
-      "values": [
+      "variants": [
         {
           "name": "variant06",
           "content": "<rect x=\"20\" y=\"16\" width=\"43.4013\" height=\"43.4013\" rx=\"21.7007\" fill=\"#F88888\"/><rect x=\"193\" y=\"16\" width=\"43.4013\" height=\"43.4013\" rx=\"21.7007\" fill=\"#F88888\"/>",
@@ -74,7 +74,7 @@
       "name": "ear",
       "width": 130,
       "height": 130,
-      "values": [
+      "variants": [
         {
           "name": "variant08",
           "content": "<path d=\"M70.9 16A40.4 40.4 0 0 0 31 47.3V109c24.3-3.3 67.7-24.5 74-45 6.2-20.6-1-48-34.1-48\" fill=\"url(#color-skin)\"/><path d=\"M69.3 27.7c-19 0-27 15-28.6 22.5v44.1c17.5-2.3 48.5-17.5 53-32.2S93 27.7 69.3 27.7\" fill=\"black\" fill-opacity=\"0.2\"/><path d=\"M52.4 62.7c0-11.3-7.8-15-11.7-15.4v33.3a18.5 18.5 0 0 0 11.7-18\" fill=\"url(#color-skin)\"/>",
@@ -121,7 +121,7 @@
       "name": "eyes",
       "width": 290,
       "height": 166,
-      "values": [
+      "variants": [
         {
           "name": "variant32",
           "content": "<path d=\"M67 60.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"8.27506\" stroke-linecap=\"round\"/><path d=\"M67 97.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"4.13753\" stroke-linecap=\"round\"/><path d=\"M176 60.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"8.27506\" stroke-linecap=\"round\"/><path d=\"M176 97.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1\" stroke=\"black\" stroke-width=\"4.13753\" stroke-linecap=\"round\"/>",
@@ -288,7 +288,7 @@
       "name": "face",
       "width": 380,
       "height": 400,
-      "values": [
+      "variants": [
         {
           "name": "variant10",
           "content": "<ellipse cx=\"190\" cy=\"198.5\" rx=\"132\" ry=\"152.5\" fill=\"url(#color-skin)\"/><path d=\"M322 192.4c-2.6 81.6-60.7 146.8-132 146.8S60.8 274 58 192.4v5.9c0 84.2 59.1 152.6 132 152.6s132.1-68.4 132.1-152.6z\" fill=\"black\" fill-opacity=\"0.2\"/>",
@@ -345,7 +345,7 @@
       "name": "frontHair",
       "width": 425,
       "height": 205,
-      "values": [
+      "variants": [
         {
           "name": "variant12",
           "content": "<path d=\"M374 130c6.5 15.9 11.5 34.5 11.5 70-11 0-73.7 6-114.5-10s-46.9-28.5-60-48c-13 27-37 38-73.5 48s-83.3 7.5-99.5 10c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 24a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5\" fill=\"url(#color-hair)\"/>",
@@ -412,7 +412,7 @@
       "name": "hair",
       "width": 564,
       "height": 640,
-      "values": [
+      "variants": [
         {
           "name": "long20",
           "content": "<path d=\"M456.7 308.9c-2.7-64.4-16.4-214.7-174-219.6-173.5 0-167.2 164.1-176.4 219.6-8.2 49-34.6 84.2 0 177.3 20.3 54.8 96.9 103.2 176.5 103.2 75.6 0 154.5-46 173.9-88.7 40-87.6 2.7-127.5 0-191.8\" fill=\"url(#color-hair)\"/>",
@@ -619,7 +619,7 @@
       "name": "mouth",
       "width": 56,
       "height": 56,
-      "values": [
+      "variants": [
         {
           "name": "variant0708",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M-1.7 8c1.5 0 2.9 1 3 2.4.8 5.3 8.5 19 37.5 20.4a2.7 2.7 0 1 1-.2 5.5C7.9 34.8-3 19.9-4 11.2c-.2-1.5.8-3 2.3-3.1\" fill=\"black\"/>",
@@ -816,7 +816,7 @@
       "name": "nose",
       "width": 78,
       "height": 78,
-      "values": [
+      "variants": [
         {
           "name": "variant12",
           "content": "<path d=\"M22.6 34.4a17 17 0 1 0 32.6 0 16.9 16.9 0 0 1-32.6 0\" fill=\"black\" fill-opacity=\"0.2\"/>",
@@ -883,7 +883,7 @@
       "name": "sideburn",
       "width": 63,
       "height": 114,
-      "values": [
+      "variants": [
         {
           "name": "variant07",
           "content": "<path d=\"M52 8H11v96h41z\" fill=\"url(#color-hair)\"/>",

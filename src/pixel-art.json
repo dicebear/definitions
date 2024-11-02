@@ -37,7 +37,7 @@
       "width": 16,
       "height": 16,
       "probability": 10,
-      "values": [
+      "variants": [
         {
           "name": "variant04",
           "content": "<rect x=\"2\" y=\"7\" width=\"1\" height=\"1\" fill=\"url(#color-accessories)\"/><rect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"url(#color-accessories)\"/>",
@@ -65,7 +65,7 @@
       "width": 16,
       "height": 16,
       "probability": 5,
-      "values": [
+      "variants": [
         {
           "name": "variant08",
           "content": "<mask id=\"beardVariant08-a\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"3\" y=\"6\" width=\"10\" height=\"6\"><path opacity=\"0.9\" d=\"M3 6h1v3h8V6h1v5h-1v1H4v-1H3z\" fill=\"url(#color-hair)\"/></mask><g mask=\"url(#beardVariant08-a)\"><rect width=\"16\" height=\"16\" fill=\"url(#color-hair)\"/><rect width=\"16\" height=\"16\" fill=\"white\" fill-opacity=\"0.3\"/></g>",
@@ -112,7 +112,7 @@
       "name": "clothing",
       "width": 16,
       "height": 16,
-      "values": [
+      "variants": [
         {
           "name": "variant23",
           "content": "<path d=\"M10 13h3v1h1v2H2v-2h1v-1h3v1h4z\" fill=\"url(#color-clothing)\"/><rect x=\"4\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"11\" y=\"13\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.2\"/>",
@@ -234,7 +234,7 @@
       "name": "eyes",
       "width": 16,
       "height": 16,
-      "values": [
+      "variants": [
         {
           "name": "variant12",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5 6h1v2H4V7h1zm5 0h1v2H9V7h1z\" fill=\"white\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 6v1H5v1h2V6zm5 0v1h-1v1h2V6z\" fill=\"url(#color-eyes)\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6 6v1h1V6zM5 7v1h1V7zm6-1v1h1V6zm-1 1v1h1V7z\" fill=\"white\" fill-opacity=\"0.5\"/>",
@@ -302,7 +302,7 @@
       "width": 16,
       "height": 16,
       "probability": 20,
-      "values": [
+      "variants": [
         {
           "name": "light07",
           "content": "<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 4H9v1H7V4H4v1H2v1h1v2h1v1h3V8h2v1h3V8h1V6h1V5h-2zm0 1v3H9V5zM7 8H4V5h3z\" fill=\"url(#color-glasses)\"/><rect x=\"9\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"4\" y=\"5\" width=\"3\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"2\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/><rect x=\"13\" y=\"5\" width=\"1\" height=\"1\" fill=\"white\" fill-opacity=\"0.2\"/>",
@@ -379,7 +379,7 @@
       "name": "hair",
       "width": 16,
       "height": 16,
-      "values": [
+      "variants": [
         {
           "name": "short24",
           "content": "<path d=\"M11 2H5v1h1v1h4V3h1zM3 3h1v2H3zm10 0h-1v2h1z\" fill=\"url(#color-hair)\"/>",
@@ -612,7 +612,7 @@
       "width": 16,
       "height": 16,
       "probability": 5,
-      "values": [
+      "variants": [
         {
           "name": "variant10",
           "content": "<path d=\"M12 0H4v2H2v3h12V2h-2z\" fill=\"url(#color-hat)\"/><rect x=\"10\" y=\"2\" width=\"1\" height=\"3\" fill=\"white\" fill-opacity=\"0.3\"/><rect x=\"8\" y=\"3\" width=\"1\" height=\"2\" fill=\"white\" fill-opacity=\"0.3\"/>",
@@ -669,7 +669,7 @@
       "name": "mouth",
       "width": 16,
       "height": 16,
-      "values": [
+      "variants": [
         {
           "name": "sad10",
           "content": "<path d=\"M7 9v1h1v1h1V9z\" fill=\"url(#color-mouth)\"/>",
