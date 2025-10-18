@@ -15,30 +15,12 @@
   },
   "sideEffects": false,
   "type": "module",
-  "types": "./types/index.d.ts",
-  "scripts": {
-    "build": "tsx ./scripts/build.ts",
-    "prettier": "prettier --write **/*.{ts,md}",
-    "test": "echo \"No test specified\""
-  },
   "files": [
     "LICENSE",
     "src",
-    "types",
     "README.md"
   ],
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "@tsconfig/recommended": "^1.0.6",
-    "@types/node": "^20.12.5",
-    "change-case": "^5.4.4",
-    "markdown-table": "^3.0.3",
-    "p-props": "^6.0.0",
-    "prettier": "^3.3.3",
-    "sort-keys": "^5.1.0",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.5"
   }
 }

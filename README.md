@@ -20,15 +20,6 @@ for Figma. The used Figma files are linked in the `figma` folder. Files created
 with this plugin are marked accordingly and should not be adjusted manually, but
 exported again with the Figma plugin.
 
-## Create new build
-
-Create a new build using the `scripts/build.ts` file.
-
-```
-npm install
-npm run build
-```
-
 ## License
 
 The avatar styles are licensed under different licenses. More information can be
