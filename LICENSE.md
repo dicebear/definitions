@@ -240,3 +240,11 @@ the following list or in the individual files.
 |  Artist | [Florian Körner](https://www.dicebear.com)                    |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Thumbs](https://www.dicebear.com)                            |
+
+## ToonHead
+
+|    File | [src/toon-head.json](./src/toon-head.json)                           |
+| ------: | :------------------------------------------------------------------- |
+|  Artist | [Johan Melin](https://www.johanmelin.com)                            |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)            |
+|  Source | [ToonHead](https://www.figma.com/community/file/1589627891082866389) |
