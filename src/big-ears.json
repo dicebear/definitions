@@ -20,155 +20,144 @@
     "content": [
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(20 2)scale(.71048)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-hair"
-            }
+            "type": "component",
+            "value": "hair"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(84 150.7)scale(.71856)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-face"
-            }
+            "type": "component",
+            "value": "face"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(200 333.4)scale(.71856)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-mouth"
-            }
+            "type": "component",
+            "value": "mouth"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(279.7 235.4)scale(.71856)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-ear"
-            }
+            "type": "component",
+            "value": "ear"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "matrix(-.71856 0 0 .71856 160.4 235.4)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-ear"
-            }
+            "type": "component",
+            "value": "ear"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(116 215.5)scale(.71856)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-eyes"
-            }
+            "type": "component",
+            "value": "eyes"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(128 288.7)scale(.71856)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-cheek"
-            }
+            "type": "component",
+            "value": "cheek"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(192 279.4)scale(.71856)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-nose"
-            }
+            "type": "component",
+            "value": "nose"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(124 244.8)scale(.52237)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-sideburn"
-            }
+            "type": "component",
+            "value": "sideburn"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "matrix(-.52237 0 0 .52237 316.8 244.8)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-sideburn"
-            }
+            "type": "component",
+            "value": "sideburn"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(109 145.6)scale(.52237)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-frontHair"
-            }
+            "type": "component",
+            "value": "frontHair"
           }
         ]
       }
@@ -192,6 +181,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "34",
                 "y": "38.467",
@@ -204,6 +194,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "58.1118",
                 "y": "24",
@@ -216,6 +207,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "77.4014",
                 "y": "38.467",
@@ -228,6 +220,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "167.419",
                 "y": "38.467",
@@ -240,6 +233,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "191.531",
                 "y": "24",
@@ -252,6 +246,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "210.821",
                 "y": "38.467",
@@ -269,6 +264,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "34",
                 "y": "38.467",
@@ -281,6 +277,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "58.1118",
                 "y": "24",
@@ -293,6 +290,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "77.4014",
                 "y": "38.467",
@@ -305,6 +303,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "167.419",
                 "y": "38.467",
@@ -317,6 +316,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "191.531",
                 "y": "24",
@@ -329,6 +329,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "210.821",
                 "y": "38.467",
@@ -346,6 +347,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "10",
                 "y": "16",
@@ -357,6 +359,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "190",
                 "y": "16",
@@ -373,6 +376,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "10",
                 "y": "16",
@@ -384,6 +388,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "190",
                 "y": "16",
@@ -400,6 +405,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "20",
                 "y": "16",
@@ -411,6 +417,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "193",
                 "y": "16",
@@ -427,6 +434,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "20",
                 "y": "16",
@@ -438,6 +446,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "193",
                 "y": "16",
@@ -461,17 +470,22 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "20",
                 "y": "22",
                 "width": "88.0048",
                 "height": "88.1153",
                 "rx": "44.0024",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "29.7783",
                 "y": "31.7908",
@@ -484,13 +498,17 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "23.9111",
                 "y": "49.4138",
                 "width": "37.1576",
                 "height": "37.2043",
                 "rx": "18.5788",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             }
           ]
@@ -500,17 +518,22 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "21",
                 "y": "21",
                 "width": "88.1153",
                 "height": "88.1153",
                 "rx": "44.0577",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M87 43 42.5 84.5",
                 "stroke": "black",
@@ -527,17 +550,22 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "22",
                 "y": "19",
                 "width": "88.1153",
                 "height": "88.1153",
                 "rx": "44.0577",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m79 38.5-39 29L83.5 87",
                 "stroke": "black",
@@ -554,17 +582,22 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "23",
                 "y": "20",
                 "width": "88.0047",
                 "height": "88.1153",
                 "rx": "44.0024",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M47.6 57.5c2.5-6 18-32 34.5-17.2 12.7 11.3-15 33.2-16.5 22.2S99 52 89 78.5C84.8 90 62 91 47.6 77",
                 "stroke": "black",
@@ -581,13 +614,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M24 43.3C24 31.5 33.5 22 45.3 22h37.2c11.8 0 21.4 9.5 21.4 21.3v37.3c0 11.8-9.6 21.4-21.4 21.4H45.3A21.3 21.3 0 0 1 24 80.6z",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M32.9 62A31 31 0 1 1 95 62a31 31 0 1 1-62.1 0",
                 "fill": "black",
@@ -601,17 +639,22 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "27",
                 "y": "21",
                 "width": "79.9664",
                 "height": "79.9664",
                 "rx": "21.3244",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "35.8848",
                 "y": "29.8855",
@@ -624,13 +667,17 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "28.7773",
                 "y": "44.1018",
                 "width": "17.7703",
                 "height": "35.5406",
                 "rx": "5.33109",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             }
           ]
@@ -640,17 +687,22 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "30",
                 "y": "23",
                 "width": "79.9664",
                 "height": "79.9664",
                 "rx": "21.3244",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "38.8853",
                 "y": "31.8855",
@@ -663,13 +715,17 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "30",
                 "y": "46.1018",
                 "width": "17.7703",
                 "height": "35.5406",
                 "rx": "8.88515",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             }
           ]
@@ -679,13 +735,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M70.9 16A40.4 40.4 0 0 0 31 47.3V109c24.3-3.3 67.7-24.5 74-45 6.2-20.6-1-48-34.1-48",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M69.3 27.7c-19 0-27 15-28.6 22.5v44.1c17.5-2.3 48.5-17.5 53-32.2S93 27.7 69.3 27.7",
                 "fill": "black",
@@ -694,9 +755,13 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M52.4 62.7c0-11.3-7.8-15-11.7-15.4v33.3a18.5 18.5 0 0 0 11.7-18",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             }
           ]
@@ -713,6 +778,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M116.8 98.3A24 24 0 1 1 76 75.5zm54.6 0A24 24 0 1 0 212 75.5z",
                 "fill": "white"
@@ -720,6 +786,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M74.5 52.5c7.5 5 40 26 49 31.5M213 53c-7.5 5-40 26-49 31.5",
                 "stroke": "black",
@@ -729,6 +796,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M106.7 92.7a12.9 12.9 0 1 1-20.6-11.5zm74.8 0A12.9 12.9 0 1 0 202 81.2z",
                 "fill": "black"
@@ -741,6 +809,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M74 65.2c4-3 10-9.2 21.7-9.2 10 0 18.4 6.8 19.9 9.2m58.4 0c4-3 10-9.2 21.7-9.2 10 0 18.4 6.8 19.9 9.2",
                 "stroke": "black",
@@ -750,6 +819,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M91.7 90a7 7 0 0 1 13.9 0v14a7 7 0 1 1-13.9 0zm100 0a7 7 0 1 1 13.9 0v14a7 7 0 1 1-13.9 0z",
                 "fill": "black"
@@ -757,6 +827,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M82.5 76.2c-.8 3.1.4 10.2 11.5 13.9m88.5-13.9c-.8 3.1.4 10.2 11.5 13.9",
                 "stroke": "black",
@@ -772,6 +843,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M171.2 63.2c4.3-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2M71 63.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2",
                 "stroke": "black",
@@ -781,6 +853,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M187.7 89.4a7 7 0 1 1 14 0v14a7 7 0 0 1-14 0zm-100.2 0a7 7 0 0 1 14 0v14a7 7 0 1 1-14 0z",
                 "fill": "black"
@@ -793,6 +866,7 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "203.177",
                 "cy": "92.5553",
@@ -802,6 +876,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "90.1774",
                 "cy": "92.5553",
@@ -811,6 +886,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M178 68.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2M65 68.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2",
                 "stroke": "black",
@@ -820,6 +896,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M187 81c.9 2.5 4 7.8 9.2 9.2M74 81c.9 2.5 4 7.8 9.2 9.2",
                 "stroke": "black",
@@ -835,6 +912,7 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "198.968",
                 "cy": "93.3118",
@@ -844,6 +922,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "90.9679",
                 "cy": "93.3118",
@@ -853,6 +932,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M175 68.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2M67 68.2c4.4-3 11-9.2 24.1-9.2a32 32 0 0 1 22.1 9.2",
                 "stroke": "black",
@@ -867,6 +947,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M184.1 52.7c3.7-3 9.4-8.7 20.4-8.7 9.4 0 17.3 6.4 18.7 8.7m-117.9 0C101.6 49.7 96 44 85 44c-9.3 0-17.2 6.4-18.7 8.7",
                 "stroke": "black",
@@ -876,6 +957,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "88.2285",
                 "cy": "92.044",
@@ -885,6 +967,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "201.772",
                 "cy": "92.044",
@@ -894,6 +977,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "88.2283",
                 "cy": "92.0437",
@@ -903,6 +987,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "201.771",
                 "cy": "92.0437",
@@ -912,6 +997,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M201.3 62.2a28 28 0 0 1 28 24.4h-56a28 28 0 0 1 28-24.4M88 62.2a28 28 0 0 1 28 24.4H60a28 28 0 0 1 28-24.4",
                 "fill": "#CD9166"
@@ -924,6 +1010,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M184.1 52.7c3.7-3 9.4-8.7 20.4-8.7 9.4 0 17.3 6.4 18.7 8.7m-117.9 0C101.6 49.7 96 44 85 44a26 26 0 0 0-18.7 8.7",
                 "stroke": "black",
@@ -933,6 +1020,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "88.2285",
                 "cy": "92.044",
@@ -942,6 +1030,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "201.772",
                 "cy": "92.044",
@@ -951,6 +1040,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "88.2288",
                 "cy": "92.0437",
@@ -960,6 +1050,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "201.771",
                 "cy": "92.0437",
@@ -969,6 +1060,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M201.3 62.2a28 28 0 0 1 28 24.4h-56a28 28 0 0 1 28-24.4M88 62.2a28 28 0 0 1 28 24.4H60a28 28 0 0 1 28-24.4",
                 "fill": "#CD9166"
@@ -981,6 +1073,7 @@
           "content": [
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "29",
                 "cy": "17.5",
@@ -992,6 +1085,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M95.7 80.8a18 18 0 0 0-1.9 33.7c12.7-1.8 22.2-8.8 22.2-17 0-7.8-8.5-14.5-20.3-16.7M56 43.4A61 61 0 0 1 89 34c18.2 0 35.1 7.8 33 9.4 0 18.2-3.5 0-32 0-30.8 0-34 18.2-34 0m110.9 0a61 61 0 0 1 33-9.4c18.1 0 35 7.8 32.9 9.4 0 18.2-3.4 0-32 0-30.7 0-34 18.2-34 0",
                 "fill": "black"
@@ -999,6 +1093,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "29",
                 "cy": "17.5",
@@ -1010,6 +1105,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M205.7 80.8a18 18 0 0 0-1.9 33.7c12.7-1.8 22.2-8.8 22.2-17 0-7.8-8.5-14.5-20.3-16.7",
                 "fill": "black"
@@ -1022,6 +1118,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M56 44.4A61 61 0 0 1 89 35c18.2 0 35.1 7.8 33 9.4 0 18.2-3.5 0-32 0-30.8 0-34 18.2-34 0m110.9 0a61 61 0 0 1 33-9.4c18.1 0 35 7.8 32.9 9.4 0 18.2-3.4 0-32 0-30.7 0-34 18.2-34 0",
                 "fill": "black"
@@ -1029,6 +1126,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "88",
                 "cy": "97.5",
@@ -1039,6 +1137,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M79.3 80.8a18 18 0 0 1 1.9 33.7c-12.7-1.8-22.2-8.8-22.2-17 0-7.8 8.5-14.5 20.3-16.7",
                 "fill": "black"
@@ -1046,6 +1145,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "198",
                 "cy": "97.5",
@@ -1056,6 +1156,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M189.3 80.8a18 18 0 0 1 1.9 33.7c-12.7-1.8-22.2-8.8-22.2-17 0-7.8 8.5-14.5 20.3-16.7",
                 "fill": "black"
@@ -1068,6 +1169,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M55.3 43.2A59 59 0 0 1 87.4 34c17.8 0 34.4 7.7 32.2 9.2 0 17.8-3.3 0-31.2 0-30 0-33.1 17.8-33.1 0m114 0a59 59 0 0 1 32.1-9.2c17.8 0 34.4 7.7 32.2 9.2 0 17.8-3.3 0-31.2 0-30 0-33.1 17.8-33.1 0",
                 "fill": "black"
@@ -1075,6 +1177,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m87.2 56.6 8.1 25h26.3l-21.2 15.5 8 25-21.2-15.4L66 122l8.2-25-21.3-15.4H79zm113.8 0 8.1 25h26.3l-21.3 15.5 8.2 25-21.3-15.4-21.3 15.4 8.1-25-21.2-15.4h26.3z",
                 "fill": "#FFEBB7"
@@ -1087,6 +1190,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M183.9 51.7c3.7-3 9.3-8.7 20.4-8.7 9.4 0 17.3 6.4 18.7 8.7m-118 0c-3.6-3-9.3-8.7-20.3-8.7-9.4 0-17.3 6.4-18.7 8.7",
                 "stroke": "black",
@@ -1096,6 +1200,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m72 74 35.5 15.5L72 110m147.5-36L184 89.5l35.5 20.5",
                 "stroke": "black",
@@ -1111,6 +1216,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M105 43c-3.6 2.9-9.3 8.7-20.3 8.7-9.4 0-17.3-6.4-18.7-8.7m117.9 0c3.7 2.9 9.3 8.7 20.4 8.7 9.4 0 17.3-6.4 18.7-8.7",
                 "stroke": "black",
@@ -1120,6 +1226,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m72 74 35.5 15.5L72 110m147.5-36L184 89.5l35.5 20.5",
                 "stroke": "black",
@@ -1135,6 +1242,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.7 45.3A60 60 0 0 1 91.4 36c18 0 34.8 7.8 32.6 9.3 0 18-3.3 0-31.6 0-30.5 0-33.7 18-33.7 0m107 0a60 60 0 0 1 32.7-9.3c18 0 34.8 7.8 32.6 9.3 0 18-3.3 0-31.6 0-30.5 0-33.7 18-33.7 0",
                 "fill": "black"
@@ -1142,6 +1250,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M87.3 69.1a4.1 4.1 0 0 1 7.8 0l3.3 10a4 4 0 0 0 4 3h10.5c4 0 5.7 5 2.4 7.4l-8.5 6.2c-1.5 1-2 3-1.5 4.6l3.2 10c1.3 3.9-3 7-6.3 4.7l-8.6-6.2c-1.4-1-3.4-1-4.8 0l-8.6 6.2a4.1 4.1 0 0 1-6.3-4.6l3.2-10q.8-2.9-1.5-4.7l-8.5-6.2a4.1 4.1 0 0 1 2.4-7.5h10.6c1.8 0 3.4-1.1 4-2.8zm107.5 0a4.1 4.1 0 0 1 8 0l3.2 10a4 4 0 0 0 4 3h10.5c4 0 5.7 5 2.4 7.4l-8.5 6.2c-1.5 1-2 3-1.5 4.6l3.2 10c1.3 3.9-3.1 7-6.3 4.7l-8.6-6.2c-1.4-1-3.4-1-4.9 0l-8.5 6.2a4.1 4.1 0 0 1-6.4-4.6l3.3-10q.8-2.9-1.5-4.7l-8.5-6.2A4.1 4.1 0 0 1 177 82h10.5q2.9-.1 4-2.8z",
                 "fill": "#FFEBB7"
@@ -1154,6 +1263,7 @@
           "content": [
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "93.3224",
                 "cy": "94.6523",
@@ -1164,6 +1274,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "192.109",
                 "cy": "94.6523",
@@ -1174,6 +1285,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "93.3225",
                 "cy": "94.6525",
@@ -1184,6 +1296,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "192.109",
                 "cy": "94.6525",
@@ -1194,6 +1307,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M64 44.4A54 54 0 0 1 93.4 36c16.3 0 31.4 7 29.4 8.4 0 16.2-3 0-28.5 0-27.4 0-30.3 16.2-30.3 0m102 0a54 54 0 0 1 29.4-8.4c16.3 0 31.4 7 29.4 8.4 0 16.2-3 0-28.5 0-27.4 0-30.3 16.2-30.3 0",
                 "fill": "black"
@@ -1206,6 +1320,7 @@
           "content": [
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "92.3093",
                 "cy": "93.8329",
@@ -1216,6 +1331,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "195.95",
                 "cy": "93.8329",
@@ -1226,6 +1342,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "96.4585",
                 "cy": "93.833",
@@ -1236,6 +1353,7 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "191.8",
                 "cy": "92.7956",
@@ -1246,6 +1364,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M63 48.3c2-1.4 13-8.3 29-8.3s31 6.9 29 8.3c0 16-3 0-28.1 0-27 0-29.9 16-29.9 0m104 0c2-1.4 13-8.3 29-8.3s31 6.9 29 8.3c0 16-3 0-28.1 0-27 0-29.9 16-29.9 0",
                 "fill": "black"
@@ -1258,6 +1377,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "75",
                 "y": "81.0865",
@@ -1268,6 +1388,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "75",
                 "y": "48",
@@ -1278,6 +1399,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "174.259",
                 "y": "81.0865",
@@ -1288,6 +1410,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "174.259",
                 "y": "48",
@@ -1303,6 +1426,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "75",
                 "y": "93.0872",
@@ -1313,6 +1437,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "75",
                 "y": "60",
@@ -1323,6 +1448,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "174.259",
                 "y": "93.0872",
@@ -1333,6 +1459,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "174.259",
                 "y": "60.0002",
@@ -1348,6 +1475,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M121.9 100.5s-24.3 11.7-35.7 11.7S55 100.5 55 100.5s22-11.7 33.5-11.7 33.4 11.7 33.4 11.7m114.4 0s-24.3 11.7-35.7 11.7-31.2-11.7-31.2-11.7 22-11.7 33.5-11.7 33.4 11.7 33.4 11.7",
                 "fill": "white"
@@ -1355,6 +1483,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "90.1309",
                 "cy": "100.473",
@@ -1364,6 +1493,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "201.185",
                 "cy": "100.473",
@@ -1373,6 +1503,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "50",
                 "y": "52",
@@ -1383,6 +1514,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "162.429",
                 "y": "52",
@@ -1398,6 +1530,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M74 52.4c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4m66.2 0c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4",
                 "stroke": "black",
@@ -1407,6 +1540,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "69",
                 "y": "61.4768",
@@ -1418,6 +1552,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "170.983",
                 "y": "61.4768",
@@ -1429,6 +1564,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "80.0254",
                 "y": "69.7461",
@@ -1440,6 +1576,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "179.253",
                 "y": "69.7461",
@@ -1456,6 +1593,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M74 52.4c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4m66.2 0c3.6-2.8 9-8.4 19.8-8.4a25 25 0 0 1 18 8.4",
                 "stroke": "black",
@@ -1465,6 +1603,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "69",
                 "y": "61.4768",
@@ -1476,6 +1615,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "170.983",
                 "y": "61.4768",
@@ -1487,6 +1627,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "80.0254",
                 "y": "69.7461",
@@ -1498,6 +1639,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "179.253",
                 "y": "69.7461",
@@ -1514,6 +1656,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M72 52.4c3.6-2.8 9-8.4 19.7-8.4 9 0 16.7 6.2 18 8.4m66.9 0c3.5-2.8 9-8.4 19.7-8.4 9 0 16.7 6.2 18 8.4",
                 "stroke": "black",
@@ -1523,6 +1666,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "69",
                 "y": "60.3606",
@@ -1534,6 +1678,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "170.582",
                 "y": "60.3606",
@@ -1545,6 +1690,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "78.4414",
                 "y": "68.7657",
@@ -1556,6 +1702,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "179.938",
                 "y": "68.7657",
@@ -1567,6 +1714,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "85.5225",
                 "y": "78.3754",
@@ -1578,6 +1726,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "187.018",
                 "y": "78.3754",
@@ -1594,6 +1743,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M78.2 51.4c3.1-2.5 8-7.4 17.3-7.4 8 0 14.6 5.4 15.8 7.4m67.9 0c3-2.5 7.9-7.4 17.2-7.4 8 0 14.7 5.4 15.9 7.4",
                 "stroke": "black",
@@ -1603,6 +1753,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "72",
                 "y": "64.7333",
@@ -1614,6 +1765,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "173",
                 "y": "64.7333",
@@ -1625,6 +1777,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M184 76.7a12 12 0 0 1 12.2-12l10 .1a12 12 0 0 1 11.8 12V106a12 12 0 0 1-12 12h-10a12 12 0 0 1-12-12zm-101 0a12 12 0 0 1 12.2-12l10 .1a12 12 0 0 1 11.8 12V106a12 12 0 0 1-12 12H95a12 12 0 0 1-12-12z",
                 "fill": "#757575"
@@ -1632,6 +1785,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "90.6191",
                 "y": "76.2377",
@@ -1643,6 +1797,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "191.619",
                 "y": "76.2377",
@@ -1659,6 +1814,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M52 66.6c6.9-2.2 17.4-6.6 38-6.6 17.6 0 32.3 4.9 35 6.6m40 0c6.9-2.2 17.4-6.6 38-6.6 17.6 0 32.3 4.9 35 6.6",
                 "stroke": "black",
@@ -1668,6 +1824,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M121.6 94.8s-24 11.6-35.4 11.6-30.9-11.6-30.9-11.6 21.8-11.6 33.2-11.6c11.3 0 33.1 11.6 33.1 11.6m113 0s-24 11.6-35.4 11.6-30.9-11.6-30.9-11.6 21.8-11.6 33.2-11.6c11.3 0 33.1 11.6 33.1 11.6",
                 "fill": "white"
@@ -1675,6 +1832,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "90.1204",
                 "cy": "94.8057",
@@ -1684,6 +1842,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "199.806",
                 "cy": "94.8057",
@@ -1698,6 +1857,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M179.4 52.7c3.7-2.9 9.4-8.7 20.6-8.7a26 26 0 0 1 18.8 8.7m-150.4 0C72 49.8 77.8 44 88.9 44a26 26 0 0 1 18.9 8.7",
                 "stroke": "black",
@@ -1707,6 +1867,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "89.4332",
                 "cy": "90.762",
@@ -1716,6 +1877,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "199.669",
                 "cy": "90.762",
@@ -1725,6 +1887,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "89.4332",
                 "cy": "90.7621",
@@ -1734,6 +1897,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "199.669",
                 "cy": "90.7621",
@@ -1748,6 +1912,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M116.8 97.8A24 24 0 1 1 76 75zm54.6 0A24 24 0 1 0 212 75z",
                 "fill": "white"
@@ -1755,6 +1920,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M75.5 52.5c7.5 5 40 26 49 31.5M214 53c-7.5 5-40 26-49 31.5",
                 "stroke": "black",
@@ -1764,6 +1930,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M76 53c7.5 5 40 26 49 31.5m89.5-31c-7.5 5-40 26-49 31.5",
                 "stroke": "black",
@@ -1778,6 +1945,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M179.4 52.7c3.7-2.9 9.4-8.7 20.6-8.7a26 26 0 0 1 18.8 8.7m-150.4 0C72 49.8 77.8 44 88.9 44a26 26 0 0 1 18.9 8.7",
                 "stroke": "black",
@@ -1787,6 +1955,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "89.4332",
                 "cy": "90.762",
@@ -1796,6 +1965,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "199.669",
                 "cy": "90.762",
@@ -1805,6 +1975,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "89.4332",
                 "cy": "90.7621",
@@ -1814,6 +1985,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "199.669",
                 "cy": "90.7621",
@@ -1828,6 +2000,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M93.4 79.9a7 7 0 0 1 13.9 0v13.8a7 7 0 1 1-13.9 0zm98 0a7 7 0 1 1 13.9 0v13.8a7 7 0 0 1-13.9 0z",
                 "fill": "black"
@@ -1835,6 +2008,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M84.2 66c-.8 3 .4 10.2 11.5 13.9M182.2 66c-.8 3 .4 10.2 11.5 13.9",
                 "stroke": "black",
@@ -1850,6 +2024,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M187 76a7 7 0 1 1 13.9 0v13.8a7 7 0 1 1-13.9 0zm-99 0a7 7 0 0 1 13.9 0v13.8a7 7 0 1 1-13.9 0z",
                 "fill": "black"
@@ -1862,6 +2037,7 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "197.177",
                 "cy": "81.5553",
@@ -1871,6 +2047,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "97.1774",
                 "cy": "81.5553",
@@ -1880,6 +2057,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M181 70c.9 2.5 4 7.8 9.2 9.2M81 70c.9 2.5 4 7.8 9.2 9.2",
                 "stroke": "black",
@@ -1895,6 +2073,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M206.1 81.6a11.6 11.6 0 1 1-23.1 0 11.6 11.6 0 0 1 23.1 0",
                 "fill": "#161616"
@@ -1902,6 +2081,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "93.5553",
                 "cy": "81.5553",
@@ -1916,6 +2096,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M223 49c-4.2 3.4-10.8 10.1-23.7 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
@@ -1925,6 +2106,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M223 89c-4.2 3.4-10.8 10.1-23.7 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
@@ -1934,6 +2116,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M111.6 49c-4.3 3.4-11 10.1-23.8 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
@@ -1943,6 +2126,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M111.6 89c-4.3 3.4-11 10.1-23.8 10.1a30 30 0 0 1-21.8-10",
                 "stroke": "black",
@@ -1957,6 +2141,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M67 60.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
@@ -1966,6 +2151,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M67 97.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
@@ -1975,6 +2161,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M176 60.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
@@ -1984,6 +2171,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M176 97.1c4.3-3.3 11-10 23.8-10.1a30 30 0 0 1 21.8 10.1",
                 "stroke": "black",
@@ -2005,13 +2193,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M310 289.5v.9c0 31-53.1 80.6-118.6 80.6S72.8 321.5 72.8 290.4V123H310z",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M72.8 269.9v.9c0 31.1 53 80.6 118.6 80.6S310 302 310 270.8v-1 20.6c0 31-53.1 80.6-118.6 80.6S72.8 321.5 72.8 290.4z",
                 "fill": "black",
@@ -2020,12 +2213,16 @@
             },
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "190.5",
                 "cy": "129",
                 "rx": "119.5",
                 "ry": "105",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             }
           ]
@@ -2035,13 +2232,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M293.1 88.7C258 38.7 171.6 25.4 120.3 58 69 91 57.5 145.2 65 204.8c3.1 24.1 7 43 9 63.5 6.6 63.2 93 94.7 118.6 94.7 40.4 0 108.3-44.3 116.8-94.7 7.7-46 7-42.4 7.5-63.5.6-21 11.3-66.1-23.9-116.1",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M309.3 268.6C301 319 233 363.5 192.6 363.5c-24 0-101.7-27.9-116.4-83.8 22.6 47.6 92.6 71.3 115.6 71.3 39 0 102.8-38.9 118-85.2z",
                 "fill": "black",
@@ -2055,13 +2257,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M309 268.7q.4 2.2.4 4.6c0 29.8-53.3 77.4-119 77.4S71.1 303 71.1 273.3V272H71V148h238z",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M71.2 253.6v.9c0 29.9 53.4 77.4 119.1 77.4 65.8 0 119.1-47.5 119.1-77.4v-.9 19.7c0 29.8-53.3 77.4-119 77.4S71.1 303 71.1 273.3v-19.7",
                 "fill": "black",
@@ -2070,9 +2277,13 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M309 152.5c0 55.9-54.2 101.8-120 101.8S70 209 70 153c0-55.7 53.3-101 119-101s120 44.6 120 100.5",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             }
           ]
@@ -2082,25 +2293,34 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "190.193",
                 "cy": "167.193",
                 "r": "121.193",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "69",
                 "y": "164.499",
                 "width": "242.385",
                 "height": "191.215",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M69 336h242v20H69z",
                 "fill": "black",
@@ -2114,13 +2334,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M69 111.3C69 95 82 82 98.3 82h185.4C300 82 313 95 313 111.3v241.4c0 16.2-13 29.3-29.3 29.3H98.3C82 382 69 369 69 352.7z",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M313 352.7c0 16.2-13 29.3-29.3 29.3H98.3C82 382 69 369 69 352.7v-22C69 347 82 360 98.3 360h185.4c16.2 0 29.3-13 29.3-29.2z",
                 "fill": "black",
@@ -2134,13 +2359,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M191 39c103.2 3 112.2 97.8 114 138.3.5 12.7 3.3 23.8 6 34.9 3.3 13 6.5 26 6 41a110 110 0 0 1-12 51.8c-12.8 27-64.4 56-114 56-52.2 0-102.3-30.5-115.6-65.1A142 142 0 0 1 64 239.5c-.6-16.8 3-29.7 6.5-42.3q2.8-9.6 4.8-20 1-6.2 2-15.3C82 119 91 39 191 39",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M64.5 233c1.2 11.6 4.4 25 10.7 41.3 13.3 34.5 63.5 65 115.6 65 49.6 0 101.2-29 114-56 7-14.6 10.3-27.2 11.5-38.4 2 16.7.4 35.4-11.3 60-12.8 27-64.4 56-114 56.1-52.2 0-102.3-30.5-115.6-65.1-10.6-27.3-12.5-46.8-11-62.8",
                 "fill": "black",
@@ -2154,13 +2384,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M325 213v-1.6C325 139.8 264.6 55 190 55S55 139.8 55 211.4v3.2c0 71.5 60.4 129.5 135 129.5s135-58 135-129.5z",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M324.6 204.8q.4 5 .4 9.8c0 71.5-60.4 129.5-135 129.5S55 286 55 214.6q0-4.8.4-9.8c5.1 67 63.4 119.8 134.6 119.8s129.5-52.8 134.6-119.8",
                 "fill": "black",
@@ -2174,15 +2409,20 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "189.5",
                 "cy": "199.5",
                 "r": "133.5",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m323.3 192.3.2 7a133.7 133.7 0 1 1-267.3-7 133.8 133.8 0 0 0 267.1 0",
                 "fill": "black",
@@ -2196,13 +2436,18 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M190.5 37C120.6 37 64 102.1 64 182.5v3C64 265.8 120.6 361 190.5 361S317 265.8 317 185.5v-3C317 102 260.4 37 190.5 37",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M190.5 361C120.6 361 64 265.8 64 185.5v-4C66 261 121.8 353 190.5 353S315.1 261 317 181.5v4c0 80.3-56.6 175.5-126.5 175.5",
                 "fill": "black",
@@ -2216,16 +2461,21 @@
           "content": [
             {
               "name": "ellipse",
+              "type": "element",
               "attributes": {
                 "cx": "190",
                 "cy": "198.5",
                 "rx": "132",
                 "ry": "152.5",
-                "fill": "url(#color-skin)"
+                "fill": {
+                  "type": "color",
+                  "value": "skin"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m322 192.4.1 5.9c0 84.2-59 152.6-132 152.6S58 282.5 58 198.3v-5.9c2.7 81.6 60.8 146.8 132 146.8S319.5 274 322 192.4",
                 "fill": "black",
@@ -2246,9 +2496,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M399 203.5a185.5 185.5 0 0 0-371 0z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2258,16 +2512,24 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 131c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C103 199.7 54.2 198.5 38 201c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 25a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M302 77c-11.6-28.6-41.2-46.3-87-39.6-30.2 3.7-48.3 24.3-67.4 39.6s-44.3 49.6-24.2 83.5c20.1 33.8 163.5 72.5 212.8 6.7 26.6-35.6-22.6-61.6-34.2-90.2",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2277,16 +2539,24 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M132 85.2c2.7-21 39-24.4 57.5-22.6s21.7 3 44 10.7c22.4 7.8 70.2 33 59.3 59.4-8.7 21.2-32.1 12.4-42.8 5.3 2.5 11 5 34.9-4.8 41.8-9.6 6.9-21.8-6-26.8-13.4-2.6 6-12.9 18.5-32.3 19.8s-15.4-24.8-11-38c-8.5-.1-26.8-3.5-32-16.7-5.4-13.2 11.3-21.2 20.3-23.5-10.7.7-33.4-6.7-31.3-22.8",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M375 131c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C104 199.7 55.2 198.5 39 201c0-23.1 2-46 10.9-67.4A176 176 0 0 1 212 25a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2296,16 +2566,24 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M276 196.5a64 64 0 0 0-18.6-45c-5.9-5.8-12.9-61-20.6-64.2a64 64 0 0 0-48.6 0c-7.7 3.2-14.7 58.4-20.6 64.3a64 64 0 0 0-18.6 44.9z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 132c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C103 200.7 54.2 199.5 38 202c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 26a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2315,9 +2593,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M384.9 132.5a186 186 0 0 1 14.1 71H151.5l-24-47-24 47H28a185.5 185.5 0 0 1 356.9-71",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2327,9 +2609,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M375 133c6.5 15.9 11.5 34.5 11.5 70-11 0-47.9-4.6-107.3-23-59.5-18.4-101.6-50-114.7-69.5.3 6 0 34-19.7 55A124 124 0 0 1 39 203c0-23.1 2-46 10.9-67.4A176 176 0 0 1 212 27a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2339,16 +2625,24 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m292.5 119.2-39-41.2h-95l-36 49.3L164 115l-5.5 73.7L192 165l16.5 36.9L231 165l33 21.6-10.5-67.5z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 130c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5c-35.5 22.2-83.8 22.5-100 25 0-23.1 1.5-47.5 10.4-68.9A176 176 0 0 1 211 24a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2358,16 +2652,24 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M143.3 136.7c-3.5-17 23.9-29.6 38.9-33.1 15-3.6 17.8-3.6 37.4-3.6s63.8 6.8 62.4 30.3c-1.2 18.8-21.9 18.3-32.1 15.7 4.9 8 13.2 25.9 7.5 33.8-5.7 8-18.8 1.2-24.6-3.2-.5 5.5-5.2 18-20 24.3C198 207 194 185.7 194 174c-6.6 2.3-21.9 4.6-29.6-4.2s3.3-19.6 9.7-24c-8.2 3.5-28 3.9-30.7-9.2",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 131c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C103 199.7 54.2 198.5 38 201c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 25a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2377,34 +2679,50 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 131c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C103 199.7 54.2 198.5 38 201c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 25a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "149.5",
                 "cy": "159.5",
                 "r": "38.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M251 159.5a38.5 38.5 0 1 1-77 0c0-21.3 17.2-64 38.5-64s38.5 42.7 38.5 64",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "274.5",
                 "cy": "159.5",
                 "r": "38.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2414,16 +2732,24 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 133c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C103 201.7 54.2 200.5 38 203c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 27a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M210 148c10.4-22.4 12-39.5 12-47.5-4.5-25-20.5-14-22-7.5s.5 17-1.5 43c-1.6 20.8-22.3 46-34 54a91 91 0 0 0 45.5-42",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2433,9 +2759,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 133c6.5 15.9 11.5 34.5 11.5 70-11 0-38.5 11-92.5-18-54.8-29.5-68.9-59.5-82-79q-19.4 40.4-72.5 73.5C103 201.7 54.2 200.5 38 203c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 27a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2445,9 +2775,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M374 130c6.5 15.9 11.5 34.5 11.5 70-11 0-73.7 6-114.5-10s-46.9-28.5-60-48c-13 27-37 38-73.5 48s-83.3 7.5-99.5 10c0-23.1 2-46 10.9-67.4A176 176 0 0 1 211 24a175 175 0 0 1 124 51.5 166 166 0 0 1 39 54.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2464,9 +2798,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M41.7 359.5c7.7 52.2 73.4 107.5 170.3 85.3 30.6-18.3 99.4-17 139-9.2 39.4 7.9 85.4 33 156.8-14s41-161-27-212.4C436.3 175.5 409.6 93 288.9 93 176.5 93 145 169 98.7 209.2a166 166 0 0 0-57 150.3",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2476,9 +2814,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M78 224C91.7 107.6 194.8 49.5 288.8 53c143.9 5.7 197.5 105 204 171 2 21.2 11.6 42.6 20.6 64q3.6 4.7 7.9 8.6c15.4 14.1 26.9 18.5 56.5 10-4.5 13.4-13.9 40.5-34.4 50.7 8.2 8.5 19.4 12.6 40.9 13.5-11.1 14.8-37.7 49.2-71 33.6 5.6 11.2 15.2 18.4 36.8 25-15.6 12.4-54.1 41.9-83.3 8.4q-3-3.6-5.6-7.3c1.9 14.3 9 24.2 30 37.2-17 7.5-57 24.5-78.4-5.5-.6 12.6 4.3 23.6 19.9 40-17.1 2.6-55.6 8.2-71.3-19 2.3 9.7 8.3 19.2 21.4 29.7-22.4 6.8-77 22.3-94.6-26.5L287 489c-23.3 46.7-75.8 24.4-97.3 15l6.7-4.5c-17.9 7.7-40.6 4.4-52.6 2.5 15.5-16.3 20.4-27.3 19.8-39.9-21.4 30-61.4 13-78.4 5.5 23.8-14.6 29.7-25.5 30.6-42.9l-4-.8a97 97 0 0 1-9.8 13.8c-29.2 33.5-67.7 4-83.3-8.4 21.6-6.6 31.2-13.8 36.8-25-33.3 15.6-59.9-18.8-71-33.6 21.7-1 32.8-5 41-13.7-20.2-10.3-29.5-37.2-34-50.5 29.7 8.5 41.2 4.1 56.6-10C62 283.7 68.5 263 72.6 250.8q3.7-13 5.4-26.8",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2488,11 +2830,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M77.5 224C91.1 107.6 193 49.5 285.7 53 428 58.7 481 158 487.2 224c2.5 25.7 15.8 51.6 25.8 77.5 12.8 11 30.8 30 32.1 40.8 1.4 11.4-10 32-14.5 43 7.7-8.2 20.3-19.4 28.3 2.9 10.2 28.3-11 26.1 9.1 37 6.1 3.2 18.2 7.6 15 17.3a62 62 0 0 1-25.7 22.5c-25.5 13.4-44.4 17.3-48.7-6.3-1.2-6.3 6.6-12.8-2.9-11.1-8 1.4-15.5-.4-21.5-4-3 11.4-11 10.7 2.3 21.5 5.4 4.4 16.6 11 11.5 20a61 61 0 0 1-29.2 17c-15.5 4.7-28.4 6.8-36.7 3.5-7.1 6-13.7 9.3-24.3 12.5-15.8 4.8-29 6.8-37.2 3.2l.3.6c3.7 6.4 12.2 17.3 4.8 23.5a55 55 0 0 1-32.4 3.4c-23.4-3.5-39.7-9.6-40.6-24.2l-4.9 1.5c-16.3 5-29.7 7-38 2.9-2 12.8-17.4 19.5-39 24.4a55 55 0 0 1-32.5-1c-7.7-5.6.2-17.2 3.5-23.9 10-19.4-1.7-9.3-8.7-27l-2.2.6q-13.2 4.1-23.5 5c1.8 7.3 3.2 16-3.5 18.2-12-.4-19.5-2.7-31.5-10-25.4-15.4-40-30.4-27-48.5 3.6-4.9 12.8-1.7 5.7-9.3a42 42 0 0 1-4-5 34 34 0 0 1-27.7 11.1c-9.6-1-1.5 4.9-2.4 11.3-3.2 23.7-22.4 21.4-48.7 10.2a59 59 0 0 1-26.8-20.2c-3.7-9.4 8.3-14.7 14.2-18.4C25.5 434 4.3 438 13.2 409c7-22.7 20.2-12.6 28.3-5.3-5-10.4-17.4-29.9-16.6-41.4.6-7.2 8.4-18.6 17.2-29C51.3 301.9 72.6 266 77.5 224m174.3 283q-.8 1-.5 1.8zm167.6-32q1.4 1.9 5 5c1.6-3 2.7-5-3.2-5z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2502,11 +2848,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M77.5 230.6C91.1 107.7 193 46.3 285.7 50 428 56 481 161 487.2 230.6c4.2 46.5 40.3 93.9 37.3 140.2l.2.8c0 60.6-26.5 102-59 123-26 16.9-49 21.5-57.4 25 15.5-12.2 21.5-17.5 29.5-36.9a72 72 0 0 0 4-30.7c-1.7 9.8-11 32.5-29.5 42.6a190 190 0 0 1-48 18 75 75 0 0 0 27-28c5.6-11.7 8.3-19.9 8-23.4-2.8 4.6-20.2 18.1-35 27.3a80 80 0 0 1-30.5 12.3c13-11.8 36.8-40 37-65.5C334.3 458 230 456.8 197.2 428q.8 3 .3 5.6c-4.7 27 22.3 59.4 36.5 72.2-4-.3-15.7-3.1-30.5-12.2-14.7-9.1-32-22.7-35-27.2a74 74 0 0 0 35 51.2 190 190 0 0 1-47.9-18c-18.5-10-27.8-32.6-29.4-42.4a71 71 0 0 0 4 30.7c8 19.2 14 24.5 29.4 36.8-8.3-3.6-31.4-8.2-57.4-25-31.2-20.2-67-69-64-121.4-2.9-41.2 33-88.5 39.4-147.7m107.3 180.9 3 2.8-.5-2.6z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2516,9 +2866,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M410.8 26A77 77 0 0 1 453 167.2c38.5 65.9 33.5 150.4 8.4 184.6-43.7 59.4-95.7 88-175.3 88-123.2 0-166.4-70-176-88-30-40.9-34.7-118.6.2-180.6a77 77 0 1 1 111-83.4 255 255 0 0 1 64.8-7.9q27 0 49.8 4.9A77 77 0 0 1 410.8 26",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2528,9 +2882,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M281.4 1a73.5 73.5 0 0 1 72.5 85c67.9 25.6 115.9 88.6 115.9 162.2 0 96.3-82.1 174.4-183.4 174.4h-10.1C175 422.7 93 344.7 93 248.3c0-73.6 48-136.6 115.8-162.2A73.5 73.5 0 0 1 281.3 1",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2540,9 +2898,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M287.3 73c101.2 0 183.3 94 183.3 210v177.4l.2 5.8a87.4 87.4 0 0 1-138.5 71 87 87 0 0 1-101 .8A87.4 87.4 0 0 1 94 466.2v-.5h-.1V283c0-116 82-210 183.3-210z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2552,9 +2914,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M286.4 73h-10.1C175 73 93 167 93 283v140.7l376.8 81.4V282.9c0-116-82.1-210-183.4-210",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2564,9 +2930,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M287.3 73H277C175.8 73 93.8 167 93.8 283v222.2h376.8V283c0-116-82.1-210-183.3-210",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2576,9 +2946,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M505.2 402.5c39.6-108.2-13.4-145.3-46.7-202-33.4-56.8-86.9-77.8-95.3-62.3-18.4-37.2-46.2-47.1-95.7-47.1-60.7 0-135.9 35-148.9 80.9-17.2 61-33 67.8-57.3 111.4-16.1 29-22.1 92 0 130.4 33.8 58.7 101.3 109 222.3 109 71.8 0 189.6-33 221.6-120.3",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2588,9 +2962,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M136.1 138.7c40.4-38 87.4-58.8 169-57.6 81.7 1.3 135.7 55.2 147.6 66 36.1 47.6 10.7 40.6 37.6 57 33.6 20.4 42.6 51 16.3 81.7s-5 15.3 28.6 45c31.2 27.5-4.7 52.9-18.3 76.8 17.2 16.7 26.8 35.6 26.8 55.6q0 8.3-2.2 16.4-.6 5-3.5 10c-24.5 55.5-124.8 97-244.7 97-125.7 0-229.7-45.7-247.6-105.2a68 68 0 0 1 18.8-86.2c36.5-27.6 15.5-38.9-5-64.4-20.4-25.6-11.1-52.6 25.5-77.1 36.5-24.6-1.8-11.8-10.5-49.7-7-30.2 21.2-27.3 61.6-65.3",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2600,9 +2978,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M76 230.2C89.3 111 191.1 51.4 284 55.2c142 5.6 194.9 107.4 201.2 175 4 41.7 35 84 37.4 125.7 5.6 31 5.2 65-6.9 97.8-28.2 77-178.9 133.3-250.3 106.4-44.5-16.7-62.1-59-43.1-97.3a216 216 0 0 1-46.9-17.6c-76-41.1-108.8-132.8-99.5-215",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2612,9 +2994,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M281.8 50c63-24.5 58.5 20.5 85 40.4 8.3-5 42-8 55 0 35.4 22 10 39.3 43.4 63 44.5 31.5 19.5 47 17 74s19.8 33 34 49c22.5 25.5 16.5 70 0 85.5s12.5 13 10 70c-2.5 56.9-42 41.4-61 55.4s-.5 33-43.5 48-32.5-8.5-92-9.5c-37-.6-39.4 35-91.9 21.5-27-7-28.9-44.7-63.4-21.5-48.5 32.4-104-8.1-100-45.1S41.3 458.4 35 431.8c-13.7-58.4 25.3-68.2 18.5-87.4-9-25.5-19.5-37.5-8-77.5 12.9-44.6 48-36 35-68-13-31.9 8.5-51.5 30-65.5s40-9.5 35-27.5 11.8-56 50.4-56c37.5 0 42 17.2 86 0",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2624,9 +3010,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M126.4 76.8c49.2-43 232.4-79.9 276 42.4 41.7 25.6 68.4 64.8 68.4 108.8v98.3c0 77-81.6 139.3-182.5 139.7-28.7 70.5-105.8 110.5-197.8 83.5C25 530.3 16 454.4 33 402.6c17.5-53.3 30-45 7.5-143-9.2-40 38-84.3 63-113.4-13-41.4 11-59 23-69.4",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2636,9 +3026,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M283 60c176.5 5.2 191.9 167.8 195 237.3a241 241 0 0 0 3.4 32.5 217 217 0 0 1 21.5 52.3c22.4 79-7.9 91.5 0 106.1 6.2 11.7 36.5 4.9 51 0-3 9.6-17.4 31-51 40s-76-17.4-93-31.9c-2.8 3-4.2 14.6 12.3 36.3 16.6 21.6 7 53 0 66 .8-7-6.6-24.2-42-36.8a85 85 0 0 1-54-54.3c-.8 2-4 7.1-5.3 31-1.8 33.8-50 45.1-73.9 46.6 8-8.7 22-32.2 14-56.8-8-24.7-16.8-31.6-20.1-32-9 6.9-26 28.2-22.4 58.5s-38.5 36-60 35.1c4.7-1.6 14-8.7 14-24.3 0-19.5-16.7-8.7-39.1-33-12.2-13.2-11.3-30.4-7.1-43.6-8.4 11-25 23-55 27.9C25 524.3 10.4 496 9 481.2c5.4 2.9 20.3 7 36.4 0 20.1-8.7 10.6-27 5.6-72a77 77 0 0 1 19.2-58.6C73 334.4 81 323 85.4 297.3 95.7 237.3 88.7 60 283 60",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2648,9 +3042,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M365.7 120.5c15.4-26.6 41.5-50 82.3-46.1 83 8 122.9 137.9 85.4 258.8s-1 194.4 19 205.4-172 98.5-203.7-102.2a576 576 0 0 1-62.3 2.8h-10.1c-21.5 0-42-.6-61.2-2.6-31.7 200.5-223.6 113-203.7 102S68 454 30.4 333.2C-7 212.2 33 82.4 116 74.4c40.5-4 66.5 19.3 82 45.7 23.7-13 50.3-20.2 78.4-20.2h10.1c28.4 0 55.3 7.4 79.3 20.6",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2660,9 +3058,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M130.4 74.4a79 79 0 0 1 71.5 30.5c22.7-11.6 47.9-18 74.4-18h10.1c101.3 0 183.4 94 183.4 210S387.7 426 286.4 426h-10.1a689 689 0 0 1-44.9-1.2L230 435C199 637.4 6 549.5 26 538.5S82.6 454 45 333.2c-37.4-121 2.6-250.8 85.5-258.8",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2672,9 +3074,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M287.3 73H277C175.8 73 93.8 167 93.8 283v147.7c0 116 82 210 183.3 210h10.2c101.2 0 183.3-94 183.3-210V283c0-116-82.1-210-183.3-210",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2684,9 +3090,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M76 282.5C89.5 142.1 191.3 72 284 76.3 426 83 479 202.8 485.3 282.5c5.5 68.2 63.3 138 23.9 204.8-64.5 109.4-382 92.5-441.8 21.6C7.8 438 66.7 379.3 76 282.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2696,9 +3106,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M456.7 308.5c-2.7-64.3-16.4-214.7-174-219.6C109.3 89 115.6 253 106.4 308.5c-8.2 49.1-34.6 84.2 0 177.3C126.6 540.6 203.2 589 282.8 589c75.6 0 154.5-46 173.9-88.7 40-87.6 2.7-127.5 0-191.8",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2708,9 +3122,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M319 93a85 85 0 0 1 67.8 4.4c-19.2-.5-45.9 4.4-51 23.3l-1.1 4c13.6-.1 28.3 3.2 46.3 18.8 58.5 0 89 40.5 77.2 80.7q6.3 5.9 11 12.4c12.3-.3 27.4 1.8 38 11.2a85 85 0 0 1 27.4 62.3c-8.3-17.3-25-38.7-44.2-34.7l-5 1.1a295 295 0 0 1 3.6 54c26.7 27.6 8.8 59.3-15.7 78.9l.3.7c8.7 17.6 35.9 17.4 54.6 13.2a85 85 0 0 1-65.8 17.1q-8.5-1.6-15.4-6.4c-10.1 21.8-18 57-87.5 53-56 27.8-90 9.5-104.5-16.5a122 122 0 0 1-53.1 5.8 48 48 0 0 1-23 18.5 85 85 0 0 1-67.6-6.8c19 1.2 45.5-2.6 51.7-20.9-17-7.1-29-18-29-31.6-39.3 0-106-45-55-94q3.5-3.5 3.9-9a50 50 0 0 1-28-10.8 85 85 0 0 1-27.3-62.3c8.3 17.3 25 38.7 44.2 34.7l1.7-.4c-6.3-21.1-10-43.6 12-57.2-5-35.6 29-66 53.4-66.7q-1-7.3-2.4-13.8c-4-19.2-30.3-25.8-49.5-26.5a85 85 0 0 1 68 0c7 3.2 12.6 8.6 17 14.6 19.3-21.8 51.8-38.3 116-19.6l2 .5c5.1-11.7 14.3-26.3 29-32",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2720,9 +3138,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M79 341.5c-51 49 19.3 74.7 49 109 21 29.9 84.5 36.5 127 20 52 13.1 48.5 44.3 104.5 16.5 90 5 76.7-55.4 98.7-67.5 30.8-17 62.8-56 30.8-89 0-41-1.5-79.4-30.8-106.3-13-59.4-24-77.1-82.5-77.1-39-33.8-66.5-3.7-90.5-25-69.6-61.7-118.9 35.4-135.2 65.3-22.5-15.5-61.3 18.2-55.3 61-43 26.6 2.9 75.2-15.7 93.1",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2732,9 +3154,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m281.5 51 40.3 49 57.5-26.7 15 61.6 63.5 1-13.2 62 56.7 28.4-38.7 50.2 38.7 50.2-56.7 28.4 13.2 62-63.4 1-15 61.6-57.6-26.7-40.3 49-40.3-49-57.5 26.7-15-61.6-63.5-1 13.2-62-56.7-28.4 38.7-50.2-38.7-50.2 56.7-28.4-13.2-62 63.4-1 15-61.6 57.6 26.7z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2744,9 +3170,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M238.9 34c9.5 5.1 40.1 26.3 43.6 57.5 2 18 0 33.5-4 43 4-5 14.9-15 17.5-44.5a136 136 0 0 0-4.3-43.1c13.3 4.5 33.5 19.2 44.8 50.6 7 19.5 6 41 2.2 55.5 8-4.3 18.4-24.5 20.1-36s-.5-20.6-6.5-39.3c12.7 6 25 14.8 36.5 39.3 9.1 19.3 4.3 48 3 59.8a35 35 0 0 0 13.5-23.8c3-17.2-2.7-27-4.7-29.6 29.8 27.4 75.7 94.7 57.1 169.4 26.8 23.4 27.8 69.5-22 159.7-66.7 121-241.9 87.4-289.1 15.2-29.8-36.8-45.8-57-57-130.5-4.5-29 .9-53.9 12.5-67q1-11 3.8-25.3a254 254 0 0 1 47.4-102.2v43c0 13.6 5-11.5 18.5-43a145 145 0 0 0 13-52.7c4.3 4.7 10 7.4 15.2 22 6 17 7.5 31.5 4 41 13-16 25-29.6 30.9-55.3 6.1-26.6 5.5-57 4-63.7",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2756,9 +3186,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M90 356.5c11.3 73.5 27.3 93.7 57 130.5 47.3 72.2 222.5 105.7 289.2-15.2C545 274.5 406.2 142 290.5 142c-96 0-109.6 36-126 68-57-12.5-83 91-74.5 146.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2768,9 +3202,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M222.9 73c-2 2.2-4.6 8.8.3 17 6 10 11.4-.8 30.6 5 10.4 3 15.3 12.2 17.2 20.4 1-8.3 5.8-19.8 20-31.6 21.7-18.2 38-8 43.4-.8-3.7.2-12.7 2.7-19 11.3-5.8 8-1.2 13.8 8.4 25.4 20-13.7 30.2-8.3 34.2-15 4-6.8-9-20.4-16-26.3 5.9-1.5 21.4-.7 36.7 13.8 15.2 14.6 14.8 44.8 12.6 58.2 2.5.4 9-2.4 15-17.8s25.2-20.2 34.1-20.7c-3.9 1.8-10.5 11-5.9 33.3a52 52 0 0 1-11 45c1.2-.2 4.8-.1 17.6-7 18-9.7 39 11.8 47.3 23.7-7-1.5-23.6-1.4-33.8 10.6l-4.3 5.4q1.4 9.4.9 16.6c8 1 19.7 0 30.5-8.3 14.5-11.4 30.7 8.6 37 20-2.3-2-9-4.5-17 .3-10 6.2.8 11.5-4.8 30.7-3 10.4-12.2 15.3-20.3 17.3 8.3 1 19.8 5.7 31.7 19.8 18.3 21.6 8.3 38 1 43.4-.2-3.2-2-10.2-8-16A57 57 0 0 1 494 361c-12 17.3-42 21.5-55.5 21.4-.1 2.5 3.7 8.4 19.8 12s23.9 22 25.7 30.6c-2.4-3.5-12.5-8.6-33.8-.7a50 50 0 0 1-34.7 1.1l-3 9.6 1.2 1.7C426 453 408 477 397.5 487a41 41 0 0 0-4.3-19 53 53 0 0 1-24.8 11.7 42 42 0 0 0 4 4.4c13.5 12.6-3.7 31.7-14 39.6 1.5-2.6 3-9.5-3-16.7-7.6-9-11.2 2.5-31 0-7-1-12-4.7-15.6-9.3q-3 2-6.2 3.6c-2 6.6-6 14.2-13.1 22.6-18.6 21.3-36.2 14-42.8 7.6 3.7-.8 12.1-4.7 17-14.2 4.2-8.5-.6-13.4-11.1-22.6A92 92 0 0 1 239 486c-8.4 3.3-13.6 3-15.7 7.5-3.5 7.3 10.7 19.6 18.2 25-5.7 1.9-21.3 2.5-37.8-10.7-11.6-9.3-16-27.1-17.3-41.5l-1 .2q-6.2 1.5-12.1 2l-.5 1.4c-4.6 15.9-23.4 22.3-32.3 23.6 3.6-2 9.2-11.3 3.6-31.7a48 48 0 0 1-23.7-36c-14.1-1.2-28.8-14.4-35.8-22.8 7 .8 23.6-.7 32.8-13.5l4-6.1a51 51 0 0 0-5.2-16.2 41 41 0 0 0-27 11c-13.5 12.6-31.4-6-38.6-16.7 2.5 1.7 9.3 3.7 17-1.9 9.4-7-1.9-11.3 2-31 2-10 10-15.7 17.5-18.5v-.5c-8.3-.6-19.6-4.6-32-17-20-19.9-11.5-37-4.7-43 .5 3.6 3.9 12.3 13 17.7 8 4.7 13 .8 22.1-8.2-7.5-14.9-4.3-23-10-26.4-6.9-4-20.5 8.9-26.5 15.9-1.4-6-.6-21.5 14-36.7 14.7-15.1 45-14.5 58.3-12.2.5-2.5-2.3-9-17.7-15-15.3-6.2-20-25.5-20.5-34.4 1.8 4 11 10.6 33.3 6.1a50 50 0 0 1 40.7 8.3l2.5-3.6q-1.4-3.8-5.1-11c-9.6-18.1 12-39 24-47.2-1.6 7-1.6 23.6 10.3 34l.9.7a62 62 0 0 1 21.5-5c-.4-7-2.6-15.1-8.5-22.8-11.3-14.6 8.8-30.7 20.2-36.9",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2780,9 +3218,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M482.4 267.7c-14.4-21.3 9.1-32.6 0-76.2s-47-23.2-65.4-43.6-18.8-38.6-47.8-47c-50.7-14.8-83 24.5-127.5 0s-95 12.8-103 47c-5.5 24-9.5 43.3-43.5 68.8-39.6 29.7-37.5 91.5-9.5 125.5s19.5 49 18.5 81 29.5 65 75 53.5 46.5 26.4 96.5 39.7c54 14.3 41-21.5 93.5-22.5s63.5-31 73-60.5 4-39 31-69 36-57.2 9.2-96.7",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2792,9 +3234,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M437 346v-8c0-35.3-11.7-76.1-31.5-112-28.4-51.6-73.4-93-124-93-53.2 0-100.2 45.8-128.2 101A239 239 0 0 0 126 338v8a155.5 155.5 0 0 0 311 0",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2804,9 +3250,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M286.6 154h-10.2C175.1 154 93 248 93 364v222.4h377V364c0-116-82.1-210-183.4-210",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2816,9 +3266,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M308.5 69c1.4 15.4 1.8 45.2-4.5 65.4q4.2-3.4 9.7-6.9c18.2-11.3 61.3-5.2 80.7-.7-7.3 3.3-16.3 7.7-25.8 12.8a784 784 0 0 0 93-27.9 382 382 0 0 1-55.9 69c20.7 6 47.5 33.3 59.1 47.4-13-3-31.8-6.5-50.6-8.6 22.6 15.2 62.8 29 85.6 35.4-12.3 5-35.2 12.3-54.9 14 13.7 16.7 19.4 55.3 20.6 73.8a474 474 0 0 0-24.3-25.8 425 425 0 0 0 40.6 58.8 224 224 0 0 1-50-18.3q-3 11.3-7.5 21.8c-4 20.3-16.6 44.7-24.2 57.2l-2-16a155 155 0 0 1-230.8 2.6l-2.5 12.5c-4-8-9.6-20.5-14-33.7a155 155 0 0 1-15-29.7 229 229 0 0 1-48.6 13.6c11-11.7 27.1-30.3 40-48.8l-.3-2.1c-23-6.2-49.7-10.1-66.9-11.8 11.3-7 32.6-18.3 51.6-23.5-16.4-14-28.9-51-33.3-69a449 449 0 0 0 53.5 36.9l1.8-6A402 402 0 0 0 88 194.8c13 2.9 36 9.8 53.2 19.5-1.9-21.5 15.3-56.6 24.7-72.5a521 521 0 0 0 8 47c6.6-26.4 6.8-67 5.6-90a222 222 0 0 1 30.8 47.6c11.4-18.3 46.2-36 63.3-43a474 474 0 0 0-16.7 31.4A391 391 0 0 0 308.5 69",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2828,9 +3282,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M340 138c115.7 0 134 86.5 95.2 260.3-30 134.8-242 95.4-289.2 23.2-29.7-36.8-40.9-102.7-45.5-133-8.5-55.3 44.6-126.4 82.5-99.3l1.2-1C201 157 245.2 138 340 138",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2840,9 +3298,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M283 108c8.5 0 38.5 39.2 55 53.4l34.7-42.5c39.7 69.8 107.1 223 59.5 277a138 138 0 0 1-38.3 29 155 155 0 0 1-207.6 15.5 90 90 0 0 1-47-44.5c-12.7-12.3-34.3-50.1-19-102.5 19-65.5 67.4-164 75.4-174.5 6.4-8.4 28.8 24.4 39.3 42.2l.7-.2c18-20.3 38.7-52.9 47.3-52.9",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2852,9 +3314,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M437 317.5v-8a155.5 155.5 0 0 0-311 0v8a155.5 155.5 0 0 0 311 0",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2864,9 +3330,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M299 197h-35a138 138 0 0 0 0 276h35a138 138 0 0 0 0-276",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2876,9 +3346,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M137 137c-35 8.5-14 205 3.3 255.6 41.2 51.3 261.2 38.3 281 5.7 13.3-21.7 46.4-257.1 3.2-264.5-87-14.9-252.6-5.4-287.6 3.1",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2888,9 +3362,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M137.5 150.4c-30.2 28.5-103.6 121.5 0 245.1 27.7 33 248.2 11.2 271 0C498.8 351 442 132.7 268.8 163c-80.6 14-93-48.6-131.3-12.5",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2900,9 +3378,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M369 148H195a89 89 0 0 0-89 89v147a89 89 0 0 0 89 89h174a89 89 0 0 0 89-89V237a89 89 0 0 0-89-89",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2912,9 +3394,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M47.6 296.4c-5.7 42.1 30.8 58.1 63.3 60-7.7 18.8 9.6 62 47.2 69.8 37.7 7.7 66.2-26.5 75.8-44.5 2.5 16.2 19.2 51 65.5 60.1 46.4 9.1 59.8-61.6 62.1-85.5 29 21 69 49.2 115.5 25.4 26.5-13.6 14-58.3 0-71 16.1-9.8 46.7-37.5 40-69.7-6.5-32.2-52.3-38.3-74.4-37.3 15.3-13 40-45.6 16.6-71.5-23.5-26-59.9-10.9-75.1 0 4.8-16.9 1.8-50.2-45.9-63.2-27.7-7.5-68 19.9-71.9 36.1-10.8-17-41.6-44.5-74.7-32.5-33 12-38.6 45.4-33.3 66.2-13.1-4-47.4-6.6-68.2 23.7-21 30.3 6.1 65.3 20.8 78.5-17.6 2-58.7 21.8-63.3 55.4",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2924,9 +3410,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m43 283 89.6 81h308.5l83.9-67.5-101.8-33.1 18-151.8-108.9 64L278.8 75l-64.3 94.5-116-52.7 34.1 134.8z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2936,9 +3426,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M259.3 156.2c76.7-3 104.7 35 110.6 55.5 47.1 0 81.2 35 87 81.8 4.8 37.4-7.2 56.5-23.7 77.4a53 53 0 0 1-30.7 18.8c-16.6 5-18 6.3-57 6.3h-67.6c-51.6 0-71.7-7-95.3-17.4-26.6-11.7-76.6-32.1-76.6-106 0-59.2 76.7-113.5 153.3-116.4",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -2955,6 +3449,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.4 28.2a31.2 31.2 0 1 1-62.5 0 31.2 31.2 0 0 1 62.5 0",
                 "fill": "#DE8383"
@@ -2962,6 +3457,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -2971,6 +3467,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -2985,6 +3482,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.4 27.6a31.2 31.2 0 1 1-62.5 0 31.2 31.2 0 0 1 62.5 0",
                 "fill": "#DE8383"
@@ -2992,6 +3490,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3001,6 +3500,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3015,6 +3515,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.1 28a31.2 31.2 0 1 1-62.4 0A31.2 31.2 0 0 1 59 28",
                 "fill": "#DE8383"
@@ -3022,6 +3523,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M55 12.4H.8c3.6-7 12.7-16.2 27.6-16.2C43.2-3.8 52 5.9 55 12.4",
                 "fill": "#F9F9F9"
@@ -3034,6 +3536,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.1 27.7a31.2 31.2 0 1 1-62.4 0 31.2 31.2 0 0 1 62.4 0",
                 "fill": "#F9F9F9"
@@ -3046,6 +3549,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.1 27.8a31.2 31.2 0 1 1-62.4 0 31.2 31.2 0 0 1 62.4 0",
                 "fill": "#DE8383"
@@ -3058,6 +3562,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M57.8 15.6a30.8 30.8 0 0 1-61.8 0c0-17 13.9-4 31-4 17 0 30.8-13 30.8 4",
                 "fill": "#DE8383"
@@ -3065,6 +3570,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3074,6 +3580,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3088,6 +3595,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.5 18.8a31.2 31.2 0 1 1-62.5 0c0-17.3 14-4.2 31.3-4.2 17.2 0 31.2-13 31.2 4.2",
                 "fill": "#DE8383"
@@ -3095,6 +3603,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3109,6 +3618,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.5 14.4a31.2 31.2 0 0 1-62.5 0c0-17.2 14-4.2 31.3-4.2 17.2 0 31.2-13 31.2 4.2",
                 "fill": "#DE8383"
@@ -3116,6 +3626,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3130,6 +3641,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.5 15.7a31.2 31.2 0 1 1-62.5 0c0-17.3 14-4.2 31.3-4.2 17.2 0 31.2-13 31.2 4.2",
                 "fill": "#F9F9F9"
@@ -3142,6 +3654,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.2 21.9a31.2 31.2 0 0 1-62.4 0c0-17.3 14-4.2 31.2-4.2s31.2-13 31.2 4.2",
                 "fill": "#DE8383"
@@ -3154,6 +3667,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.8 18.4c0 17-14.2 30.9-31.7 30.9A31.3 31.3 0 0 1-4.5 18.4c0-17 4.2-15 31.6-15 25.3 0 31.7-2 31.7 15",
                 "fill": "#DE8383"
@@ -3161,6 +3675,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3170,6 +3685,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3184,6 +3700,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.8 17.8c0 17-14.2 30.8-31.7 30.8A31.3 31.3 0 0 1-4.5 17.8c0-17 4.2-15 31.6-15 25.4 0 31.7-2 31.7 15",
                 "fill": "#DE8383"
@@ -3191,6 +3708,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3205,6 +3723,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M60.5 22.5c0 17-15 30.8-33.3 30.8-18.4 0-33.3-13.8-33.3-30.8s4.4-15 33.3-15c34.2 0 33.3-2 33.3 15",
                 "fill": "#DE8383"
@@ -3212,6 +3731,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3226,6 +3746,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M60.7 25.2c0 17-15 30.8-33.3 30.8C9 56-5.9 42.2-5.9 25.2s4.4-15 33.3-15c26.6 0 33.3-2 33.3 15",
                 "fill": "#F9F9F9"
@@ -3238,6 +3759,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.5 18A31.2 31.2 0 0 1-3 18C-3 .6 1.2 2.7 28.3 2.7c25 0 31.2-2 31.2 15.1",
                 "fill": "#DE8383"
@@ -3250,6 +3772,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.5 39.5c0 17.2-14 4.2-31.2 4.2C11 43.7-3 56.7-3 39.5a31.2 31.2 0 1 1 62.4 0",
                 "fill": "#DE8383"
@@ -3257,6 +3780,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3266,6 +3790,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3280,6 +3805,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.6 38.9c0 17.2-14 4.1-31.2 4.1S-3.8 56.1-3.8 39a31.2 31.2 0 0 1 62.4 0",
                 "fill": "#DE8383"
@@ -3287,6 +3813,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3301,6 +3828,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.6 34.3c0 17.3-14 4.2-31.2 4.2s-31.2 13-31.2-4.2a31.2 31.2 0 0 1 62.4 0",
                 "fill": "#DE8383"
@@ -3308,6 +3836,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3322,6 +3851,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.6 37c0 17.3-14 4.2-31.2 4.2S-3.8 54.3-3.8 37.1a31.2 31.2 0 0 1 62.4 0",
                 "fill": "#F9F9F9"
@@ -3334,6 +3864,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.5 31.7c0 17.2-14 4.1-31.2 4.1C11 35.8-3 49-3 31.7a31.2 31.2 0 1 1 62.4 0",
                 "fill": "#DE8383"
@@ -3346,6 +3877,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M82.2 34.8c0 17-24.4 4.1-54.6 4.1S-27 52-27 35-2.6 4 27.6 4s54.6 13.8 54.6 30.8",
                 "fill": "#DE8383"
@@ -3353,6 +3885,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3362,6 +3895,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3376,6 +3910,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M81 36.7c0 17-24.4 4-54.6 4-30.1 0-54.6 13-54.6-4S-3.7 5.9 26.4 5.9 81 19.7 81 36.7",
                 "fill": "#DE8383"
@@ -3383,6 +3918,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3397,6 +3933,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M82.5 34.3c0 17-24.4 4-54.6 4s-54.6 13-54.6-4S-2.3 3.5 27.9 3.5s54.6 13.8 54.6 30.8",
                 "fill": "#DE8383"
@@ -3404,6 +3941,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3418,6 +3956,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M84 37c0 17-24.5 4.1-54.6 4.1s-54.7 13-54.7-4 24.5-31 54.7-31C59.5 6.2 84 20 84 37",
                 "fill": "#F9F9F9"
@@ -3430,6 +3969,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M82.7 33c0 17.1-24.4 4.2-54.6 4.2s-54.6 13-54.6-4.1S-2.1 2.3 28 2.3s54.6 13.8 54.6 30.8",
                 "fill": "#DE8383"
@@ -3442,6 +3982,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M-24.2 24.8A17 17 0 0 1-7 7.8h66A17 17 0 0 1 59 42H-7a17 17 0 0 1-17.2-17.2",
                 "fill": "#DE8383"
@@ -3449,6 +3990,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3458,6 +4000,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3472,6 +4015,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M-24.2 27.2A17 17 0 0 1-7 10h66a17 17 0 1 1 0 34.2H-7a17 17 0 0 1-17.2-17.1",
                 "fill": "#DE8383"
@@ -3479,6 +4023,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3493,6 +4038,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M-24.2 22.5A17 17 0 0 1-7 5.4h66a17 17 0 0 1 0 34.2H-7a17 17 0 0 1-17.2-17.1",
                 "fill": "#DE8383"
@@ -3500,6 +4046,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3514,6 +4061,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M-22.7 25.2a17 17 0 0 1 17-17h66.2a17 17 0 1 1 0 34.2H-5.6a17 17 0 0 1-17.1-17.2",
                 "fill": "#F9F9F9"
@@ -3526,6 +4074,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M-24.2 21.4A17 17 0 0 1-7 4.4h66a17 17 0 1 1 0 34.2H-7a17 17 0 0 1-17.2-17.2",
                 "fill": "#DE8383"
@@ -3538,6 +4087,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M59.5 22.4c-2 1.5-14 9-31.2 9s-33.3-7.5-31.2-9c0-17.2 3.2 0 30.2 0 29.2 0 32.2-17.2 32.2 0",
                 "fill": "black"
@@ -3550,6 +4100,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3564,6 +4115,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3578,6 +4130,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M-3 23c2-1.4 13.9-8.8 31.1-8.8s33.3 7.4 31.3 8.9c0 17.2-2.1-3.6-29.2-3.6C1.1 19.5-3 40.3-3 23",
                 "fill": "black"
@@ -3590,6 +4143,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3604,6 +4158,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3618,6 +4173,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3632,6 +4188,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -3653,6 +4210,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M24.6 39.3a14.7 14.7 0 0 0 28.7.3l.2 1.9a14.7 14.7 0 1 1-29.1.4z",
                 "fill": "black",
@@ -3666,6 +4224,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M42.4 22c-.7 5.4-3 16.3-7.1 17-5 1-11-8-13.1-2s12 21.2 22.2 18.2",
                 "stroke": "black",
@@ -3682,6 +4241,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M33.4 22c-7.1 9.5-12 31.5-7.8 33.5 4.2 2.1 10.4 0 17 0",
                 "stroke": "black",
@@ -3698,6 +4258,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M37.8 22c-7.1 9.5-20.2 29-16 31 4.3 2 18.6 2.5 25.3 2.5",
                 "stroke": "black",
@@ -3714,6 +4275,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M39 28c-3.7.8-11 4-11 10.5 0 8.2 7.3 10.6 11 11.7",
                 "stroke": "black",
@@ -3730,6 +4292,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M37 14v27c-3.7.7-11 4-11 10.5 0 8.2 7.3 10.5 11 11.7",
                 "stroke": "black",
@@ -3746,6 +4309,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m60.8 34.5.2 2.4v3.3C61 49.5 53.4 57 44.1 57H34a17 17 0 0 1-17-17v-3l.2-2.4A17 17 0 0 0 33.9 49H44c8.5 0 15.6-6.2 16.7-14.4",
                 "fill": "black",
@@ -3759,6 +4323,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "25.8853",
                 "y": "51.4611",
@@ -3772,6 +4337,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "43.6558",
                 "y": "51.4611",
@@ -3785,6 +4351,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M44.5 22a17 17 0 0 1 16.7 19.4A17 17 0 0 0 44.5 27H34c-8.5 0-15.5 6.2-16.7 14.4l-.2-2.5A17 17 0 0 1 33.9 22z",
                 "fill": "black",
@@ -3798,6 +4365,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M61.8 46.2A11.3 11.3 0 0 1 50 61a11.3 11.3 0 0 1-21.8 0h-1a11.3 11.3 0 0 1-10.7-15 11 11 0 0 0 11.7 7.7 11.3 11.3 0 0 0 21.8 0h1c5 0 9.2-3.1 10.7-7.6",
                 "fill": "black",
@@ -3811,6 +4379,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M58.8 38.3a10 10 0 0 1-10.4 13.4 10 10 0 0 1-19.4 0h-1a10 10 0 0 1-9.5-13.4A10 10 0 0 0 29 45a10 10 0 0 0 19.4 0h.9a10 10 0 0 0 9.5-6.7",
                 "fill": "black",
@@ -3824,6 +4393,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M72 34.4a17 17 0 0 1-16.4 21.4H22A17 17 0 0 1 5.6 34.4 17 17 0 0 0 21.9 47h33.7c7.8 0 14.4-5.3 16.3-12.5",
                 "fill": "black",
@@ -3837,6 +4407,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M55.2 34.4a16.9 16.9 0 1 1-32.6 0 16.9 16.9 0 0 0 32.6 0",
                 "fill": "black",
@@ -3857,9 +4428,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M32.5 87.5C8.1 87.5 2.5 32.5 5 4h27.5c-6.2 16-3.2 29.8-1.5 47 2 20 21.3 5.1 25.4-2.7.5 15.6-12 39.2-23.9 39.2",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -3869,9 +4444,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M18 31.8C17.3 12.2 15 2.3 32 0c19.6 3.6 14 22.6 12 31.8-2.2 9.3 9.5 19 7.4 39.4s-25 30-36 12.8c-14-22 3.5-32.6 2.7-52.2",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -3881,9 +4460,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M43.1 45C43 31.8 41.5 1 25.6 0 8 0 8.6 33.7 7.8 45c-.9 10-3.5 17.3 0 36.4C9.8 92.6 17.5 94 25.6 94c7.6 0 15.6-.9 17.5-9.6 4-18 .3-26.2 0-39.4",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -3893,9 +4476,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M11 103V7.5h40z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -3905,9 +4492,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M10 94V8h32l-3.7 76.9z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -3917,9 +4508,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M26 0h-3A19 19 0 0 0 4 19v52a19 19 0 0 0 19 19h3a19 19 0 0 0 19-19V19A19 19 0 0 0 26 0",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]
@@ -3929,9 +4524,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M52 8H11v96h41z",
-                "fill": "url(#color-hair)"
+                "fill": {
+                  "type": "color",
+                  "value": "hair"
+                }
               }
             }
           ]

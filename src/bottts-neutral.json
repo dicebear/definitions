@@ -20,29 +20,27 @@
     "content": [
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(22 68)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-mouth"
-            }
+            "type": "component",
+            "value": "mouth"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "translate(8 20)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-eyes"
-            }
+            "type": "component",
+            "value": "eyes"
           }
         ]
       }
@@ -65,6 +63,7 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "28",
                 "cy": "24",
@@ -75,6 +74,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "74",
                 "cy": "24",
@@ -85,6 +85,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "28",
                 "cy": "24",
@@ -94,6 +95,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "74",
                 "cy": "24",
@@ -103,6 +105,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "26",
                 "y": "15",
@@ -115,6 +118,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "74",
                 "y": "15",
@@ -132,6 +136,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M30.5 15.3c.4-.4 1.1-.4 1.6 0l1.6 1.6c.4.4.4 1.1 0 1.6L28.2 24l5.5 5.5c.4.4.4 1.1 0 1.6l-1.6 1.6c-.4.4-1.1.4-1.6 0L25 27.2l-5.5 5.5c-.4.4-1.1.4-1.6 0l-1.6-1.6c-.4-.4-.4-1.1 0-1.6l5.5-5.5-5.5-5.5c-.4-.5-.4-1.2 0-1.6l1.6-1.6c.4-.4 1.1-.4 1.6 0l5.5 5.5zm54 0c.4-.4 1.1-.4 1.6 0l1.6 1.6c.4.4.4 1.1 0 1.6L82.2 24l5.5 5.5c.4.4.4 1.1 0 1.6l-1.6 1.6c-.4.4-1.1.4-1.6 0L79 27.2l-5.5 5.5c-.4.4-1.1.4-1.6 0l-1.6-1.6c-.4-.4-.4-1.1 0-1.6l5.5-5.5-5.5-5.5c-.4-.5-.4-1.2 0-1.6l1.6-1.6c.4-.4 1.1-.4 1.6 0l5.5 5.5z",
                 "fill": "black",
@@ -145,6 +150,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -155,6 +161,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -169,6 +176,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "y": "4",
                 "width": "104",
@@ -180,6 +188,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "28",
                 "y": "25",
@@ -191,6 +200,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "66",
                 "y": "25",
@@ -202,6 +212,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -217,6 +228,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "8",
                 "y": "10",
@@ -229,6 +241,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "28",
                 "y": "21",
@@ -240,6 +253,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "66",
                 "y": "21",
@@ -251,6 +265,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -266,6 +281,7 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "21",
                 "cy": "30",
@@ -276,6 +292,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "83",
                 "cy": "30",
@@ -286,6 +303,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "21",
                 "cy": "30",
@@ -296,6 +314,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "83",
                 "cy": "30",
@@ -306,6 +325,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "21",
                 "cy": "30",
@@ -316,6 +336,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "83",
                 "cy": "30",
@@ -326,6 +347,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "21",
                 "cy": "30",
@@ -336,6 +358,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "83",
                 "cy": "30",
@@ -351,6 +374,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m18 19 12-2M20 31c0-3.31 2.9-6 7-6 3.1 0 6 2.69 6 6m53-11-12-3m10 14c0-3.31-2.9-6-6-6-4.1 0-7 2.69-7 6",
                 "stroke": "black",
@@ -366,6 +390,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M29.27 9.68c-2.55.13-4.96 2.24-6.25 4.15-1.48-1.76-4.1-3.6-6.65-3.47-5.48.28-8.85 3.8-8.63 8.1.3 5.72 4.88 8.89 9.7 12.24 1.7 1.15 5 4.15 5.42 4.82s2.14.6 2.58-.13a38 38 0 0 1 4.9-5.36c4.43-3.84 8.66-7.47 8.36-13.2-.23-4.3-3.95-7.44-9.43-7.15m58.36.68c-2.55-.14-5.17 1.7-6.65 3.47-1.3-1.9-3.7-4.02-6.25-4.15-5.48-.29-9.2 2.86-9.43 7.16-.3 5.72 3.93 9.35 8.36 13.2 1.6 1.31 4.55 4.63 4.9 5.35.35.7 2.06.82 2.58.13a37 37 0 0 1 5.42-4.82c4.8-3.35 9.4-6.52 9.7-12.24.22-4.3-3.15-7.82-8.63-8.1",
                 "fill": "#FF5353",
@@ -379,6 +404,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "7",
                 "y": "16",
@@ -391,6 +417,7 @@
             },
             {
               "name": "mask",
+              "type": "element",
               "attributes": {
                 "id": "eyesRobocop-a",
                 "style": "mask-type:luminance",
@@ -403,6 +430,7 @@
               "children": [
                 {
                   "name": "rect",
+                  "type": "element",
                   "attributes": {
                     "x": "7",
                     "y": "16",
@@ -416,12 +444,14 @@
             },
             {
               "name": "g",
+              "type": "element",
               "attributes": {
                 "mask": "url(#eyesRobocop-a)"
               },
               "children": [
                 {
                   "name": "path",
+                  "type": "element",
                   "attributes": {
                     "fill-rule": "evenodd",
                     "clip-rule": "evenodd",
@@ -439,6 +469,7 @@
           "content": [
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "24",
                 "cy": "30",
@@ -448,6 +479,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "80",
                 "cy": "30",
@@ -462,6 +494,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "y": "12",
                 "width": "104",
@@ -473,6 +506,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "24",
                 "y": "22",
@@ -484,6 +518,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "70",
                 "y": "22",
@@ -500,6 +535,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "y": "11",
                 "width": "104",
@@ -511,6 +547,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "29",
                 "cy": "28",
@@ -520,6 +557,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "75",
                 "cy": "28",
@@ -529,6 +567,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "24",
                 "y": "23",
@@ -541,6 +580,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "70",
                 "y": "23",
@@ -558,6 +598,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M28 4a20 20 0 0 1 19.9 18h41.52a5 5 0 1 1 0 4H47.9A20 20 0 1 1 28 4",
                 "fill": "black",
@@ -566,6 +607,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "94",
                 "cy": "24",
@@ -575,6 +617,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "28",
                 "cy": "24",
@@ -585,6 +628,7 @@
             },
             {
               "name": "circle",
+              "type": "element",
               "attributes": {
                 "cx": "34",
                 "cy": "16",
@@ -599,6 +643,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M96 2H8c-4.5 0-8 3.5-8 8.03V28c0 4.5 3.5 8 8 8h13c8 0 11 8 18 8h27c7 0 9-8 17-8h13c4.5 0 8-3.5 8-8V10c0-4.5-3.5-8-8-8",
                 "fill": "black",
@@ -607,6 +652,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M87 14H17c-3.5 0-5 3-5 5v2c0 2 1.5 5 5 5h12c6 0 11.62 8 17 8h14c5.38 0 9-8 15-8h12c3.5 0 5-3 5-5v-2c0-2-1.5-5-5-5",
                 "fill": "#FF3D3D"
@@ -614,6 +660,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M31.4 40.78c-2.63-1.98-5.23-4.22-8.96-4.7L37.26 2h11zM15.48 36h-4L26.26 2h4z",
                 "fill": "white",
@@ -634,6 +681,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "4",
                 "y": "5",
@@ -646,6 +694,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "8",
                 "y": "9",
@@ -658,6 +707,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -672,6 +722,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "4",
                 "y": "4",
@@ -684,6 +735,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "8",
                 "y": "8",
@@ -696,6 +748,7 @@
             },
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M9 17h11l2-4 3 7 4-8 2 9 3-11 3 10 3-3h15l3-4 2 7 3-3h4",
                 "stroke": "#4EFAC9",
@@ -711,6 +764,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "12",
                 "y": "12",
@@ -723,6 +777,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "36",
                 "y": "12",
@@ -735,6 +790,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "24",
                 "y": "12",
@@ -747,6 +803,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "48",
                 "y": "12",
@@ -759,6 +816,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "60",
                 "y": "12",
@@ -776,6 +834,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "28",
                 "y": "10",
@@ -788,6 +847,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "14",
                 "y": "10",
@@ -800,6 +860,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "42",
                 "y": "10",
@@ -812,6 +873,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "56",
                 "y": "10",
@@ -829,6 +891,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "4",
                 "y": "5",
@@ -841,6 +904,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "8",
                 "y": "9",
@@ -852,6 +916,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "18",
                 "y": "9",
@@ -863,6 +928,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "42",
                 "y": "9",
@@ -874,6 +940,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "30",
                 "y": "9",
@@ -885,6 +952,7 @@
             },
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "54",
                 "y": "9",
@@ -901,6 +969,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M27.05 8.44a2 2 0 1 1 3.9-.88C31.72 10.96 34.4 13 38 13s6.28-2.04 7.05-5.44a2 2 0 1 1 3.9.88C47.75 13.7 43.43 17 38 17s-9.76-3.3-10.95-8.56",
                 "fill": "black",
@@ -914,6 +983,7 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
@@ -924,6 +994,7 @@
             },
             {
               "name": "mask",
+              "type": "element",
               "attributes": {
                 "id": "mouthSmile02-a",
                 "style": "mask-type:luminance",
@@ -936,6 +1007,7 @@
               "children": [
                 {
                   "name": "path",
+                  "type": "element",
                   "attributes": {
                     "fill-rule": "evenodd",
                     "clip-rule": "evenodd",
@@ -947,12 +1019,14 @@
             },
             {
               "name": "g",
+              "type": "element",
               "attributes": {
                 "mask": "url(#mouthSmile02-a)"
               },
               "children": [
                 {
                   "name": "rect",
+                  "type": "element",
                   "attributes": {
                     "x": "30",
                     "y": "2",
@@ -971,6 +1045,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "24",
                 "y": "6",
@@ -988,6 +1063,7 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "16",
                 "y": "8",

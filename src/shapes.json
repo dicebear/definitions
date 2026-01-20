@@ -20,43 +20,40 @@
     "content": [
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "matrix(1.2 0 0 1.2 -10 -10)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-shape1"
-            }
+            "type": "component",
+            "value": "shape1"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "matrix(.8 0 0 .8 10 10)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-shape2"
-            }
+            "type": "component",
+            "value": "shape2"
           }
         ]
       },
       {
         "name": "g",
+        "type": "element",
         "attributes": {
           "transform": "matrix(.4 0 0 .4 30 30)"
         },
         "children": [
           {
-            "name": "use",
-            "attributes": {
-              "href": "#component-shape3"
-            }
+            "type": "component",
+            "value": "shape3"
           }
         ]
       }
@@ -93,11 +90,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 90a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10A50 50 0 1 0 50 0a50 50 0 0 0 0 100",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -107,9 +108,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M100 50A50 50 0 1 1 0 50a50 50 0 0 1 100 0",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -119,12 +124,16 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "45",
                 "y": "-150",
                 "width": "10",
                 "height": "400",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -134,11 +143,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 7 0 93.6h100zm0 20L17.3 83.6h65.4z",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -148,9 +161,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m50 7 50 86.6H0z",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -160,11 +177,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M90 10H10v80h80zM0 0v100h100V0z",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -174,9 +195,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M0 0h100v100H0z",
-                "fill": "url(#color-shape1)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape1"
+                }
               }
             }
           ]
@@ -207,11 +232,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 90a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10A50 50 0 1 0 50 0a50 50 0 0 0 0 100",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -221,9 +250,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M100 50A50 50 0 1 1 0 50a50 50 0 0 1 100 0",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -233,12 +266,16 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "45",
                 "y": "-150",
                 "width": "10",
                 "height": "400",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -248,11 +285,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 7 0 93.6h100zm0 20L17.3 83.6h65.4z",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -262,9 +303,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m50 7 50 86.6H0z",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -274,11 +319,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M90 10H10v80h80zM0 0v100h100V0z",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -288,9 +337,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M0 0h100v100H0z",
-                "fill": "url(#color-shape2)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape2"
+                }
               }
             }
           ]
@@ -321,11 +374,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 90a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10A50 50 0 1 0 50 0a50 50 0 0 0 0 100",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
@@ -335,9 +392,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M100 50A50 50 0 1 1 0 50a50 50 0 0 1 100 0",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
@@ -347,12 +408,16 @@
           "content": [
             {
               "name": "rect",
+              "type": "element",
               "attributes": {
                 "x": "45",
                 "y": "-150",
                 "width": "10",
                 "height": "400",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
@@ -362,11 +427,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 7 0 93.6h100zm0 20L17.3 83.6h65.4z",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
@@ -376,9 +445,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "m50 7 50 86.6H0z",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
@@ -388,11 +461,15 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M90 10H10v80h80zM0 0v100h100V0z",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
@@ -402,9 +479,13 @@
           "content": [
             {
               "name": "path",
+              "type": "element",
               "attributes": {
                 "d": "M0 0h100v100H0z",
-                "fill": "url(#color-shape3)"
+                "fill": {
+                  "type": "color",
+                  "value": "shape3"
+                }
               }
             }
           ]
