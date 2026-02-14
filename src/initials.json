@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.dicebear.com/schema/v1/definition.json#",
-  "metadata": {
+  "meta": {
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -10,19 +10,23 @@
   "body": {
     "content": [
       {
+        "type": "element",
         "name": "text",
         "attributes": {
           "x": "50%",
           "y": "50%",
           "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
           "font-size": "50",
-          "fill": "url(#color-text)",
+          "fill": {
+            "type": "color",
+            "value": "text"
+          },
           "text-anchor": "middle",
           "dy": "17.8"
         },
         "children": [
           {
-            "name": "#text",
+            "type": "text",
             "value": "{{initials}}"
           }
         ]

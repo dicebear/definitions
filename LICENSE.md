@@ -3,14 +3,6 @@
 The avatar styles are subject to different licences. You can find the licence in
 the following list or in the individual files.
 
-## Adventurer
-
-|    File | [src/adventurer.json](./src/adventurer.json)                           |
-| ------: | :--------------------------------------------------------------------- |
-|  Artist | [Lisa Wischofsky](https://www.instagram.com/lischi_art/)               |
-| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)              |
-|  Source | [Adventurer](https://www.figma.com/community/file/1184595184137881796) |
-
 ## Adventurer Neutral
 
 |    File | [src/adventurer-neutral.json](./src/adventurer-neutral.json)                   |
@@ -19,13 +11,13 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                      |
 |  Source | [Adventurer Neutral](https://www.figma.com/community/file/1184595184137881796) |
 
-## Avataaars
+## Adventurer
 
-|    File | [src/avataaars.json](./src/avataaars.json)                     |
-| ------: | :------------------------------------------------------------- |
-|  Artist | [Pablo Stanley](https://twitter.com/pablostanley)              |
-| License | [Free for personal and commercial use](https://avataaars.com/) |
-|  Source | [Avataaars](https://avataaars.com/)                            |
+|    File | [src/adventurer.json](./src/adventurer.json)                           |
+| ------: | :--------------------------------------------------------------------- |
+|  Artist | [Lisa Wischofsky](https://www.instagram.com/lischi_art/)               |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)              |
+|  Source | [Adventurer](https://www.figma.com/community/file/1184595184137881796) |
 
 ## Avataaars Neutral
 
@@ -35,17 +27,25 @@ the following list or in the individual files.
 | License | [Free for personal and commercial use.](https://avataaars.com/) |
 |  Source | [Avataaars](https://avataaars.com/)                             |
 
-## Big Ears
+## Avataaars
 
-|    File | [src/big-ears.json](./src/big-ears.json)                                  |
+|    File | [src/avataaars.json](./src/avataaars.json)                     |
+| ------: | :------------------------------------------------------------- |
+|  Artist | [Pablo Stanley](https://twitter.com/pablostanley)              |
+| License | [Free for personal and commercial use](https://avataaars.com/) |
+|  Source | [Avataaars](https://avataaars.com/)                            |
+
+## Big Ears Neutral
+
+|    File | [src/big-ears-neutral.json](./src/big-ears-neutral.json)                  |
 | ------: | :------------------------------------------------------------------------ |
 |  Artist | [The Visual Team](https://thevisual.team/)                                |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                 |
 |  Source | [Face Generator](https://www.figma.com/community/file/986078800058673824) |
 
-## Big Ears Neutral
+## Big Ears
 
-|    File | [src/big-ears-neutral.json](./src/big-ears-neutral.json)                  |
+|    File | [src/big-ears.json](./src/big-ears.json)                                  |
 | ------: | :------------------------------------------------------------------------ |
 |  Artist | [The Visual Team](https://thevisual.team/)                                |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                 |
@@ -59,14 +59,6 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                |
 |  Source | [Custom Avatar](https://www.figma.com/community/file/881358461963645496) |
 
-## Bottts
-
-|    File | [src/bottts.json](./src/bottts.json)                        |
-| ------: | :---------------------------------------------------------- |
-|  Artist | [Pablo Stanley](https://twitter.com/pablostanley)           |
-| License | [Free for personal and commercial use](https://bottts.com/) |
-|  Source | [Bottts](https://bottts.com/)                               |
-
 ## Bottts Neutral
 
 |    File | [src/bottts-neutral.json](./src/bottts-neutral.json)        |
@@ -75,17 +67,25 @@ the following list or in the individual files.
 | License | [Free for personal and commercial use](https://bottts.com/) |
 |  Source | [Bottts](https://bottts.com/)                               |
 
-## Croodles
+## Bottts
 
-|    File | [src/croodles.json](./src/croodles.json)                                               |
+|    File | [src/bottts.json](./src/bottts.json)                        |
+| ------: | :---------------------------------------------------------- |
+|  Artist | [Pablo Stanley](https://twitter.com/pablostanley)           |
+| License | [Free for personal and commercial use](https://bottts.com/) |
+|  Source | [Bottts](https://bottts.com/)                               |
+
+## Croodles Neutral
+
+|    File | [src/croodles-neutral.json](./src/croodles-neutral.json)                               |
 | ------: | :------------------------------------------------------------------------------------- |
 |  Artist | [vijay verma](https://vjy.me/)                                                         |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                              |
 |  Source | [Croodles - Doodle your face](https://www.figma.com/community/file/966199982810283152) |
 
-## Croodles Neutral
+## Croodles
 
-|    File | [src/croodles-neutral.json](./src/croodles-neutral.json)                               |
+|    File | [src/croodles.json](./src/croodles.json)                                               |
 | ------: | :------------------------------------------------------------------------------------- |
 |  Artist | [vijay verma](https://vjy.me/)                                                         |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                              |
@@ -137,14 +137,6 @@ the following list or in the individual files.
 | ------: | :------------------------------------------------------------ |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 
-## Lorelei
-
-|    File | [src/lorelei.json](./src/lorelei.json)                              |
-| ------: | :------------------------------------------------------------------ |
-|  Artist | [Lisa Wischofsky](https://www.instagram.com/lischi_art/)            |
-| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)       |
-|  Source | [Lorelei](https://www.figma.com/community/file/1198749693280469639) |
-
 ## Lorelei Neutral
 
 |    File | [src/lorelei-neutral.json](./src/lorelei-neutral.json)                      |
@@ -152,6 +144,14 @@ the following list or in the individual files.
 |  Artist | [Lisa Wischofsky](https://www.instagram.com/lischi_art/)                    |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)               |
 |  Source | [Lorelei Neutral](https://www.figma.com/community/file/1198749693280469639) |
+
+## Lorelei
+
+|    File | [src/lorelei.json](./src/lorelei.json)                              |
+| ------: | :------------------------------------------------------------------ |
+|  Artist | [Lisa Wischofsky](https://www.instagram.com/lischi_art/)            |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)       |
+|  Source | [Lorelei](https://www.figma.com/community/file/1198749693280469639) |
 
 ## Micah
 
@@ -169,17 +169,17 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                |
 |  Source | [Miniavs - Free Avatar Creator](https://www.figma.com/community/file/923211396597067458) |
 
-## Notionists
+## Notionists Neutral
 
-|    File | [src/notionists.json](./src/notionists.json)                  |
+|    File | [src/notionists-neutral.json](./src/notionists-neutral.json)  |
 | ------: | :------------------------------------------------------------ |
 |  Artist | [Zoish](https://bio.link/heyzoish)                            |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Notionists](https://heyzoish.gumroad.com/l/notionists)       |
 
-## Notionists Neutral
+## Notionists
 
-|    File | [src/notionists-neutral.json](./src/notionists-neutral.json)  |
+|    File | [src/notionists.json](./src/notionists.json)                  |
 | ------: | :------------------------------------------------------------ |
 |  Artist | [Zoish](https://bio.link/heyzoish)                            |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -201,14 +201,6 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 |  Source | [Personas by Draftbit](https://personas.draftbit.com/)    |
 
-## Pixel Art
-
-|    File | [src/pixel-art.json](./src/pixel-art.json)                            |
-| ------: | :-------------------------------------------------------------------- |
-|  Artist | [Florian Körner](https://www.dicebear.com)                            |
-| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)         |
-|  Source | [Pixel Art](https://www.figma.com/community/file/1198754108850888330) |
-
 ## Pixel Art Neutral
 
 |    File | [src/pixel-art-neutral.json](./src/pixel-art-neutral.json)                    |
@@ -216,6 +208,14 @@ the following list or in the individual files.
 |  Artist | [Florian Körner](https://www.dicebear.com)                                    |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
 |  Source | [Pixel Art Neutral](https://www.figma.com/community/file/1198754108850888330) |
+
+## Pixel Art
+
+|    File | [src/pixel-art.json](./src/pixel-art.json)                            |
+| ------: | :-------------------------------------------------------------------- |
+|  Artist | [Florian Körner](https://www.dicebear.com)                            |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)         |
+|  Source | [Pixel Art](https://www.figma.com/community/file/1198754108850888330) |
 
 ## Rings
 
@@ -241,7 +241,7 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Thumbs](https://www.dicebear.com)                            |
 
-## ToonHead
+## Toon Head
 
 |    File | [src/toon-head.json](./src/toon-head.json)                           |
 | ------: | :------------------------------------------------------------------- |
