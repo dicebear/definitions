@@ -28,7 +28,7 @@ themselves.
 
 ## Sponsors
 
-Many thanks to our sponsors who provide us with free or discounted products.
+Advertisement: Many thanks to our sponsors who provide us with free or discounted products.
 
 <a href="https://bunny.net/" target="_blank" rel="noopener noreferrer">
     <picture>
