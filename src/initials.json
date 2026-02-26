@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.dicebear.com/schema/v1/definition.json#",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@0.1.1/src/definition.json",
   "meta": {
     "license": {
       "name": "CC0 1.0",
@@ -7,8 +7,8 @@
       "text": "„Initials”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
     }
   },
-  "body": {
-    "content": [
+  "canvas": {
+    "elements": [
       {
         "type": "element",
         "name": "text",
@@ -35,34 +35,35 @@
     "width": 100,
     "height": 100
   },
-  "colors": [
-    {
-      "name": "background",
+  "colors": {
+   "background": {
       "values": [
-        "c44f4f",
-        "ac6039",
-        "8e6e2f",
-        "777728",
-        "627e2a",
-        "48822b",
-        "2d862d",
-        "2b8248",
-        "2b8265",
-        "2a7e7e",
-        "347a9d",
-        "4b73c3",
-        "6a6acd",
-        "825ec9",
-        "9f53c6",
-        "bb3ebb",
-        "c14497",
-        "c34b73"
+        "#c44f4f",
+        "#ac6039",
+        "#8e6e2f",
+        "#777728",
+        "#627e2a",
+        "#48822b",
+        "#2d862d",
+        "#2b8248",
+        "#2b8265",
+        "#2a7e7e",
+        "#347a9d",
+        "#4b73c3",
+        "#6a6acd",
+        "#825ec9",
+        "#9f53c6",
+        "#bb3ebb",
+        "#c14497",
+        "#c34b73"
       ]
     },
-    {
-      "name": "text",
-      "values": ["ffffff", "000000"],
+    "text": {
+      "values": [
+        "#ffffff",
+        "#000000"
+      ],
       "contrastTo": "background"
     }
-  ]
+  }
 }

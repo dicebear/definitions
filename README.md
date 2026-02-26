@@ -20,6 +20,52 @@ for Figma. The used Figma files are linked in the `figma` folder. Files created
 with this plugin are marked accordingly and should not be adjusted manually, but
 exported again with the Figma plugin.
 
+## Usage
+
+**JavaScript**
+
+```js
+import adventurer from '@dicebear/definitions/adventurer.json' assert { type: 'json' };
+import lorelei from '@dicebear/definitions/lorelei.json' assert { type: 'json' };
+```
+
+**PHP**
+
+```php
+$adventurer = json_decode(file_get_contents(__DIR__ . '/vendor/dicebear/definitions/src/adventurer.json'), true);
+$lorelei    = json_decode(file_get_contents(__DIR__ . '/vendor/dicebear/definitions/src/lorelei.json'), true);
+```
+
+## Development
+
+```sh
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+```
+
+## Publishing
+
+**npm**
+
+Releases are published to npm automatically via GitHub Actions when a version tag is pushed.
+
+```sh
+npm version patch   # 1.0.0 → 1.0.1
+npm version minor   # 1.0.0 → 1.1.0
+npm version major   # 1.0.0 → 2.0.0
+
+git push origin main --follow-tags
+```
+
+`npm version` updates `package.json`, creates a commit, and creates the Git tag in one step. The [publish workflow](.github/workflows/publish.yml) will then install dependencies, run the tests, and publish the package to npm with provenance.
+
+**Packagist**
+
+Once the repository is linked on [packagist.org](https://packagist.org), new releases are picked up automatically from the same Git tags — no separate step needed.
+
 ## License
 
 The avatar styles are licensed under different licenses. More information can be

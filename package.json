@@ -1,6 +1,6 @@
 {
   "name": "@dicebear/definitions",
-  "version": "10.0.0-beta.5",
+  "version": "0.0.0",
   "description": "Definition files of the DiceBear avatar styles.",
   "keywords": [
     "avatar",
@@ -17,10 +17,140 @@
   "type": "module",
   "files": [
     "LICENSE",
-    "src",
+    "dist/",
+    "src/",
     "README.md"
   ],
+  "scripts": {
+    "build": "bash scripts/build.sh"
+  },
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    "./adventurer-neutral.json": {
+      "types": "./dist/adventurer-neutral.min.json",
+      "default": "./dist/adventurer-neutral.min.json"
+    },
+    "./adventurer.json": {
+      "types": "./dist/adventurer.min.json",
+      "default": "./dist/adventurer.min.json"
+    },
+    "./avataaars-neutral.json": {
+      "types": "./dist/avataaars-neutral.min.json",
+      "default": "./dist/avataaars-neutral.min.json"
+    },
+    "./avataaars.json": {
+      "types": "./dist/avataaars.min.json",
+      "default": "./dist/avataaars.min.json"
+    },
+    "./big-ears-neutral.json": {
+      "types": "./dist/big-ears-neutral.min.json",
+      "default": "./dist/big-ears-neutral.min.json"
+    },
+    "./big-ears.json": {
+      "types": "./dist/big-ears.min.json",
+      "default": "./dist/big-ears.min.json"
+    },
+    "./big-smile.json": {
+      "types": "./dist/big-smile.min.json",
+      "default": "./dist/big-smile.min.json"
+    },
+    "./bottts-neutral.json": {
+      "types": "./dist/bottts-neutral.min.json",
+      "default": "./dist/bottts-neutral.min.json"
+    },
+    "./bottts.json": {
+      "types": "./dist/bottts.min.json",
+      "default": "./dist/bottts.min.json"
+    },
+    "./croodles-neutral.json": {
+      "types": "./dist/croodles-neutral.min.json",
+      "default": "./dist/croodles-neutral.min.json"
+    },
+    "./croodles.json": {
+      "types": "./dist/croodles.min.json",
+      "default": "./dist/croodles.min.json"
+    },
+    "./dylan.json": {
+      "types": "./dist/dylan.min.json",
+      "default": "./dist/dylan.min.json"
+    },
+    "./fun-emoji.json": {
+      "types": "./dist/fun-emoji.min.json",
+      "default": "./dist/fun-emoji.min.json"
+    },
+    "./glass.json": {
+      "types": "./dist/glass.min.json",
+      "default": "./dist/glass.min.json"
+    },
+    "./icons.json": {
+      "types": "./dist/icons.min.json",
+      "default": "./dist/icons.min.json"
+    },
+    "./identicon.json": {
+      "types": "./dist/identicon.min.json",
+      "default": "./dist/identicon.min.json"
+    },
+    "./initials.json": {
+      "types": "./dist/initials.min.json",
+      "default": "./dist/initials.min.json"
+    },
+    "./lorelei-neutral.json": {
+      "types": "./dist/lorelei-neutral.min.json",
+      "default": "./dist/lorelei-neutral.min.json"
+    },
+    "./lorelei.json": {
+      "types": "./dist/lorelei.min.json",
+      "default": "./dist/lorelei.min.json"
+    },
+    "./micah.json": {
+      "types": "./dist/micah.min.json",
+      "default": "./dist/micah.min.json"
+    },
+    "./miniavs.json": {
+      "types": "./dist/miniavs.min.json",
+      "default": "./dist/miniavs.min.json"
+    },
+    "./notionists-neutral.json": {
+      "types": "./dist/notionists-neutral.min.json",
+      "default": "./dist/notionists-neutral.min.json"
+    },
+    "./notionists.json": {
+      "types": "./dist/notionists.min.json",
+      "default": "./dist/notionists.min.json"
+    },
+    "./open-peeps.json": {
+      "types": "./dist/open-peeps.min.json",
+      "default": "./dist/open-peeps.min.json"
+    },
+    "./personas.json": {
+      "types": "./dist/personas.min.json",
+      "default": "./dist/personas.min.json"
+    },
+    "./pixel-art-neutral.json": {
+      "types": "./dist/pixel-art-neutral.min.json",
+      "default": "./dist/pixel-art-neutral.min.json"
+    },
+    "./pixel-art.json": {
+      "types": "./dist/pixel-art.min.json",
+      "default": "./dist/pixel-art.min.json"
+    },
+    "./rings.json": {
+      "types": "./dist/rings.min.json",
+      "default": "./dist/rings.min.json"
+    },
+    "./shapes.json": {
+      "types": "./dist/shapes.min.json",
+      "default": "./dist/shapes.min.json"
+    },
+    "./thumbs.json": {
+      "types": "./dist/thumbs.min.json",
+      "default": "./dist/thumbs.min.json"
+    },
+    "./toon-head.json": {
+      "types": "./dist/toon-head.min.json",
+      "default": "./dist/toon-head.min.json"
+    }
   }
 }
