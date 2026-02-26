@@ -9,8 +9,8 @@ This repository contains all official avatar style definitions for
 that describes how to create an avatar. It contains all necessary information
 like available elements and colors. The JSON files are ideal for creating
 avatars in different programming languages with the corresponding DiceBear
-wrapper. The JSON schema for the avatar style definitions can be found here:
-[https://static.dicebear.com/schema/definition.json](https://static.dicebear.com/schema/definition.json)
+wrapper. The JSON schema for the avatar style definitions can be found in the
+[`@dicebear/schema`](https://github.com/dicebear/schema) package.
 
 ## Generate definitions
 
@@ -38,11 +38,19 @@ $lorelei    = json_decode(file_get_contents(__DIR__ . '/vendor/dicebear/definiti
 
 ## Development
 
+Tests require [Bowtie](https://docs.bowtie.report) and a container runtime (Docker or Podman).
+
 ```sh
+# Install uv (if not already installed)
+brew install uv
+
+# Install Bowtie
+uv tool install bowtie-json-schema
+
 # Install dependencies
 npm install
 
-# Run tests
+# Validate definition files against the schema
 npm test
 ```
 

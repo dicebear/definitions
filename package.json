@@ -22,7 +22,9 @@
     "README.md"
   ],
   "scripts": {
-    "build": "bash scripts/build.sh"
+    "build": "bash scripts/build.sh",
+    "validate": "bash scripts/validate.sh",
+    "test": "npm run validate"
   },
   "publishConfig": {
     "access": "public"
@@ -152,5 +154,8 @@
       "types": "./dist/toon-head.min.json",
       "default": "./dist/toon-head.min.json"
     }
+  },
+  "devDependencies": {
+    "@dicebear/schema": "^0.1.3"
   }
 }
