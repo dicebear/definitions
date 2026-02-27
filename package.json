@@ -15,20 +15,6 @@
   },
   "sideEffects": false,
   "type": "module",
-  "files": [
-    "LICENSE",
-    "dist/",
-    "src/",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "bash scripts/build.sh",
-    "validate": "bash scripts/validate.sh",
-    "test": "npm run validate"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "exports": {
     "./adventurer-neutral.json": {
       "types": "./dist/adventurer-neutral.min.json",
@@ -155,7 +141,21 @@
       "default": "./dist/toon-head.min.json"
     }
   },
+  "files": [
+    "LICENSE",
+    "dist/",
+    "src/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "test": "npm run validate",
+    "validate": "bash scripts/validate.sh"
+  },
   "devDependencies": {
-    "@dicebear/schema": "^0.1.3"
+    "@dicebear/schema": "^0.1.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
