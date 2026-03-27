@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@0.1.5/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@0.6.0/dist/definition.min.json",
   "meta": {
     "license": {
       "name": "CC0 1.0",
@@ -15,7 +15,14 @@
         "attributes": {
           "x": "50%",
           "y": "50%",
-          "font-family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+          "font-family": {
+            "type": "variable",
+            "value": "fontFamily"
+          },
+          "font-weight": {
+            "type": "variable",
+            "value": "fontWeight"
+          },
           "font-size": "50",
           "fill": {
             "type": "color",
@@ -27,7 +34,10 @@
         "children": [
           {
             "type": "text",
-            "value": "{{initials}}"
+            "value": {
+              "type": "variable",
+              "value": "initials"
+            }
           }
         ]
       }
