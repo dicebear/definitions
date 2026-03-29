@@ -32,8 +32,10 @@ import lorelei from '@dicebear/definitions/lorelei.json' assert { type: 'json' }
 **PHP**
 
 ```php
-$adventurer = json_decode(file_get_contents(__DIR__ . '/vendor/dicebear/definitions/src/adventurer.json'), true);
-$lorelei    = json_decode(file_get_contents(__DIR__ . '/vendor/dicebear/definitions/src/lorelei.json'), true);
+$basePath = \Composer\InstalledVersions::getInstallPath('dicebear/definitions');
+
+$adventurer = json_decode(file_get_contents($basePath . '/src/adventurer.json'), true);
+$lorelei    = json_decode(file_get_contents($basePath . '/src/lorelei.json'), true);
 ```
 
 ## Development
