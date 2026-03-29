@@ -2,6 +2,3 @@
 .DS_Store
 dist
 node_modules
-
-# claude code
-.claude/settings.local.json
