@@ -46,7 +46,7 @@ for f in "$TARGET_DIR"/*.json; do
   name=$(basename "$f" .json)
   echo "  Minify ${name}.json"
 
-  id="https://cdn.hopjs.net/npm/@dicebear/schema@${version}/dist/${name}.min.json"
+  id="https://cdn.hopjs.net/npm/@dicebear/definitions@${version}/dist/${name}.min.json"
   jq -c --arg id "$id" '{"$id": $id} + .' "$f" > "$DIST_DIR/${name}.min.json"
 
   exports=$(echo "$exports" | jq --arg key "./${name}.json" --arg val "./dist/${name}.min.json" '. + {($key): {types: $val, default: $val}}')

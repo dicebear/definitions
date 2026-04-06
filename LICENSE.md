@@ -127,7 +127,7 @@ the following list or in the individual files.
 
 |    File | [src/identicon.json](./src/identicon.json)                    |
 | ------: | :------------------------------------------------------------ |
-|  Artist | [Florian Körner](https://dicebear.com)                        |
+|  Artist | [DiceBear](https://dicebear.com)                              |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Identicon](https://dicebear.com)                             |
 
@@ -135,7 +135,9 @@ the following list or in the individual files.
 
 |    File | [src/initials.json](./src/initials.json)                      |
 | ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Initials](https://www.dicebear.com)                          |
 
 ## Lorelei Neutral
 
@@ -205,7 +207,7 @@ the following list or in the individual files.
 
 |    File | [src/pixel-art-neutral.json](./src/pixel-art-neutral.json)                    |
 | ------: | :---------------------------------------------------------------------------- |
-|  Artist | [Florian Körner](https://www.dicebear.com)                                    |
+|  Artist | [DiceBear](https://www.dicebear.com)                                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                 |
 |  Source | [Pixel Art Neutral](https://www.figma.com/community/file/1198754108850888330) |
 
@@ -213,7 +215,7 @@ the following list or in the individual files.
 
 |    File | [src/pixel-art.json](./src/pixel-art.json)                            |
 | ------: | :-------------------------------------------------------------------- |
-|  Artist | [Florian Körner](https://www.dicebear.com)                            |
+|  Artist | [DiceBear](https://www.dicebear.com)                                  |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)         |
 |  Source | [Pixel Art](https://www.figma.com/community/file/1198754108850888330) |
 
@@ -221,7 +223,7 @@ the following list or in the individual files.
 
 |    File | [src/rings.json](./src/rings.json)                            |
 | ------: | :------------------------------------------------------------ |
-|  Artist | [Florian Körner](https://www.dicebear.com)                    |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Rings](https://www.dicebear.com)                             |
 
@@ -229,7 +231,7 @@ the following list or in the individual files.
 
 |    File | [src/shapes.json](./src/shapes.json)                          |
 | ------: | :------------------------------------------------------------ |
-|  Artist | [Florian Körner](https://www.dicebear.com)                    |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Shapes](https://www.dicebear.com)                            |
 
@@ -237,7 +239,7 @@ the following list or in the individual files.
 
 |    File | [src/thumbs.json](./src/thumbs.json)                          |
 | ------: | :------------------------------------------------------------ |
-|  Artist | [Florian Körner](https://www.dicebear.com)                    |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Thumbs](https://www.dicebear.com)                            |
 
