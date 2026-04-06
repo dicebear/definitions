@@ -34,5 +34,15 @@ jobs:
       - name: Build
         run: bash scripts/build.sh
 
+      - name: Determine npm tag
+        id: npm-tag
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if [[ "$VERSION" == *-* ]]; then
+            echo "tag=next" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=latest" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Publish
-        run: npm publish --provenance
+        run: npm publish --provenance --tag ${{ steps.npm-tag.outputs.tag }}
