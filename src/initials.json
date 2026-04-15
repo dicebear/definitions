@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@0.10.0/dist/definition.min.json",
+  "$schema": "https://cdn.hopjs.net/npm/@dicebear/schema@0.11.0/dist/definition.min.json",
   "meta": {
     "license": {
       "name": "CC0 1.0",
@@ -19,7 +19,7 @@
     "elements": [
       {
         "type": "component",
-        "value": "initials"
+        "name": "initials"
       }
     ],
     "width": 100,
@@ -41,16 +41,16 @@
                 "y": "50%",
                 "font-family": {
                   "type": "variable",
-                  "value": "fontFamily"
+                  "name": "fontFamily"
                 },
                 "font-weight": {
                   "type": "variable",
-                  "value": "fontWeight"
+                  "name": "fontWeight"
                 },
                 "font-size": "50",
                 "fill": {
                   "type": "color",
-                  "value": "text"
+                  "name": "text"
                 },
                 "text-anchor": "middle",
                 "dy": "17.8"
@@ -60,7 +60,7 @@
                   "type": "text",
                   "value": {
                     "type": "variable",
-                    "value": "initial"
+                    "name": "initial"
                   }
                 }
               ]
@@ -78,16 +78,16 @@
                 "y": "50%",
                 "font-family": {
                   "type": "variable",
-                  "value": "fontFamily"
+                  "name": "fontFamily"
                 },
                 "font-weight": {
                   "type": "variable",
-                  "value": "fontWeight"
+                  "name": "fontWeight"
                 },
                 "font-size": "50",
                 "fill": {
                   "type": "color",
-                  "value": "text"
+                  "name": "text"
                 },
                 "text-anchor": "middle",
                 "dy": "17.8"
@@ -97,7 +97,7 @@
                   "type": "text",
                   "value": {
                     "type": "variable",
-                    "value": "initials"
+                    "name": "initials"
                   }
                 }
               ]
@@ -108,7 +108,7 @@
     }
   },
   "colors": {
-   "background": {
+    "background": {
       "values": [
         "#c44f4f",
         "#ac6039",
