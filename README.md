@@ -38,43 +38,10 @@ $adventurer = json_decode(file_get_contents($basePath . '/src/adventurer.json'),
 $lorelei    = json_decode(file_get_contents($basePath . '/src/lorelei.json'), true);
 ```
 
-## Development
+## Contributing
 
-Tests require [Bowtie](https://docs.bowtie.report) and a container runtime (Docker or Podman).
-
-```sh
-# Install uv (if not already installed)
-brew install uv
-
-# Install Bowtie
-uv tool install bowtie-json-schema
-
-# Install dependencies
-npm install
-
-# Validate definition files against the schema
-npm test
-```
-
-## Publishing
-
-**npm**
-
-Releases are published to npm automatically via GitHub Actions when a version tag is pushed.
-
-```sh
-npm version patch   # 1.0.0 → 1.0.1
-npm version minor   # 1.0.0 → 1.1.0
-npm version major   # 1.0.0 → 2.0.0
-
-git push origin main --follow-tags
-```
-
-`npm version` updates `package.json`, creates a commit, and creates the Git tag in one step. The [publish workflow](.github/workflows/publish.yml) will then install dependencies, run the tests, and publish the package to npm with provenance.
-
-**Packagist**
-
-Once the repository is linked on [packagist.org](https://packagist.org), new releases are picked up automatically from the same Git tags — no separate step needed.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for local development, testing,
+and the release process.
 
 ## License
 
