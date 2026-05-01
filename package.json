@@ -52,6 +52,10 @@
       "types": "./dist/bottts.min.json",
       "default": "./dist/bottts.min.json"
     },
+    "./circles.json": {
+      "types": "./dist/circles.min.json",
+      "default": "./dist/circles.min.json"
+    },
     "./croodles-neutral.json": {
       "types": "./dist/croodles-neutral.min.json",
       "default": "./dist/croodles-neutral.min.json"
