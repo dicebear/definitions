@@ -53,399 +53,6 @@
     "shape-rendering": "auto"
   },
   "components": {
-    "mouth": {
-      "width": 68,
-      "height": 24,
-      "variants": {
-        "bite": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "68",
-                "height": "22",
-                "rx": "5",
-                "fill": "black",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "5",
-                "width": "60",
-                "height": "14",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "m16 13 6-8H10zm12 0 6-8H22zm12 0 6-8H34zm12 0 6-8H46z",
-                "fill": "#E1E6E8"
-              }
-            }
-          ]
-        },
-        "diagram": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "68",
-                "height": "24",
-                "rx": "5",
-                "fill": "black",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "4",
-                "width": "60",
-                "height": "16",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.8"
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M5 13h11l2-4 3 7 4-8 2 9 3-11 3 10 3-3h15l3-4 2 7 3-3h4",
-                "stroke": "#4EFAC9",
-                "stroke-width": "2",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
-              }
-            }
-          ]
-        },
-        "grill01": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "8",
-                "y": "8",
-                "width": "4",
-                "height": "8",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "32",
-                "y": "8",
-                "width": "4",
-                "height": "8",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "20",
-                "y": "8",
-                "width": "4",
-                "height": "8",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "44",
-                "y": "8",
-                "width": "4",
-                "height": "8",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "56",
-                "y": "8",
-                "width": "4",
-                "height": "8",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            }
-          ]
-        },
-        "grill02": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "24",
-                "y": "6",
-                "width": "6",
-                "height": "14",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "6",
-                "width": "6",
-                "height": "14",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "38",
-                "y": "6",
-                "width": "6",
-                "height": "14",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "52",
-                "y": "6",
-                "width": "6",
-                "height": "14",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            }
-          ]
-        },
-        "grill03": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "68",
-                "height": "22",
-                "rx": "5",
-                "fill": "black",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "4",
-                "y": "5",
-                "width": "60",
-                "height": "14",
-                "rx": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "14",
-                "y": "5",
-                "width": "4",
-                "height": "14",
-                "fill": "black",
-                "fill-opacity": "0.1"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "38",
-                "y": "5",
-                "width": "4",
-                "height": "14",
-                "fill": "black",
-                "fill-opacity": "0.1"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "26",
-                "y": "5",
-                "width": "4",
-                "height": "14",
-                "fill": "black",
-                "fill-opacity": "0.1"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "50",
-                "y": "5",
-                "width": "4",
-                "height": "14",
-                "fill": "black",
-                "fill-opacity": "0.1"
-              }
-            }
-          ]
-        },
-        "smile01": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M23.05 4.44a2 2 0 1 1 3.9-.88C27.72 6.96 30.4 9 34 9s6.28-2.04 7.05-5.44a2 2 0 1 1 3.9.88C43.75 9.7 39.43 13 34 13s-9.76-3.3-10.95-8.56",
-                "fill": "black",
-                "fill-opacity": "0.6"
-              }
-            }
-          ]
-        },
-        "smile02": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M14 6.22C14 17.78 20.47 24 34 24c13.52 0 20-6.34 20-17.78C54 5.5 53.17 4 51 4H17c-2.05 0-3 1.38-3 2.22",
-                "fill": "black",
-                "fill-opacity": "0.8"
-              }
-            },
-            {
-              "name": "mask",
-              "type": "element",
-              "attributes": {
-                "id": "mouthSmile02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "14",
-                "y": "4",
-                "width": "40",
-                "height": "20"
-              },
-              "children": [
-                {
-                  "name": "path",
-                  "type": "element",
-                  "attributes": {
-                    "fill-rule": "evenodd",
-                    "clip-rule": "evenodd",
-                    "d": "M14 6.22C14 17.78 20.47 24 34 24c13.52 0 20-6.34 20-17.78C54 5.5 53.17 4 51 4H17c-2.05 0-3 1.38-3 2.22",
-                    "fill": "white"
-                  }
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "mask": "url(#mouthSmile02-a)"
-              },
-              "children": [
-                {
-                  "name": "rect",
-                  "type": "element",
-                  "attributes": {
-                    "x": "26",
-                    "y": "-2",
-                    "width": "16",
-                    "height": "14",
-                    "rx": "2",
-                    "fill": "white"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "square01": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "20",
-                "y": "2",
-                "width": "27",
-                "height": "8",
-                "rx": "4",
-                "fill": "black",
-                "fill-opacity": "0.8"
-              }
-            }
-          ]
-        },
-        "square02": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "12",
-                "y": "4",
-                "width": "44",
-                "height": "4",
-                "rx": "2",
-                "fill": "black",
-                "fill-opacity": "0.8"
-              }
-            }
-          ]
-        }
-      }
-    },
     "eyes": {
       "width": 104,
       "height": 48,
@@ -1043,6 +650,399 @@
                 "d": "M31.4 40.78c-2.63-1.98-5.23-4.22-8.96-4.7L37.26 2h11zM15.48 36h-4L26.26 2h4z",
                 "fill": "white",
                 "fill-opacity": "0.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "mouth": {
+      "width": 68,
+      "height": 24,
+      "variants": {
+        "bite": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "68",
+                "height": "22",
+                "rx": "5",
+                "fill": "black",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "4",
+                "y": "5",
+                "width": "60",
+                "height": "14",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "m16 13 6-8H10zm12 0 6-8H22zm12 0 6-8H34zm12 0 6-8H46z",
+                "fill": "#E1E6E8"
+              }
+            }
+          ]
+        },
+        "diagram": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "68",
+                "height": "24",
+                "rx": "5",
+                "fill": "black",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "4",
+                "y": "4",
+                "width": "60",
+                "height": "16",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.8"
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M5 13h11l2-4 3 7 4-8 2 9 3-11 3 10 3-3h15l3-4 2 7 3-3h4",
+                "stroke": "#4EFAC9",
+                "stroke-width": "2",
+                "stroke-linecap": "round",
+                "stroke-linejoin": "round"
+              }
+            }
+          ]
+        },
+        "grill01": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "8",
+                "y": "8",
+                "width": "4",
+                "height": "8",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "32",
+                "y": "8",
+                "width": "4",
+                "height": "8",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "20",
+                "y": "8",
+                "width": "4",
+                "height": "8",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "44",
+                "y": "8",
+                "width": "4",
+                "height": "8",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "56",
+                "y": "8",
+                "width": "4",
+                "height": "8",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            }
+          ]
+        },
+        "grill02": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "24",
+                "y": "6",
+                "width": "6",
+                "height": "14",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "6",
+                "width": "6",
+                "height": "14",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "38",
+                "y": "6",
+                "width": "6",
+                "height": "14",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "52",
+                "y": "6",
+                "width": "6",
+                "height": "14",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            }
+          ]
+        },
+        "grill03": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "68",
+                "height": "22",
+                "rx": "5",
+                "fill": "black",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "4",
+                "y": "5",
+                "width": "60",
+                "height": "14",
+                "rx": "2",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "14",
+                "y": "5",
+                "width": "4",
+                "height": "14",
+                "fill": "black",
+                "fill-opacity": "0.1"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "38",
+                "y": "5",
+                "width": "4",
+                "height": "14",
+                "fill": "black",
+                "fill-opacity": "0.1"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "26",
+                "y": "5",
+                "width": "4",
+                "height": "14",
+                "fill": "black",
+                "fill-opacity": "0.1"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "50",
+                "y": "5",
+                "width": "4",
+                "height": "14",
+                "fill": "black",
+                "fill-opacity": "0.1"
+              }
+            }
+          ]
+        },
+        "smile01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M23.05 4.44a2 2 0 1 1 3.9-.88C27.72 6.96 30.4 9 34 9s6.28-2.04 7.05-5.44a2 2 0 1 1 3.9.88C43.75 9.7 39.43 13 34 13s-9.76-3.3-10.95-8.56",
+                "fill": "black",
+                "fill-opacity": "0.6"
+              }
+            }
+          ]
+        },
+        "smile02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M14 6.22C14 17.78 20.47 24 34 24c13.52 0 20-6.34 20-17.78C54 5.5 53.17 4 51 4H17c-2.05 0-3 1.38-3 2.22",
+                "fill": "black",
+                "fill-opacity": "0.8"
+              }
+            },
+            {
+              "name": "mask",
+              "type": "element",
+              "attributes": {
+                "id": "mouthSmile02-a",
+                "style": "mask-type:luminance",
+                "maskUnits": "userSpaceOnUse",
+                "x": "14",
+                "y": "4",
+                "width": "40",
+                "height": "20"
+              },
+              "children": [
+                {
+                  "name": "path",
+                  "type": "element",
+                  "attributes": {
+                    "fill-rule": "evenodd",
+                    "clip-rule": "evenodd",
+                    "d": "M14 6.22C14 17.78 20.47 24 34 24c13.52 0 20-6.34 20-17.78C54 5.5 53.17 4 51 4H17c-2.05 0-3 1.38-3 2.22",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "mask": "url(#mouthSmile02-a)"
+              },
+              "children": [
+                {
+                  "name": "rect",
+                  "type": "element",
+                  "attributes": {
+                    "x": "26",
+                    "y": "-2",
+                    "width": "16",
+                    "height": "14",
+                    "rx": "2",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "square01": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "20",
+                "y": "2",
+                "width": "27",
+                "height": "8",
+                "rx": "4",
+                "fill": "black",
+                "fill-opacity": "0.8"
+              }
+            }
+          ]
+        },
+        "square02": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "12",
+                "y": "4",
+                "width": "44",
+                "height": "4",
+                "rx": "2",
+                "fill": "black",
+                "fill-opacity": "0.8"
               }
             }
           ]

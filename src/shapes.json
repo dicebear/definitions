@@ -19,15 +19,30 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
+        "name": "mask",
         "type": "element",
         "attributes": {
-          "transform": "matrix(1.2 0 0 1.2 -10 -190)"
+          "id": "dicebearShapes-a",
+          "style": "mask-type:alpha",
+          "maskUnits": "userSpaceOnUse",
+          "x": "-10",
+          "y": "-190",
+          "width": "120",
+          "height": "480"
         },
         "children": [
           {
-            "name": "shape1",
-            "type": "component"
+            "name": "g",
+            "type": "element",
+            "attributes": {
+              "transform": "matrix(1.2 0 0 1.2 -10 -190)"
+            },
+            "children": [
+              {
+                "name": "shape03",
+                "type": "component"
+              }
+            ]
           }
         ]
       },
@@ -35,12 +50,50 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "transform": "matrix(.8 0 0 .8 10 -110)"
+          "mask": "url(#dicebearShapes-a)"
         },
         "children": [
           {
-            "name": "shape2",
-            "type": "component"
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "x": "-450",
+              "y": "-450",
+              "width": "1000",
+              "height": "1000",
+              "fill": {
+                "type": "color",
+                "name": "shape3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "mask",
+        "type": "element",
+        "attributes": {
+          "id": "dicebearShapes-b",
+          "style": "mask-type:alpha",
+          "maskUnits": "userSpaceOnUse",
+          "x": "10",
+          "y": "-110",
+          "width": "80",
+          "height": "320"
+        },
+        "children": [
+          {
+            "name": "g",
+            "type": "element",
+            "attributes": {
+              "transform": "matrix(.8 0 0 .8 10 -110)"
+            },
+            "children": [
+              {
+                "name": "shape02",
+                "type": "component"
+              }
+            ]
           }
         ]
       },
@@ -48,12 +101,73 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "transform": "matrix(.4 0 0 .4 30 -30)"
+          "mask": "url(#dicebearShapes-b)"
         },
         "children": [
           {
-            "name": "shape3",
-            "type": "component"
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "x": "-450",
+              "y": "-450",
+              "width": "1000",
+              "height": "1000",
+              "fill": {
+                "type": "color",
+                "name": "shape2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "mask",
+        "type": "element",
+        "attributes": {
+          "id": "dicebearShapes-c",
+          "style": "mask-type:alpha",
+          "maskUnits": "userSpaceOnUse",
+          "x": "30",
+          "y": "-30",
+          "width": "40",
+          "height": "160"
+        },
+        "children": [
+          {
+            "name": "g",
+            "type": "element",
+            "attributes": {
+              "transform": "matrix(.4 0 0 .4 30 -30)"
+            },
+            "children": [
+              {
+                "name": "shape01",
+                "type": "component"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "mask": "url(#dicebearShapes-c)"
+        },
+        "children": [
+          {
+            "name": "rect",
+            "type": "element",
+            "attributes": {
+              "x": "-450",
+              "y": "-450",
+              "width": "1000",
+              "height": "1000",
+              "fill": {
+                "type": "color",
+                "name": "shape1"
+              }
+            }
           }
         ]
       }
@@ -66,7 +180,7 @@
     "shape-rendering": "auto"
   },
   "components": {
-    "shape1": {
+    "shape": {
       "width": 100,
       "height": 400,
       "rotate": [
@@ -84,7 +198,7 @@
         ]
       },
       "variants": {
-        "rectangle": {
+        "ellipse": {
           "elements": [
             {
               "name": "path",
@@ -92,26 +206,8 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M90 160H10v80h80zM0 150v100h100V150z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
-              }
-            }
-          ]
-        },
-        "rectangleFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 150h100v100H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
+                "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
+                "fill": "white"
               }
             }
           ]
@@ -123,59 +219,7 @@
               "type": "element",
               "attributes": {
                 "d": "M100 200a50 50 0 1 1-100 0 50 50 0 0 1 100 0",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
-              }
-            }
-          ]
-        },
-        "ellipse": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
-              }
-            }
-          ]
-        },
-        "polygonFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "m50 157 50 86.6H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
-              }
-            }
-          ]
-        },
-        "polygon": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
+                "fill": "white"
               }
             }
           ]
@@ -189,281 +233,73 @@
                 "x": "45",
                 "width": "10",
                 "height": "400",
-                "fill": {
-                  "type": "color",
-                  "name": "shape1"
-                }
+                "fill": "white"
+              }
+            }
+          ]
+        },
+        "polygon": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
+                "fill": "white"
+              }
+            }
+          ]
+        },
+        "polygonFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m50 157 50 86.6H0z",
+                "fill": "white"
+              }
+            }
+          ]
+        },
+        "rectangle": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M90 160H10v80h80zM0 150v100h100V150z",
+                "fill": "white"
+              }
+            }
+          ]
+        },
+        "rectangleFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 150h100v100H0z",
+                "fill": "white"
               }
             }
           ]
         }
       }
     },
-    "shape2": {
-      "width": 100,
-      "height": 400,
-      "rotate": [
-        -180,
-        180
-      ],
-      "translate": {
-        "x": [
-          -50,
-          50
-        ],
-        "y": [
-          -50,
-          50
-        ]
-      },
-      "variants": {
-        "rectangle": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M90 160H10v80h80zM0 150v100h100V150z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        },
-        "rectangleFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 150h100v100H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        },
-        "ellipseFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M100 200a50 50 0 1 1-100 0 50 50 0 0 1 100 0",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        },
-        "ellipse": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        },
-        "polygonFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "m50 157 50 86.6H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        },
-        "polygon": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        },
-        "line": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "45",
-                "width": "10",
-                "height": "400",
-                "fill": {
-                  "type": "color",
-                  "name": "shape2"
-                }
-              }
-            }
-          ]
-        }
-      }
+    "shape01": {
+      "extends": "shape"
     },
-    "shape3": {
-      "width": 100,
-      "height": 400,
-      "rotate": [
-        -180,
-        180
-      ],
-      "translate": {
-        "x": [
-          -50,
-          50
-        ],
-        "y": [
-          -50,
-          50
-        ]
-      },
-      "variants": {
-        "rectangle": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M90 160H10v80h80zM0 150v100h100V150z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        },
-        "rectangleFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 150h100v100H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        },
-        "ellipseFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M100 200a50 50 0 1 1-100 0 50 50 0 0 1 100 0",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        },
-        "ellipse": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        },
-        "polygonFilled": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "m50 157 50 86.6H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        },
-        "polygon": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        },
-        "line": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "45",
-                "width": "10",
-                "height": "400",
-                "fill": {
-                  "type": "color",
-                  "name": "shape3"
-                }
-              }
-            }
-          ]
-        }
-      }
+    "shape02": {
+      "extends": "shape"
+    },
+    "shape03": {
+      "extends": "shape"
     }
   },
   "colors": {
@@ -490,8 +326,8 @@
     },
     "shape2": {
       "notEqualTo": [
-        "shape1",
-        "background"
+        "background",
+        "shape1"
       ],
       "values": [
         "#0a5b83",
@@ -503,9 +339,9 @@
     },
     "shape3": {
       "notEqualTo": [
-        "shape2",
+        "background",
         "shape1",
-        "background"
+        "shape2"
       ],
       "values": [
         "#0a5b83",

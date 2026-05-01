@@ -26,7 +26,7 @@
         },
         "children": [
           {
-            "name": "shape",
+            "name": "body",
             "type": "component"
           }
         ]
@@ -40,7 +40,7 @@
     "shape-rendering": "auto"
   },
   "components": {
-    "shape": {
+    "body": {
       "width": 90,
       "height": 130,
       "rotate": [
@@ -79,7 +79,7 @@
               },
               "children": [
                 {
-                  "name": "face",
+                  "name": "head",
                   "type": "component"
                 }
               ]
@@ -88,8 +88,144 @@
         }
       }
     },
-    "face": {
-      "width": 42,
+    "eyes": {
+      "width": 16,
+      "height": 16,
+      "translate": {
+        "x": [
+          -20,
+          20
+        ],
+        "y": [
+          -10,
+          10
+        ]
+      },
+      "variants": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M.25 8.12C1.66 11.86 12 16 12 16s5.17-9.58 3.76-13.32c0 0-1.41-3.74-5.3-2.38-3.87 1.36-2.7 4.48-2.7 4.48S6.6 1.66 2.73 3.02.25 8.12.25 8.12",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M9.5 10c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S13.38 10 9.5 10",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11.86 7.5c0-1.42-4.14-2.85-4.82-4.98C6.34.4 16 5.37 16 7.5s-9.65 7.11-8.96 4.98 4.82-3.56 4.82-4.98",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M8 8.36S8 4 12 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S9.33 12 8.67 12 8 11.27 8 11.27z",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 8c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M11.5 6C8.29 6 7 7.36 7 8.04c0 3.4 1.29 1.35 4.5 1.35S16 11.43 16 8.04C16 7.36 14.71 6 11.5 6",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M16 8c0 1.66-1.12 3-2.5 3S11 9.66 11 8s1.12-3 2.5-3S16 6.34 16 8",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "head": {
+      "width": 44,
       "height": 40,
       "rotate": [
         -20,
@@ -106,13 +242,17 @@
         ]
       },
       "variants": {
-        "variant1": {
+        "default": {
           "elements": [
+            {
+              "name": "eyes",
+              "type": "component"
+            },
             {
               "name": "g",
               "type": "element",
               "attributes": {
-                "transform": "translate(-3 4)"
+                "transform": "matrix(-1 0 0 1 44 0)"
               },
               "children": [
                 {
@@ -125,7 +265,7 @@
               "name": "g",
               "type": "element",
               "attributes": {
-                "transform": "translate(6 22)"
+                "transform": "translate(7 26)"
               },
               "children": [
                 {
@@ -133,672 +273,6 @@
                   "type": "component"
                 }
               ]
-            }
-          ]
-        },
-        "variant2": {
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(-3 3)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(6 23)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
-            }
-          ]
-        },
-        "variant3": {
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(-3 2)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(6 24)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
-            }
-          ]
-        },
-        "variant5": {
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(-3)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(6 26)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
-            }
-          ]
-        },
-        "variant4": {
-          "elements": [
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(-3 1)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "type": "element",
-              "attributes": {
-                "transform": "translate(6 25)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "eyes": {
-      "width": 48,
-      "height": 16,
-      "variants": {
-        "variant1W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M3.25 8.12C4.66 11.86 15 16 15 16s5.17-9.58 3.76-13.32c0 0-1.42-3.74-5.3-2.38s-2.7 4.48-2.7 4.48S9.6 1.66 5.73 3.02s-2.47 5.1-2.47 5.1m25.98-5.44C27.84 6.42 33 16 33 16s10.34-4.14 11.75-7.88c0 0 1.41-3.74-2.47-5.1s-5.05 1.76-5.05 1.76 1.18-3.12-2.7-4.48-5.29 2.38-5.29 2.38",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant1W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M2.25 8.12C3.66 11.86 14 16 14 16s5.17-9.58 3.76-13.32c0 0-1.42-3.74-5.3-2.38s-2.7 4.48-2.7 4.48S8.6 1.66 4.73 3.02s-2.47 5.1-2.47 5.1m27.98-5.44C28.84 6.42 34 16 34 16s10.34-4.14 11.75-7.88c0 0 1.41-3.74-2.47-5.1s-5.05 1.76-5.05 1.76 1.18-3.12-2.7-4.48-5.29 2.38-5.29 2.38",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant1W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1.25 8.12C2.66 11.86 13 16 13 16s5.17-9.58 3.76-13.32c0 0-1.42-3.74-5.3-2.38s-2.7 4.48-2.7 4.48S7.6 1.66 3.73 3.02s-2.47 5.1-2.47 5.1m29.98-5.44C29.84 6.42 35 16 35 16s10.34-4.14 11.75-7.88c0 0 1.41-3.74-2.47-5.1s-5.05 1.76-5.05 1.76 1.18-3.12-2.7-4.48-5.29 2.38-5.29 2.38",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant1W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M.25 8.12C1.66 11.86 12 16 12 16s5.17-9.58 3.76-13.32c0 0-1.41-3.74-5.3-2.38-3.87 1.36-2.7 4.48-2.7 4.48S6.6 1.66 2.73 3.02.25 8.12.25 8.12m32-5.44C30.83 6.42 35.99 16 35.99 16s10.34-4.14 11.75-7.88c0 0 1.41-3.74-2.47-5.1s-5.05 1.76-5.05 1.76S41.4 1.66 37.52.3s-5.29 2.38-5.29 2.38",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant2W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M12.5 10c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S16.38 10 12.5 10m23 0c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S39.38 10 35.5 10",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant2W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M11.5 10c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S15.38 10 11.5 10m25 0c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S40.38 10 36.5 10",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant2W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M10.5 10c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S14.38 10 10.5 10m27 0c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S41.38 10 37.5 10",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant2W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M9.5 10c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S13.38 10 9.5 10m29 0c-3.88 0-7.11-4.23-6.4-4.85s2.63 1.3 6.4 1.3 5.69-2 6.4-1.3S42.38 10 38.5 10",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant3W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M14.86 7.5c0-1.42-4.14-2.85-4.82-4.98C9.34.4 19 5.37 19 7.5s-9.65 7.11-8.96 4.98 4.82-3.56 4.82-4.98m18.28 0c0-1.42 4.14-2.85 4.82-4.98C38.66.4 29 5.37 29 7.5s9.65 7.11 8.96 4.98-4.82-3.56-4.82-4.98",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant3W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M13.86 7.5c0-1.42-4.14-2.85-4.82-4.98C8.34.4 18 5.37 18 7.5s-9.65 7.11-8.96 4.98 4.82-3.56 4.82-4.98m20.28 0c0-1.42 4.14-2.85 4.82-4.98C39.66.4 30 5.37 30 7.5s9.65 7.11 8.96 4.98-4.82-3.56-4.82-4.98",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant3W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M12.86 7.5c0-1.42-4.14-2.85-4.82-4.98C7.34.4 17 5.37 17 7.5s-9.65 7.11-8.96 4.98 4.82-3.56 4.82-4.98m22.28 0c0-1.42 4.14-2.85 4.82-4.98C40.66.4 31 5.37 31 7.5s9.65 7.11 8.96 4.98-4.82-3.56-4.82-4.98",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant3W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M11.86 7.5c0-1.42-4.14-2.85-4.82-4.98C6.34.4 16 5.37 16 7.5s-9.65 7.11-8.96 4.98 4.82-3.56 4.82-4.98m24.28 0c0-1.42 4.14-2.85 4.82-4.98C41.66.4 32 5.37 32 7.5s9.65 7.11 8.96 4.98-4.82-3.56-4.82-4.98",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant4W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M11 8.36S11 4 15 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S12.33 12 11.67 12s-.67-.73-.67-.73zm18 0S29 4 33 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S30.33 12 29.67 12s-.67-.73-.67-.73z",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant4W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M10 8.36S10 4 14 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S11.33 12 10.67 12s-.67-.73-.67-.73zm20 0S30 4 34 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S31.33 12 30.67 12s-.67-.73-.67-.73z",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant4W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M9 8.36S9 4 13 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S10.33 12 9.67 12 9 11.27 9 11.27zm22 0S31 4 35 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S32.33 12 31.67 12s-.67-.73-.67-.73z",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant4W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M8 8.36S8 4 12 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S9.33 12 8.67 12 8 11.27 8 11.27zm24 0S32 4 36 4s4 4.36 4 4.36v2.91s0 .73-.67.73c-.66 0-.66-2.9-3.33-2.9S33.33 12 32.67 12s-.67-.73-.67-.73z",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant5W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M19 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m16 0c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant5W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M18 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m18 0c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant5W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M17 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m20 0c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant5W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M16 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m22 0c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant6W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M19 8c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6m16 0c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant6W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M18 8c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6m18 0c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant6W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M17 8c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6m20 0c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant6W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M16 8c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6m22 0c0 3.31-1.34 6-3 6s-3-2.69-3-6 1.34-6 3-6 3 2.69 3 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant7W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M14.5 6C11.29 6 10 7.36 10 8.04c0 3.4 1.29 1.35 4.5 1.35S19 11.43 19 8.04C19 7.36 17.71 6 14.5 6m19 0C30.29 6 29 7.36 29 8.04c0 3.4 1.29 1.35 4.5 1.35S38 11.43 38 8.04C38 7.36 36.71 6 33.5 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant7W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M13.5 6C10.29 6 9 7.36 9 8.04c0 3.4 1.29 1.35 4.5 1.35S18 11.43 18 8.04C18 7.36 16.71 6 13.5 6m21 0C31.29 6 30 7.36 30 8.04c0 3.4 1.29 1.35 4.5 1.35S39 11.43 39 8.04C39 7.36 37.71 6 34.5 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant7W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M12.5 6C9.29 6 8 7.36 8 8.04c0 3.4 1.29 1.35 4.5 1.35S17 11.43 17 8.04C17 7.36 15.71 6 12.5 6m23 0C32.29 6 31 7.36 31 8.04c0 3.4 1.29 1.35 4.5 1.35S40 11.43 40 8.04C40 7.36 38.71 6 35.5 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant7W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M11.5 6C8.29 6 7 7.36 7 8.04c0 3.4 1.29 1.35 4.5 1.35S16 11.43 16 8.04C16 7.36 14.71 6 11.5 6m25 0C33.29 6 32 7.36 32 8.04c0 3.4 1.29 1.35 4.5 1.35S41 11.43 41 8.04C41 7.36 39.71 6 36.5 6",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant8W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M19 8c0 1.66-1.12 3-2.5 3S14 9.66 14 8s1.12-3 2.5-3S19 6.34 19 8m15 0c0 1.66-1.12 3-2.5 3S29 9.66 29 8s1.12-3 2.5-3S34 6.34 34 8",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant8W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M18 8c0 1.66-1.12 3-2.5 3S13 9.66 13 8s1.12-3 2.5-3S18 6.34 18 8m17 0c0 1.66-1.12 3-2.5 3S30 9.66 30 8s1.12-3 2.5-3S35 6.34 35 8",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant8W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M17 8c0 1.66-1.12 3-2.5 3S12 9.66 12 8s1.12-3 2.5-3S17 6.34 17 8m19 0c0 1.66-1.12 3-2.5 3S31 9.66 31 8s1.12-3 2.5-3S36 6.34 36 8",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant8W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M16 8c0 1.66-1.12 3-2.5 3S11 9.66 11 8s1.12-3 2.5-3S16 6.34 16 8m21 0c0 1.66-1.12 3-2.5 3S32 9.66 32 8s1.12-3 2.5-3S37 6.34 37 8",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant9W10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M17 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m14.5-3C28.29 5 27 6.36 27 7.04c0 3.4 1.29 1.35 4.5 1.35S36 10.43 36 7.04C36 6.36 34.71 5 31.5 5",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant9W12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M16 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m16.5-3C29.29 5 28 6.36 28 7.04c0 3.4 1.29 1.35 4.5 1.35S37 10.43 37 7.04C37 6.36 35.71 5 32.5 5",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant9W14": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M15 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m18.5-3C30.29 5 29 6.36 29 7.04c0 3.4 1.29 1.35 4.5 1.35S38 10.43 38 7.04C38 6.36 36.71 5 33.5 5",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant9W16": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M14 8c0 2.2-1.34 4-3 4s-3-1.8-3-4 1.34-4 3-4 3 1.8 3 4m20.5-3C31.29 5 30 6.36 30 7.04c0 3.4 1.29 1.35 4.5 1.35S39 10.43 39 7.04C39 6.36 37.71 5 34.5 5",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
             }
           ]
         }
@@ -807,23 +281,14 @@
     "mouth": {
       "width": 30,
       "height": 14,
+      "translate": {
+        "y": [
+          -10,
+          10
+        ]
+      },
       "variants": {
-        "variant2": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M15 14C1.9 14-.72 1.29.15.23S6.27 2.11 15 2.11 28.97-.83 29.85.23 28.1 14 15 14",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "variant1": {
+        "variant01": {
           "elements": [
             {
               "name": "path",
@@ -838,7 +303,22 @@
             }
           ]
         },
-        "variant3": {
+        "variant02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M15 14C1.9 14-.72 1.29.15.23S6.27 2.11 15 2.11 28.97-.83 29.85.23 28.1 14 15 14",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "variant03": {
           "elements": [
             {
               "name": "path",
@@ -853,7 +333,7 @@
             }
           ]
         },
-        "variant4": {
+        "variant04": {
           "elements": [
             {
               "name": "path",
@@ -868,7 +348,7 @@
             }
           ]
         },
-        "variant5": {
+        "variant05": {
           "elements": [
             {
               "name": "path",
@@ -896,16 +376,14 @@
         "#f88c49"
       ]
     },
-    "shape": {
+    "eyes": {
       "notEqualTo": [
-        "background"
+        "shape"
       ],
+      "contrastTo": "shape",
       "values": [
-        "#0a5b83",
-        "#1c799f",
-        "#69d2e7",
-        "#f1f4dc",
-        "#f88c49"
+        "#000000",
+        "#ffffff"
       ]
     },
     "mouth": {
@@ -918,14 +396,16 @@
         "#ffffff"
       ]
     },
-    "eyes": {
+    "shape": {
       "notEqualTo": [
-        "shape"
+        "background"
       ],
-      "contrastTo": "shape",
       "values": [
-        "#000000",
-        "#ffffff"
+        "#0a5b83",
+        "#1c799f",
+        "#69d2e7",
+        "#f1f4dc",
+        "#f88c49"
       ]
     }
   }

@@ -70,7 +70,79 @@
       "width": 8,
       "height": 3,
       "variants": {
-        "variant12": {
+        "variant01": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "3",
+                "transform": "matrix(-1 0 0 1 8 0)",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "3",
+                "transform": "matrix(-1 0 0 1 3 0)",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "2",
+                "height": "1",
+                "transform": "matrix(-1 0 0 1 8 1)",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "2",
+                "height": "1",
+                "transform": "matrix(-1 0 0 1 3 1)",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "1",
+                "height": "1",
+                "transform": "matrix(-1 0 0 1 8 1)",
+                "fill": "white",
+                "fill-opacity": "0.7"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "1",
+                "height": "1",
+                "transform": "matrix(-1 0 0 1 3 1)",
+                "fill": "white",
+                "fill-opacity": "0.7"
+              }
+            }
+          ]
+        },
+        "variant02": {
           "elements": [
             {
               "name": "path",
@@ -78,7 +150,7 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M1 1h1v2H0V2h1zm5 0h1v2H5V2h1z",
+                "d": "M7 0H6v2h2V1H7zM2 0H1v2h2V1H2z",
                 "fill": "white"
               }
             },
@@ -88,7 +160,7 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M2 1v1H1v1h2V1zm5 0v1H6v1h2V1z",
+                "d": "M6 0v1h1v1H5V0zM1 0v1h1v1H0V0z",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -101,21 +173,20 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M2 1v1h1V1zM1 2v1h1V2zm6-1v1h1V1zM6 2v1h1V2z",
+                "d": "M6 0v1H5V0zm1 1v1H6V1zM1 0v1H0V0zm1 1v1H1V1z",
                 "fill": "white",
                 "fill-opacity": "0.5"
               }
             }
           ]
         },
-        "variant11": {
+        "variant03": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "3",
+                "d": "M6 0h1v2H5V1h1zM1 0h1v2H0V1h1z",
                 "fill": "white"
               }
             },
@@ -123,19 +194,9 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
+                "width": "1",
                 "height": "1",
+                "transform": "matrix(-1 0 0 1 7 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -146,201 +207,9 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
                 "width": "1",
                 "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.7"
-              }
-            }
-          ]
-        },
-        "variant10": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "2",
-                "height": "2",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.4"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.7"
-              }
-            }
-          ]
-        },
-        "variant09": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "3",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "6",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
+                "transform": "matrix(-1 0 0 1 2 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -349,115 +218,13 @@
             }
           ]
         },
-        "variant08": {
+        "variant04": {
           "elements": [
             {
-              "name": "rect",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant07": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            }
-          ]
-        },
-        "variant06": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "3",
-                "height": "2",
+                "d": "M2 0H1v2h2V1H2zm5 0H6v2h2V1H7z",
                 "fill": "white"
               }
             },
@@ -473,16 +240,6 @@
                   "type": "color",
                   "name": "eyes"
                 }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "width": "3",
-                "height": "2",
-                "fill": "white"
               }
             },
             {
@@ -615,13 +372,14 @@
             }
           ]
         },
-        "variant04": {
+        "variant06": {
           "elements": [
             {
-              "name": "path",
+              "name": "rect",
               "type": "element",
               "attributes": {
-                "d": "M2 0H1v2h2V1H2zm5 0H6v2h2V1H7z",
+                "width": "3",
+                "height": "2",
                 "fill": "white"
               }
             },
@@ -637,6 +395,16 @@
                   "type": "color",
                   "name": "eyes"
                 }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "width": "3",
+                "height": "2",
+                "fill": "white"
               }
             },
             {
@@ -655,13 +423,14 @@
             }
           ]
         },
-        "variant03": {
+        "variant07": {
           "elements": [
             {
-              "name": "path",
+              "name": "rect",
               "type": "element",
               "attributes": {
-                "d": "M6 0h1v2H5V1h1zM1 0h1v2H0V1h1z",
+                "width": "3",
+                "height": "2",
                 "fill": "white"
               }
             },
@@ -669,9 +438,20 @@
               "name": "rect",
               "type": "element",
               "attributes": {
+                "x": "5",
+                "width": "3",
+                "height": "2",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "1",
                 "width": "1",
                 "height": "1",
-                "transform": "matrix(-1 0 0 1 7 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -682,9 +462,10 @@
               "name": "rect",
               "type": "element",
               "attributes": {
+                "x": "2",
+                "y": "1",
                 "width": "1",
                 "height": "1",
-                "transform": "matrix(-1 0 0 1 2 1)",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -693,7 +474,298 @@
             }
           ]
         },
-        "variant02": {
+        "variant08": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "2",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "width": "3",
+                "height": "2",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant09": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "3",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "width": "3",
+                "height": "3",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "6",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            }
+          ]
+        },
+        "variant10": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "3",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "width": "3",
+                "height": "3",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "6",
+                "width": "2",
+                "height": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "width": "2",
+                "height": "2",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.4"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.4"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "6",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.4"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.4"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.7"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.7"
+              }
+            }
+          ]
+        },
+        "variant11": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "width": "3",
+                "height": "3",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "width": "3",
+                "height": "3",
+                "fill": "white"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "eyes"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.7"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.7"
+              }
+            }
+          ]
+        },
+        "variant12": {
           "elements": [
             {
               "name": "path",
@@ -701,7 +773,7 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M7 0H6v2h2V1H7zM2 0H1v2h2V1H2z",
+                "d": "M1 1h1v2H0V2h1zm5 0h1v2H5V2h1z",
                 "fill": "white"
               }
             },
@@ -711,7 +783,7 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M6 0v1h1v1H5V0zM1 0v1h1v1H0V0z",
+                "d": "M2 1v1H1v1h2V1zm5 0v1H6v1h2V1z",
                 "fill": {
                   "type": "color",
                   "name": "eyes"
@@ -724,81 +796,9 @@
               "attributes": {
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
-                "d": "M6 0v1H5V0zm1 1v1H6V1zM1 0v1H0V0zm1 1v1H1V1z",
+                "d": "M2 1v1h1V1zM1 2v1h1V2zm6-1v1h1V1zM6 2v1h1V2z",
                 "fill": "white",
                 "fill-opacity": "0.5"
-              }
-            }
-          ]
-        },
-        "variant01": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "3",
-                "height": "3",
-                "transform": "matrix(-1 0 0 1 8 0)",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "3",
-                "height": "3",
-                "transform": "matrix(-1 0 0 1 3 0)",
-                "fill": "white"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "2",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 8 1)",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "2",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "fill": {
-                  "type": "color",
-                  "name": "eyes"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 8 1)",
-                "fill": "white",
-                "fill-opacity": "0.7"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "width": "1",
-                "height": "1",
-                "transform": "matrix(-1 0 0 1 3 1)",
-                "fill": "white",
-                "fill-opacity": "0.7"
               }
             }
           ]
@@ -810,155 +810,13 @@
       "height": 5,
       "probability": 10,
       "variants": {
-        "light07": {
+        "dark01": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "light06": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "light05": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
@@ -972,225 +830,61 @@
                 "x": "2",
                 "y": "2",
                 "width": "3",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "light04": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            }
-          ]
-        },
-        "light03": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "12",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "3",
-                "width": "10",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "2",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "8",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
                 "height": "1",
                 "fill": "black",
                 "fill-opacity": "0.3"
               }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "2",
+                "width": "3",
+                "height": "1",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "2",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
             }
           ]
         },
-        "light02": {
+        "dark02": {
           "elements": [
             {
               "name": "path",
@@ -1213,7 +907,7 @@
                 "y": "2",
                 "width": "3",
                 "height": "1",
-                "fill": "white",
+                "fill": "black",
                 "fill-opacity": "0.3"
               }
             },
@@ -1260,356 +954,8 @@
                 "y": "2",
                 "width": "3",
                 "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            }
-          ]
-        },
-        "light01": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "2",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "dark07": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
                 "fill": "black",
                 "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "11",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "dark06": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "dark05": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "fill-rule": "evenodd",
-                "clip-rule": "evenodd",
-                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "2",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "dark04": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "7",
-                "y": "1",
-                "width": "3",
-                "height": "3",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "1",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "5",
-                "y": "1",
-                "width": "2",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
-                "y": "1",
-                "width": "1",
-                "height": "1",
-                "fill": {
-                  "type": "color",
-                  "name": "glasses"
-                }
               }
             }
           ]
@@ -1720,7 +1066,355 @@
             }
           ]
         },
-        "dark02": {
+        "dark04": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            }
+          ]
+        },
+        "dark05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "dark06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "dark07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "11",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "light01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "2",
+                "width": "3",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "2",
+                "width": "3",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "2",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "light02": {
           "elements": [
             {
               "name": "path",
@@ -1743,7 +1437,7 @@
                 "y": "2",
                 "width": "3",
                 "height": "1",
-                "fill": "black",
+                "fill": "white",
                 "fill-opacity": "0.3"
               }
             },
@@ -1790,19 +1484,63 @@
                 "y": "2",
                 "width": "3",
                 "height": "1",
-                "fill": "black",
+                "fill": "white",
                 "fill-opacity": "0.3"
               }
             }
           ]
         },
-        "dark01": {
+        "light03": {
           "elements": [
             {
-              "name": "path",
+              "name": "rect",
               "type": "element",
               "attributes": {
-                "d": "M0 1h5v1H2v1H1V2H0zm5 2v1H2V3zm2 0H5V2h2zm3 0H7v1h3zm0-1H7V1h5v1h-1v1h-1z",
+                "y": "1",
+                "width": "12",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "y": "3",
+                "width": "10",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "y": "2",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "2",
+                "width": "1",
+                "height": "1",
                 "fill": {
                   "type": "color",
                   "name": "glasses"
@@ -1815,9 +1553,9 @@
               "attributes": {
                 "x": "2",
                 "y": "2",
-                "width": "3",
+                "width": "8",
                 "height": "1",
-                "fill": "black",
+                "fill": "white",
                 "fill-opacity": "0.3"
               }
             },
@@ -1825,21 +1563,8 @@
               "name": "rect",
               "type": "element",
               "attributes": {
-                "x": "7",
-                "y": "2",
-                "width": "3",
-                "height": "1",
-                "fill": "black",
-                "fill-opacity": "0.3"
-              }
-            },
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "10",
                 "y": "1",
-                "width": "2",
+                "width": "1",
                 "height": "1",
                 "fill": "white",
                 "fill-opacity": "0.2"
@@ -1849,8 +1574,9 @@
               "name": "rect",
               "type": "element",
               "attributes": {
+                "x": "11",
                 "y": "1",
-                "width": "2",
+                "width": "1",
                 "height": "1",
                 "fill": "white",
                 "fill-opacity": "0.2"
@@ -1864,6 +1590,280 @@
                 "y": "2",
                 "width": "2",
                 "height": "1",
+                "fill": "black",
+                "fill-opacity": "0.3"
+              }
+            }
+          ]
+        },
+        "light04": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "1",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            }
+          ]
+        },
+        "light05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1H7v1H5V1zm5 1v2H2V2zm2 0v2h3V2z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "light06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M0 1v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1zm10 3H7V2h3zM5 4H2V2h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "2",
+                "width": "3",
+                "height": "2",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "5",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "10",
+                "y": "1",
+                "width": "2",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "light07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M10 0H7v1H5V0H2v1H0v1h1v2h1v1h3V4h2v1h3V4h1V2h1V1h-2zm0 1v3H7V1zM5 4H2V1h3z",
+                "fill": {
+                  "type": "color",
+                  "name": "glasses"
+                }
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "7",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "2",
+                "y": "1",
+                "width": "3",
+                "height": "3",
+                "fill": "white",
+                "fill-opacity": "0.3"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "y": "1",
+                "width": "1",
+                "height": "1",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            },
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "11",
+                "y": "1",
+                "width": "1",
+                "height": "1",
                 "fill": "white",
                 "fill-opacity": "0.2"
               }
@@ -1876,13 +1876,13 @@
       "width": 4,
       "height": 3,
       "variants": {
-        "sad10": {
+        "happy01": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 0v1h1v1h1V0z",
+                "d": "M1 0v2h2V0z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -1891,13 +1891,13 @@
             }
           ]
         },
-        "sad09": {
+        "happy02": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 1v1h1V1h3V0H1v1z",
+                "d": "M2 1v1h1V1z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -1906,13 +1906,13 @@
             }
           ]
         },
-        "sad08": {
+        "happy03": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M0 0v1h3v1h1V1H3V0z",
+                "d": "M1 0v1h1v1H0V0z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -1921,240 +1921,13 @@
             }
           ]
         },
-        "sad07": {
+        "happy04": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 0h2v1H1z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "sad06": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 0h4v1H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "sad05": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1 0h3v1H1z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "sad04": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 0h3v1H0z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "sad03": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M3 0v1H1v1H0V1h1V0z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "sad02": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1 0v1h2v1h1V1H3V0z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "sad01": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1 2H0V1h1zm3 0H3V1h1zM3 1H1V0h2z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "happy13": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1 1v1h2V1z",
-                "fill": "white",
-                "fill-opacity": "0.2"
-              }
-            }
-          ]
-        },
-        "happy12": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            },
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1 1v1h2V1z",
-                "fill": "white"
-              }
-            }
-          ]
-        },
-        "happy11": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 0v1h1v1h2V1H1V0z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "happy10": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M4 0v1H3v1H1V1h2V0z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "happy09": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M1 0H0v1h1zm3 0H3v1h1zM3 1H1v1h2z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "happy08": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 2V1h3V0h1v1H3v1z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "happy07": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M4 2V1H1V0H0v1h1v1z",
-                "fill": {
-                  "type": "color",
-                  "name": "mouth"
-                }
-              }
-            }
-          ]
-        },
-        "happy06": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 0v1h1v1h2V1h1V0z",
+                "d": "M3 0v1H2v1h2V0z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -2187,13 +1960,13 @@
             }
           ]
         },
-        "happy04": {
+        "happy06": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M3 0v1H2v1h2V0z",
+                "d": "M0 0v1h1v1h2V1h1V0z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -2202,13 +1975,13 @@
             }
           ]
         },
-        "happy03": {
+        "happy07": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 0v1h1v1H0V0z",
+                "d": "M4 2V1H1V0H0v1h1v1z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -2217,13 +1990,13 @@
             }
           ]
         },
-        "happy02": {
+        "happy08": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 1v1h1V1z",
+                "d": "M0 2V1h3V0h1v1H3v1z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"
@@ -2232,13 +2005,240 @@
             }
           ]
         },
-        "happy01": {
+        "happy09": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M1 0v2h2V0z",
+                "d": "M1 0H0v1h1zm3 0H3v1h1zM3 1H1v1h2z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M4 0v1H3v1H1V1h2V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy11": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h1v1h2V1H1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "happy12": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1v1h2V1z",
+                "fill": "white"
+              }
+            }
+          ]
+        },
+        "happy13": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1v1h2V2h1V1H3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            },
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 1v1h2V1z",
+                "fill": "white",
+                "fill-opacity": "0.2"
+              }
+            }
+          ]
+        },
+        "sad01": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 2H0V1h1zm3 0H3V1h1zM3 1H1V0h2z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad02": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h2v1h1V1H3V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad03": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M3 0v1H1v1H0V1h1V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad04": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h3v1H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad05": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h3v1H1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad06": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h4v1H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad07": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0h2v1H1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad08": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0v1h3v1h1V1H3V0z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad09": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 1v1h1V1h3V0H1v1z",
+                "fill": {
+                  "type": "color",
+                  "name": "mouth"
+                }
+              }
+            }
+          ]
+        },
+        "sad10": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0v1h1v1h1V0z",
                 "fill": {
                   "type": "color",
                   "name": "mouth"

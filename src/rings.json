@@ -42,7 +42,7 @@
         "container": {
           "elements": [
             {
-              "name": "ringOne",
+              "name": "ring01",
               "type": "component"
             },
             {
@@ -53,7 +53,7 @@
               },
               "children": [
                 {
-                  "name": "ringTwo",
+                  "name": "ring02",
                   "type": "component"
                 }
               ]
@@ -66,7 +66,7 @@
               },
               "children": [
                 {
-                  "name": "ringThree",
+                  "name": "ring03",
                   "type": "component"
                 }
               ]
@@ -79,7 +79,7 @@
               },
               "children": [
                 {
-                  "name": "ringFour",
+                  "name": "ring04",
                   "type": "component"
                 }
               ]
@@ -92,7 +92,7 @@
               },
               "children": [
                 {
-                  "name": "ringFive",
+                  "name": "ring05",
                   "type": "component"
                 }
               ]
@@ -105,7 +105,7 @@
               },
               "children": [
                 {
-                  "name": "ringOne",
+                  "name": "ring01",
                   "type": "component"
                 }
               ]
@@ -118,7 +118,7 @@
               },
               "children": [
                 {
-                  "name": "ringTwo",
+                  "name": "ring02",
                   "type": "component"
                 }
               ]
@@ -131,7 +131,7 @@
               },
               "children": [
                 {
-                  "name": "ringThree",
+                  "name": "ring03",
                   "type": "component"
                 }
               ]
@@ -144,7 +144,7 @@
               },
               "children": [
                 {
-                  "name": "ringFour",
+                  "name": "ring04",
                   "type": "component"
                 }
               ]
@@ -157,7 +157,7 @@
               },
               "children": [
                 {
-                  "name": "ringFive",
+                  "name": "ring05",
                   "type": "component"
                 }
               ]
@@ -204,44 +204,10 @@
         }
       }
     },
-    "ringOne": {
+    "ring01": {
       "width": 100,
       "height": 100,
-      "rotate": [
-        -180,
-        180
-      ],
       "variants": {
-        "half": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 0c27.614 0 50 22.386 50 50H90c0-22.091-17.909-40-40-40S10 27.909 10 50H0C0 22.386 22.386 0 50 0",
-                "fill": {
-                  "type": "color",
-                  "name": "ring"
-                }
-              }
-            }
-          ]
-        },
-        "quarter": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M50 10c-22.091 0-40 17.909-40 40H0C0 22.386 22.386 0 50 0z",
-                "fill": {
-                  "type": "color",
-                  "name": "ring"
-                }
-              }
-            }
-          ]
-        },
         "eighth": {
           "elements": [
             {
@@ -274,24 +240,14 @@
               }
             }
           ]
-        }
-      }
-    },
-    "ringTwo": {
-      "width": 80,
-      "height": 80,
-      "rotate": [
-        -180,
-        180
-      ],
-      "variants": {
-        "eighth": {
+        },
+        "half": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M18.787 18.787C13.358 24.217 10 31.717 10 40H0c0-11.046 4.477-21.046 11.716-28.284z",
+                "d": "M50 0c27.614 0 50 22.386 50 50H90c0-22.091-17.909-40-40-40S10 27.909 10 50H0C0 22.386 22.386 0 50 0",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -306,7 +262,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 10c-16.568 0-30 13.432-30 30H0C0 17.909 17.909 0 40 0z",
+                "d": "M50 10c-22.091 0-40 17.909-40 40H0C0 22.386 22.386 0 50 0z",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -314,14 +270,20 @@
               }
             }
           ]
-        },
-        "half": {
+        }
+      }
+    },
+    "ring02": {
+      "width": 80,
+      "height": 80,
+      "variants": {
+        "eighth": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M40 0c22.091 0 40 17.909 40 40H70c0-16.568-13.431-30-30-30-16.568 0-30 13.432-30 30H0C0 17.909 17.909 0 40 0",
+                "d": "M18.787 18.787C13.358 24.217 10 31.717 10 40H0c0-11.046 4.477-21.046 11.716-28.284z",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -347,24 +309,14 @@
               }
             }
           ]
-        }
-      }
-    },
-    "ringThree": {
-      "width": 60,
-      "height": 60,
-      "rotate": [
-        -180,
-        180
-      ],
-      "variants": {
-        "eighth": {
+        },
+        "half": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M15.857 15.857A19.94 19.94 0 0 0 10 30H0c0-8.285 3.358-15.784 8.787-21.213z",
+                "d": "M40 0c22.091 0 40 17.909 40 40H70c0-16.568-13.431-30-30-30-16.568 0-30 13.432-30 30H0C0 17.909 17.909 0 40 0",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -379,7 +331,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M30 10c-11.046 0-20 8.954-20 20H0C0 13.432 13.432 0 30 0z",
+                "d": "M40 10c-16.568 0-30 13.432-30 30H0C0 17.909 17.909 0 40 0z",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -387,14 +339,20 @@
               }
             }
           ]
-        },
-        "half": {
+        }
+      }
+    },
+    "ring03": {
+      "width": 60,
+      "height": 60,
+      "variants": {
+        "eighth": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M30 0c16.569 0 30 13.432 30 30H50c0-11.046-8.954-20-20-20s-20 8.954-20 20H0C0 13.432 13.432 0 30 0",
+                "d": "M15.857 15.857A19.94 19.94 0 0 0 10 30H0c0-8.285 3.358-15.784 8.787-21.213z",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -420,24 +378,14 @@
               }
             }
           ]
-        }
-      }
-    },
-    "ringFour": {
-      "width": 40,
-      "height": 40,
-      "rotate": [
-        -180,
-        180
-      ],
-      "variants": {
-        "eighth": {
+        },
+        "half": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M12.929 12.93A9.97 9.97 0 0 0 9.999 20H0A19.94 19.94 0 0 1 5.857 5.858z",
+                "d": "M30 0c16.569 0 30 13.432 30 30H50c0-11.046-8.954-20-20-20s-20 8.954-20 20H0C0 13.432 13.432 0 30 0",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -452,7 +400,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20 10c-5.523 0-10 4.477-10 10H0C0 8.954 8.954 0 20 0z",
+                "d": "M30 10c-11.046 0-20 8.954-20 20H0C0 13.432 13.432 0 30 0z",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -460,14 +408,20 @@
               }
             }
           ]
-        },
-        "half": {
+        }
+      }
+    },
+    "ring04": {
+      "width": 40,
+      "height": 40,
+      "variants": {
+        "eighth": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20 0c11.046 0 20 8.954 20 20H30c0-5.523-4.477-10-10-10s-10 4.477-10 10H0C0 8.954 8.954 0 20 0",
+                "d": "M12.929 12.93A9.97 9.97 0 0 0 9.999 20H0A19.94 19.94 0 0 1 5.857 5.858z",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -493,16 +447,42 @@
               }
             }
           ]
+        },
+        "half": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M20 0c11.046 0 20 8.954 20 20H30c0-5.523-4.477-10-10-10s-10 4.477-10 10H0C0 8.954 8.954 0 20 0",
+                "fill": {
+                  "type": "color",
+                  "name": "ring"
+                }
+              }
+            }
+          ]
+        },
+        "quarter": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M20 10c-5.523 0-10 4.477-10 10H0C0 8.954 8.954 0 20 0z",
+                "fill": {
+                  "type": "color",
+                  "name": "ring"
+                }
+              }
+            }
+          ]
         }
       }
     },
-    "ringFive": {
+    "ring05": {
       "width": 20,
       "height": 20,
-      "rotate": [
-        -180,
-        180
-      ],
       "variants": {
         "eighth": {
           "elements": [
@@ -519,13 +499,15 @@
             }
           ]
         },
-        "quarter": {
+        "full": {
           "elements": [
             {
-              "name": "path",
+              "name": "circle",
               "type": "element",
               "attributes": {
-                "d": "M10 10H0C0 4.477 4.477 0 10 0z",
+                "cx": "10",
+                "cy": "10",
+                "r": "10",
                 "fill": {
                   "type": "color",
                   "name": "ring"
@@ -549,15 +531,13 @@
             }
           ]
         },
-        "full": {
+        "quarter": {
           "elements": [
             {
-              "name": "circle",
+              "name": "path",
               "type": "element",
               "attributes": {
-                "cx": "10",
-                "cy": "10",
-                "r": "10",
+                "d": "M10 10H0C0 4.477 4.477 0 10 0z",
                 "fill": {
                   "type": "color",
                   "name": "ring"

@@ -5,10 +5,10 @@
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "text": "„Identicon” (https://www.dicebear.com) by „Florian Körner”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
+      "text": "„Identicon” (https://www.dicebear.com) by „DiceBear”, licensed under „CC0 1.0” (https://creativecommons.org/publicdomain/zero/1.0/)"
     },
     "creator": {
-      "name": "Florian Körner",
+      "name": "DiceBear",
       "url": "https://www.dicebear.com"
     },
     "source": {
@@ -39,7 +39,7 @@
             },
             "children": [
               {
-                "name": "row5",
+                "name": "row05",
                 "type": "component"
               }
             ]
@@ -52,7 +52,7 @@
             },
             "children": [
               {
-                "name": "row4",
+                "name": "row04",
                 "type": "component"
               }
             ]
@@ -65,7 +65,7 @@
             },
             "children": [
               {
-                "name": "row3",
+                "name": "row03",
                 "type": "component"
               }
             ]
@@ -78,13 +78,13 @@
             },
             "children": [
               {
-                "name": "row2",
+                "name": "row02",
                 "type": "component"
               }
             ]
           },
           {
-            "name": "row1",
+            "name": "row01",
             "type": "component"
           }
         ]
@@ -123,37 +123,27 @@
       "width": 5,
       "height": 1,
       "variants": {
-        "xooox": {
+        "ooxoo": {
           "elements": [
             {
-              "name": "path",
+              "name": "rect",
               "type": "element",
               "attributes": {
-                "d": "M1 0H0v1h1zm4 0H4v1h1z",
+                "x": "2",
+                "width": "1",
+                "height": "1",
                 "fill": "black"
               }
             }
           ]
         },
-        "xxoxx": {
+        "oxoxo": {
           "elements": [
             {
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M2 0H0v1h2zm3 0H3v1h2z",
-                "fill": "black"
-              }
-            }
-          ]
-        },
-        "xoxox": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M0 0h1v1H0zm4 0h1v1H4zM3 0H2v1h1z",
+                "d": "M2 0H1v1h1zm2 0H3v1h1z",
                 "fill": "black"
               }
             }
@@ -173,6 +163,42 @@
             }
           ]
         },
+        "xooox": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M1 0H0v1h1zm4 0H4v1h1z",
+                "fill": "black"
+              }
+            }
+          ]
+        },
+        "xoxox": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 0h1v1H0zm4 0h1v1H4zM3 0H2v1h1z",
+                "fill": "black"
+              }
+            }
+          ]
+        },
+        "xxoxx": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M2 0H0v1h2zm3 0H3v1h2z",
+                "fill": "black"
+              }
+            }
+          ]
+        },
         "xxxxx": {
           "elements": [
             {
@@ -185,48 +211,22 @@
               }
             }
           ]
-        },
-        "oxoxo": {
-          "elements": [
-            {
-              "name": "path",
-              "type": "element",
-              "attributes": {
-                "d": "M2 0H1v1h1zm2 0H3v1h1z",
-                "fill": "black"
-              }
-            }
-          ]
-        },
-        "ooxoo": {
-          "elements": [
-            {
-              "name": "rect",
-              "type": "element",
-              "attributes": {
-                "x": "2",
-                "width": "1",
-                "height": "1",
-                "fill": "black"
-              }
-            }
-          ]
         }
       }
     },
-    "row5": {
+    "row01": {
       "extends": "row"
     },
-    "row4": {
+    "row02": {
       "extends": "row"
     },
-    "row3": {
+    "row03": {
       "extends": "row"
     },
-    "row2": {
+    "row04": {
       "extends": "row"
     },
-    "row1": {
+    "row05": {
       "extends": "row"
     }
   },
@@ -236,7 +236,6 @@
         "background"
       ],
       "values": [
-        "#e53935",
         "#ffb300",
         "#1e88e5",
         "#546e7a",
@@ -253,6 +252,7 @@
         "#fb8c00",
         "#d81b60",
         "#8e24aa",
+        "#e53935",
         "#00897b",
         "#fdd835"
       ]
