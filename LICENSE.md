@@ -75,14 +75,6 @@ the following list or in the individual files.
 | License | [Free for personal and commercial use](https://bottts.com/) |
 |  Source | [Bottts](https://bottts.com/)                               |
 
-## Circles
-
-|    File | [src/circles.json](./src/circles.json)                    |
-| ------: | :-------------------------------------------------------- |
-|  Artist | [DiceBear](https://www.dicebear.com)                      |
-| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-|  Source | [Circles](https://www.dicebear.com)                       |
-
 ## Croodles Neutral
 
 |    File | [src/croodles-neutral.json](./src/croodles-neutral.json)                               |
@@ -234,6 +226,14 @@ the following list or in the individual files.
 |  Artist | [DiceBear](https://www.dicebear.com)                          |
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Rings](https://www.dicebear.com)                             |
+
+## Shape Grid
+
+|    File | [src/shape-grid.json](./src/shape-grid.json)                  |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Shape Grid](https://www.dicebear.com)                        |
 
 ## Shapes
 

@@ -52,10 +52,6 @@
       "types": "./dist/bottts.min.json",
       "default": "./dist/bottts.min.json"
     },
-    "./circles.json": {
-      "types": "./dist/circles.min.json",
-      "default": "./dist/circles.min.json"
-    },
     "./croodles-neutral.json": {
       "types": "./dist/croodles-neutral.min.json",
       "default": "./dist/croodles-neutral.min.json"
@@ -131,6 +127,10 @@
     "./rings.json": {
       "types": "./dist/rings.min.json",
       "default": "./dist/rings.min.json"
+    },
+    "./shape-grid.json": {
+      "types": "./dist/shape-grid.min.json",
+      "default": "./dist/shape-grid.min.json"
     },
     "./shapes.json": {
       "types": "./dist/shapes.min.json",
