@@ -80,6 +80,10 @@
       "types": "./dist/identicon.min.json",
       "default": "./dist/identicon.min.json"
     },
+    "./initial-face.json": {
+      "types": "./dist/initial-face.min.json",
+      "default": "./dist/initial-face.min.json"
+    },
     "./initials.json": {
       "types": "./dist/initials.min.json",
       "default": "./dist/initials.min.json"

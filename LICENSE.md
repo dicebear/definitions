@@ -131,6 +131,14 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Identicon](https://www.dicebear.com)                         |
 
+## Initial Face
+
+|    File | [src/initial-face.json](./src/initial-face.json)              |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Initial Face](https://www.dicebear.com)                      |
+
 ## Initials
 
 |    File | [src/initials.json](./src/initials.json)                      |
