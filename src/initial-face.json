@@ -275,24 +275,15 @@
   "colors": {
     "background": {
       "values": [
-        "#ee9bb4",
-        "#f29c9c",
-        "#f0a084",
-        "#e8a772",
-        "#dab067",
-        "#c6b968",
-        "#aec174",
-        "#94c888",
-        "#78cca0",
-        "#62cdba",
-        "#58cbd1",
-        "#61c7e5",
-        "#76c0f3",
-        "#90b8fa",
-        "#aab0f9",
-        "#c1a8f0",
-        "#d5a2e1",
-        "#e49dcc"
+        "#f8b0b9",
+        "#f4b695",
+        "#f9da9d",
+        "#ecefac",
+        "#c3f4c1",
+        "#a2ece4",
+        "#98def1",
+        "#aac5f5",
+        "#d8c7fb"
       ]
     },
     "eyes": {
