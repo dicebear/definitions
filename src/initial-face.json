@@ -176,19 +176,9 @@
         }
       }
     },
-    "head": {
+    "face": {
       "width": 44,
       "height": 44,
-      "rotate": [
-        -15,
-        15
-      ],
-      "translate": {
-        "x": [
-          -3,
-          3
-        ]
-      },
       "variants": {
         "default": {
           "elements": [
@@ -218,6 +208,61 @@
               "children": [
                 {
                   "name": "mouth",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "head": {
+      "width": 44,
+      "height": 44,
+      "rotate": [
+        -15,
+        15
+      ],
+      "translate": {
+        "x": [
+          -3,
+          3
+        ]
+      },
+      "variants": {
+        "alt": {
+          "elements": [
+            {
+              "name": "face",
+              "type": "component"
+            }
+          ],
+          "weight": 0
+        },
+        "default": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "style": "mix-blend-mode:overlay"
+              },
+              "children": [
+                {
+                  "name": "face",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.5"
+              },
+              "children": [
+                {
+                  "name": "face",
                   "type": "component"
                 }
               ]

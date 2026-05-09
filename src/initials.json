@@ -30,6 +30,51 @@
       "height": 100,
       "width": 100,
       "variants": {
+        "alt": {
+          "weight": 0,
+          "elements": [
+            {
+              "name": "letters",
+              "type": "component"
+            }
+          ]
+        },
+        "default": {
+          "elements": [
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "style": "mix-blend-mode:overlay"
+              },
+              "children": [
+                {
+                  "name": "letters",
+                  "type": "component"
+                }
+              ]
+            },
+            {
+              "name": "g",
+              "type": "element",
+              "attributes": {
+                "opacity": "0.5"
+              },
+              "children": [
+                {
+                  "name": "letters",
+                  "type": "component"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "letters": {
+      "height": 100,
+      "width": 100,
+      "variants": {
         "single": {
           "weight": 0,
           "elements": [
