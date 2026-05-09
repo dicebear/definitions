@@ -105,7 +105,7 @@
                 "type": "element",
                 "attributes": {
                   "stdDeviation": "16",
-                  "result": "effect1_foregroundBlur_2066_38"
+                  "result": "effect1_foregroundBlur_2067_81"
                 }
               }
             ]
@@ -145,7 +145,7 @@
                 "type": "element",
                 "attributes": {
                   "stdDeviation": "16",
-                  "result": "effect1_foregroundBlur_2066_38"
+                  "result": "effect1_foregroundBlur_2067_81"
                 }
               }
             ]
@@ -168,18 +168,14 @@
         -160,
         160
       ],
-      "scale": [
-        0.9,
-        1.1
-      ],
       "translate": {
         "x": [
-          -100,
-          100
+          -50,
+          50
         ],
         "y": [
-          -100,
-          100
+          -50,
+          50
         ]
       },
       "variants": {
