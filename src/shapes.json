@@ -19,30 +19,15 @@
   "canvas": {
     "elements": [
       {
-        "name": "mask",
+        "name": "g",
         "type": "element",
         "attributes": {
-          "id": "dicebearShapes-a",
-          "style": "mask-type:alpha",
-          "maskUnits": "userSpaceOnUse",
-          "x": "-10",
-          "y": "-190",
-          "width": "120",
-          "height": "480"
+          "transform": "matrix(1.2 0 0 1.2 -10 -190)"
         },
         "children": [
           {
-            "name": "g",
-            "type": "element",
-            "attributes": {
-              "transform": "matrix(1.2 0 0 1.2 -10 -190)"
-            },
-            "children": [
-              {
-                "name": "shape03",
-                "type": "component"
-              }
-            ]
+            "name": "shape01",
+            "type": "component"
           }
         ]
       },
@@ -50,50 +35,12 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "mask": "url(#dicebearShapes-a)"
+          "transform": "matrix(.8 0 0 .8 10 -110)"
         },
         "children": [
           {
-            "name": "rect",
-            "type": "element",
-            "attributes": {
-              "x": "-450",
-              "y": "-450",
-              "width": "1000",
-              "height": "1000",
-              "fill": {
-                "type": "color",
-                "name": "shape3"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "mask",
-        "type": "element",
-        "attributes": {
-          "id": "dicebearShapes-b",
-          "style": "mask-type:alpha",
-          "maskUnits": "userSpaceOnUse",
-          "x": "10",
-          "y": "-110",
-          "width": "80",
-          "height": "320"
-        },
-        "children": [
-          {
-            "name": "g",
-            "type": "element",
-            "attributes": {
-              "transform": "matrix(.8 0 0 .8 10 -110)"
-            },
-            "children": [
-              {
-                "name": "shape02",
-                "type": "component"
-              }
-            ]
+            "name": "shape02",
+            "type": "component"
           }
         ]
       },
@@ -101,73 +48,12 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "mask": "url(#dicebearShapes-b)"
+          "transform": "matrix(.4 0 0 .4 30 -30)"
         },
         "children": [
           {
-            "name": "rect",
-            "type": "element",
-            "attributes": {
-              "x": "-450",
-              "y": "-450",
-              "width": "1000",
-              "height": "1000",
-              "fill": {
-                "type": "color",
-                "name": "shape2"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "mask",
-        "type": "element",
-        "attributes": {
-          "id": "dicebearShapes-c",
-          "style": "mask-type:alpha",
-          "maskUnits": "userSpaceOnUse",
-          "x": "30",
-          "y": "-30",
-          "width": "40",
-          "height": "160"
-        },
-        "children": [
-          {
-            "name": "g",
-            "type": "element",
-            "attributes": {
-              "transform": "matrix(.4 0 0 .4 30 -30)"
-            },
-            "children": [
-              {
-                "name": "shape01",
-                "type": "component"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "g",
-        "type": "element",
-        "attributes": {
-          "mask": "url(#dicebearShapes-c)"
-        },
-        "children": [
-          {
-            "name": "rect",
-            "type": "element",
-            "attributes": {
-              "x": "-450",
-              "y": "-450",
-              "width": "1000",
-              "height": "1000",
-              "fill": {
-                "type": "color",
-                "name": "shape1"
-              }
-            }
+            "name": "shape03",
+            "type": "component"
           }
         ]
       }
@@ -180,21 +66,25 @@
     "shape-rendering": "auto"
   },
   "components": {
-    "shape": {
+    "shape01": {
       "width": 100,
       "height": 400,
       "rotate": [
         -160,
         160
       ],
+      "scale": [
+        0.9,
+        1.1
+      ],
       "translate": {
         "x": [
-          -50,
-          50
+          -80,
+          80
         ],
         "y": [
-          -50,
-          50
+          -20,
+          20
         ]
       },
       "variants": {
@@ -207,10 +97,14 @@
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
               }
             }
-          ]
+          ],
+          "weight": 0
         },
         "ellipseFilled": {
           "elements": [
@@ -219,7 +113,10 @@
               "type": "element",
               "attributes": {
                 "d": "M100 200a50 50 0 1 1-100 0 50 50 0 0 1 100 0",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
               }
             }
           ]
@@ -233,7 +130,10 @@
                 "x": "45",
                 "width": "10",
                 "height": "400",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
               }
             }
           ]
@@ -247,10 +147,14 @@
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
               }
             }
-          ]
+          ],
+          "weight": 0
         },
         "polygonFilled": {
           "elements": [
@@ -259,7 +163,10 @@
               "type": "element",
               "attributes": {
                 "d": "m50 157 50 86.6H0z",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
               }
             }
           ]
@@ -273,7 +180,288 @@
                 "fill-rule": "evenodd",
                 "clip-rule": "evenodd",
                 "d": "M90 160H10v80h80zM0 150v100h100V150z",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
+              }
+            }
+          ],
+          "weight": 0
+        },
+        "rectangleFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 150h100v100H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape1"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "shape02": {
+      "width": 100,
+      "height": 400,
+      "rotate": [
+        -160,
+        160
+      ],
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "translate": {
+        "x": [
+          -60,
+          60
+        ],
+        "y": [
+          -15,
+          15
+        ]
+      },
+      "variants": {
+        "ellipse": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ],
+          "weight": 0
+        },
+        "ellipseFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M100 200a50 50 0 1 1-100 0 50 50 0 0 1 100 0",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "45",
+                "width": "10",
+                "height": "400",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ]
+        },
+        "polygon": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ],
+          "weight": 0
+        },
+        "polygonFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m50 157 50 86.6H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ]
+        },
+        "rectangle": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M90 160H10v80h80zM0 150v100h100V150z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ],
+          "weight": 0
+        },
+        "rectangleFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M0 150h100v100H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape2"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "shape03": {
+      "width": 100,
+      "height": 400,
+      "rotate": [
+        -160,
+        160
+      ],
+      "scale": [
+        0.9,
+        1.1
+      ],
+      "translate": {
+        "x": [
+          -40,
+          40
+        ],
+        "y": [
+          -10,
+          10
+        ]
+      },
+      "variants": {
+        "ellipse": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M50 240a40 40 0 1 0 0-80 40 40 0 0 0 0 80m0 10a50 50 0 1 0 0-100 50 50 0 0 0 0 100",
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
+              }
+            }
+          ]
+        },
+        "ellipseFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "M100 200a50 50 0 1 1-100 0 50 50 0 0 1 100 0",
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
+              }
+            }
+          ]
+        },
+        "line": {
+          "elements": [
+            {
+              "name": "rect",
+              "type": "element",
+              "attributes": {
+                "x": "45",
+                "width": "10",
+                "height": "400",
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
+              }
+            }
+          ]
+        },
+        "polygon": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M50 157 0 243.6h100zm0 20-32.7 56.6h65.4z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
+              }
+            }
+          ]
+        },
+        "polygonFilled": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "d": "m50 157 50 86.6H0z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
+              }
+            }
+          ]
+        },
+        "rectangle": {
+          "elements": [
+            {
+              "name": "path",
+              "type": "element",
+              "attributes": {
+                "fill-rule": "evenodd",
+                "clip-rule": "evenodd",
+                "d": "M90 160H10v80h80zM0 150v100h100V150z",
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
               }
             }
           ]
@@ -285,21 +473,15 @@
               "type": "element",
               "attributes": {
                 "d": "M0 150h100v100H0z",
-                "fill": "white"
+                "fill": {
+                  "type": "color",
+                  "name": "shape3"
+                }
               }
             }
           ]
         }
       }
-    },
-    "shape01": {
-      "extends": "shape"
-    },
-    "shape02": {
-      "extends": "shape"
-    },
-    "shape03": {
-      "extends": "shape"
     }
   },
   "colors": {
