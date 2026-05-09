@@ -19,8 +19,17 @@
   "canvas": {
     "elements": [
       {
-        "name": "rows",
-        "type": "component"
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "matrix(.65 0 0 .65 17.5 17.5)"
+        },
+        "children": [
+          {
+            "name": "rows",
+            "type": "component"
+          }
+        ]
       }
     ],
     "width": 100,
@@ -107,8 +116,7 @@
                 }
               ]
             }
-          ],
-          "weight": 0
+          ]
         },
         "rows03": {
           "elements": [
@@ -442,7 +450,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "weight": 0
         }
       }
     },
@@ -585,8 +594,7 @@
     }
   },
   "colors": {
-    "shape": {
-      "notEqualTo": [],
+    "background": {
       "values": [
         "#ffc1d1",
         "#ffeda8",
@@ -600,6 +608,12 @@
         "#b5e8c5",
         "#b3edd7",
         "#b8e8f0"
+      ]
+    },
+    "shape": {
+      "notEqualTo": [],
+      "values": [
+        "#ffffff"
       ]
     }
   }

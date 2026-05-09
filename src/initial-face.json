@@ -275,15 +275,15 @@
   "colors": {
     "background": {
       "values": [
-        "#f8b0b9",
-        "#f4b695",
-        "#f9da9d",
-        "#ecefac",
-        "#c3f4c1",
-        "#a2ece4",
-        "#98def1",
-        "#aac5f5",
-        "#d8c7fb"
+        "#ffa3b5",
+        "#ffb382",
+        "#ffe08a",
+        "#e2f299",
+        "#a8f0b0",
+        "#86eadf",
+        "#7fd4f5",
+        "#9cbeff",
+        "#cfbeff"
       ]
     },
     "eyes": {
