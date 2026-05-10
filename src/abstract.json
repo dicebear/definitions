@@ -59,8 +59,17 @@
         }
       },
       {
-        "name": "shape",
-        "type": "component"
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "translate(9.07 12.32)"
+        },
+        "children": [
+          {
+            "name": "shape",
+            "type": "component"
+          }
+        ]
       }
     ],
     "width": 72,
@@ -72,8 +81,8 @@
   },
   "components": {
     "shape": {
-      "width": 72,
-      "height": 72,
+      "width": 54.32,
+      "height": 37.33,
       "variants": {
         "variant01": {
           "elements": [
@@ -81,7 +90,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M12.45 27.26H26.1l9.88 12.69 9.92-12.7h13.65",
+                "d": "M3.38 14.94h13.65l9.88 12.69 9.92-12.7h13.65",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -98,7 +107,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M60.25 41.14 46.5 26.92a2.78 2.78 0 0 0-4.62 1l-2.8 7.85a2.78 2.78 0 0 1-5.24 0l-2.8-7.88a2.78 2.78 0 0 0-4.61-.97L12.68 41.14",
+                "d": "M51.18 28.82 37.43 14.6a2.78 2.78 0 0 0-4.62 1L30 23.45a2.78 2.78 0 0 1-5.24 0l-2.8-7.88a2.78 2.78 0 0 0-4.61-.97L3.6 28.82",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -115,7 +124,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M59.55 36.5H45.9l-9.88-12.68L26.1 36.5H12.45",
+                "d": "M50.48 24.19H36.83l-9.88-12.7-9.92 12.7H3.38",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -132,7 +141,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "m12.22 26.07 13.74 14.22a2.78 2.78 0 0 0 4.63-1l2.79-7.86a2.78 2.78 0 0 1 5.25 0l2.8 7.88a2.78 2.78 0 0 0 4.6.98l13.75-14.22",
+                "d": "m3.15 13.75 13.74 14.22a2.78 2.78 0 0 0 4.63-1l2.79-7.86a2.78 2.78 0 0 1 5.25 0l2.8 7.88a2.78 2.78 0 0 0 4.6.98l13.75-14.22",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -149,7 +158,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M50.46 33.6H21.54",
+                "d": "M41.4 21.28H12.46",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -166,7 +175,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M36 19.14v28.92",
+                "d": "M26.93 6.82v28.92",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -183,7 +192,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "m36 18.92-12.61 12.6L36 44.15l12.61-12.61z",
+                "d": "M26.93 6.6 14.32 19.2l12.61 12.62L39.54 19.2z",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -200,7 +209,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46.84 31.26a11.52 11.52 0 1 0-11.51 11.52",
+                "d": "M37.77 18.94a11.52 11.52 0 1 0-11.51 11.52",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -217,7 +226,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46.84 20.95H25.16v21.69h21.68z",
+                "d": "M37.77 8.63H16.1v21.69h21.68z",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -234,7 +243,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47.8 46.84V25.16H26.13",
+                "d": "M38.74 34.52V12.84h-21.7",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -251,7 +260,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M26.58 19.58v21.69h21.69",
+                "d": "M17.51 7.26v21.69H39.2",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -268,7 +277,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M20.66 26.2 36 41.54 51.34 26.2",
+                "d": "m11.6 13.88 15.33 15.34 15.34-15.34",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -285,7 +294,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M51.34 41.27 36 25.93 20.66 41.27",
+                "d": "M42.27 28.95 26.93 13.61 11.59 28.95",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -302,7 +311,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M46.84 20.95H25.16v21.69",
+                "d": "M37.77 8.63H16.1v21.69",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -319,7 +328,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M27.18 23.12a11.52 11.52 0 1 0 16.3 0",
+                "d": "M18.11 10.8a11.52 11.52 0 1 0 16.3 0",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -336,7 +345,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M23.45 29.35a12.6 12.6 0 0 1 13.83-12.49c8.5.87 12.24 11.31 6.78 17.89l-10 12.04",
+                "d": "M14.38 17.03A12.6 12.6 0 0 1 28.21 4.54c8.5.87 12.24 11.31 6.78 17.89L25 34.47",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -353,7 +362,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M48.7 23.86v7.43a12.74 12.74 0 0 1-14 12.63c-8.47-.86-12.56-10.96-7.7-17.95l7.1-10.2",
+                "d": "M39.63 11.54v7.43a12.74 12.74 0 0 1-14 12.63c-8.47-.86-12.56-10.96-7.7-17.95l7.1-10.2",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -370,7 +379,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "m49.8 43.69-5.92-15.54c-2.95-7.3-13.23-7.48-16.42-.27l-1.1 2.5-5.89 13.3",
+                "d": "m40.72 31.37-5.91-15.54c-2.95-7.3-13.23-7.48-16.42-.27l-1.1 2.5-5.89 13.3",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -387,7 +396,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M11.14 37.76H23.4a9.27 9.27 0 0 1 9.27-9.26h8.29a9.27 9.27 0 0 1 9.26 9.26h10.64",
+                "d": "M2.07 25.44h12.26a9.27 9.27 0 0 1 9.27-9.26h8.29a9.27 9.27 0 0 1 9.26 9.26H51.8",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -404,7 +413,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M24.66 42.4a22.7 22.7 0 0 0 22.68-22.68",
+                "d": "M15.59 30.08A22.7 22.7 0 0 0 38.27 7.4",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -421,7 +430,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M48.55 46.8V29.34c0-6.9-5.65-12.55-12.55-12.55s-12.55 5.64-12.55 12.55",
+                "d": "M39.48 34.47V17.03c0-6.9-5.65-12.55-12.55-12.55s-12.55 5.64-12.55 12.55",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -438,7 +447,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M27.18 39.4a11.52 11.52 0 1 0 0-16.28",
+                "d": "M18.11 27.08a11.52 11.52 0 1 0 0-16.28",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -455,7 +464,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47.34 42.4a22.7 22.7 0 0 1-22.68-22.68",
+                "d": "M38.27 30.08A22.7 22.7 0 0 1 15.6 7.4",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -472,7 +481,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M24.66 45.27a22.7 22.7 0 0 1 22.68-22.69",
+                "d": "M15.59 32.95a22.7 22.7 0 0 1 22.68-22.69",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -489,7 +498,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M47.34 45.27a22.7 22.7 0 0 0-22.68-22.69",
+                "d": "M38.27 32.95A22.7 22.7 0 0 0 15.6 10.26",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -506,7 +515,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M36 43.43a12.37 12.37 0 1 0 0-24.73 12.37 12.37 0 0 0 0 24.73Z",
+                "d": "M26.93 31.1a12.37 12.37 0 1 0 0-24.72 12.37 12.37 0 0 0 0 24.73Z",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -523,7 +532,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M48.7 23.86v7.43c0 6.99-5.72 12.7-12.7 12.7-6.99 0-12.7-5.71-12.7-12.7v-7.43",
+                "d": "M39.63 11.54v7.43c0 6.99-5.72 12.7-12.7 12.7-6.99 0-12.7-5.71-12.7-12.7v-7.43",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -540,7 +549,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M23.3 46.07v-7.44c0-6.98 5.71-12.7 12.7-12.7s12.7 5.72 12.7 12.7v7.44",
+                "d": "M14.23 33.75V26.3c0-6.98 5.71-12.7 12.7-12.7s12.7 5.72 12.7 12.7v7.44",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -557,7 +566,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "m41.3 40.95 12.12.19-6.28-19.39-10.22-.17h-.58l-10.22.17-6.28 19.39 12.12-.19z",
+                "d": "m32.23 28.63 12.12.19-6.28-19.39-10.22-.17h-.58l-10.22.17-6.28 19.39 12.12-.19z",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -574,7 +583,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M52.04 27.82a22.7 22.7 0 0 1-32.08 0",
+                "d": "M42.97 15.5a22.7 22.7 0 0 1-32.08 0",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -591,7 +600,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M52.04 34.47a22.7 22.7 0 0 0-32.08 0",
+                "d": "M42.97 22.15a22.7 22.7 0 0 0-32.08 0",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -608,7 +617,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M13.55 21.05a22.68 22.68 0 1 0 45.37 0",
+                "d": "M4.48 8.73a22.68 22.68 0 1 0 45.37 0",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -625,7 +634,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M13.55 43.74a22.68 22.68 0 0 1 45.37 0",
+                "d": "M4.48 31.42a22.68 22.68 0 0 1 45.37 0",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -642,7 +651,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M13.31 42.49A22.7 22.7 0 0 0 36 19.8a22.7 22.7 0 0 0 22.68 22.7",
+                "d": "M4.24 30.17A22.7 22.7 0 0 0 26.93 7.48 22.7 22.7 0 0 0 49.6 30.17",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
@@ -659,7 +668,7 @@
               "name": "path",
               "type": "element",
               "attributes": {
-                "d": "M59.72 24.66a22.7 22.7 0 0 0-22.69 22.68 22.7 22.7 0 0 0-22.68-22.68",
+                "d": "M50.65 12.34a22.7 22.7 0 0 0-22.69 22.68A22.7 22.7 0 0 0 5.28 12.34",
                 "stroke": {
                   "type": "color",
                   "name": "abstract"
