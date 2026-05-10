@@ -3,6 +3,14 @@
 The avatar styles are subject to different licences. You can find the licence in
 the following list or in the individual files.
 
+## Abstract
+
+|    File | [src/abstract.json](./src/abstract.json)                                                                  |
+| ------: | :-------------------------------------------------------------------------------------------------------- |
+|  Artist | [Matt Houser](https://x.com/mattkhouser)                                                                  |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                                 |
+|  Source | [Abstract Avatars for All Creative Profile Use](https://www.figma.com/community/file/1249154526125777853) |
+
 ## Adventurer Neutral
 
 |    File | [src/adventurer-neutral.json](./src/adventurer-neutral.json)                   |

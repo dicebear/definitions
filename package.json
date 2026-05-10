@@ -16,6 +16,10 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
+    "./abstract.json": {
+      "types": "./dist/abstract.min.json",
+      "default": "./dist/abstract.min.json"
+    },
     "./adventurer-neutral.json": {
       "types": "./dist/adventurer-neutral.min.json",
       "default": "./dist/adventurer-neutral.min.json"
