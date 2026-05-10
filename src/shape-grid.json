@@ -596,22 +596,21 @@
   "colors": {
     "background": {
       "values": [
-        "#ffc1d1",
-        "#ffeda8",
-        "#ffe0a3",
-        "#dcc9ff",
-        "#f2c5fb",
-        "#ffcbb3",
-        "#ccd4fe",
-        "#e1f5a8",
-        "#bfd9f9",
-        "#b5e8c5",
-        "#b3edd7",
-        "#b8e8f0"
+        "#ffa3b5",
+        "#ffb382",
+        "#ffe08a",
+        "#e2f299",
+        "#a8f0b0",
+        "#86eadf",
+        "#7fd4f5",
+        "#9cbeff",
+        "#cfbeff"
       ]
     },
     "shape": {
-      "notEqualTo": [],
+      "notEqualTo": [
+        "background"
+      ],
       "values": [
         "#ffffff"
       ]
