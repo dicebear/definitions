@@ -1,8 +1,4 @@
-# DiceBear Definitions
-
-> [!NOTE]  
-> This project is still in beta stage and will only be used in future versions
-> of DiceBear.
+# DiceBear Avatar Styles
 
 This repository contains all official avatar style definitions for
 [DiceBear](https://www.dicebear.com). An avatar style definition is a JSON file
