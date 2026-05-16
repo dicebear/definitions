@@ -1,5 +1,5 @@
 {
-  "name": "@dicebear/definitions",
+  "name": "@dicebear/styles",
   "version": "10.0.0-rc.8",
   "description": "Definition files of the DiceBear avatar styles.",
   "keywords": [
@@ -7,11 +7,11 @@
     "dicebear"
   ],
   "bugs": {
-    "url": "https://github.com/dicebear/definitions/issues"
+    "url": "https://github.com/dicebear/styles/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dicebear/definitions.git"
+    "url": "git+https://github.com/dicebear/styles.git"
   },
   "sideEffects": false,
   "type": "module",

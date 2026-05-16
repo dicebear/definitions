@@ -25,14 +25,14 @@ exported again with the Figma plugin.
 **JavaScript**
 
 ```js
-import adventurer from '@dicebear/definitions/adventurer.json' assert { type: 'json' };
-import lorelei from '@dicebear/definitions/lorelei.json' assert { type: 'json' };
+import adventurer from '@dicebear/styles/adventurer.json' assert { type: 'json' };
+import lorelei from '@dicebear/styles/lorelei.json' assert { type: 'json' };
 ```
 
 **PHP**
 
 ```php
-$basePath = \Composer\InstalledVersions::getInstallPath('dicebear/definitions');
+$basePath = \Composer\InstalledVersions::getInstallPath('dicebear/styles');
 
 $adventurer = json_decode(file_get_contents($basePath . '/src/adventurer.json'), true);
 $lorelei    = json_decode(file_get_contents($basePath . '/src/lorelei.json'), true);

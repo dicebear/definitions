@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to `@dicebear/definitions`.
+Thanks for your interest in contributing to `@dicebear/styles`.
 
 This repository holds the official DiceBear avatar style definitions: the
 JSON files in `src/` that `@dicebear/core` (and every other DiceBear
@@ -56,8 +56,8 @@ file and check whether it carries the exporter marker first.
 ## Local setup
 
 ```sh
-git clone https://github.com/dicebear/definitions.git
-cd definitions
+git clone https://github.com/dicebear/styles.git
+cd styles
 npm install
 ```
 

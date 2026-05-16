@@ -1,6 +1,6 @@
 {
-    "name": "dicebear/definitions",
-    "description": "Definition files of the DiceBear avatar styles.",
+    "name": "dicebear/styles",
+    "description": "Official DiceBear avatar styles.",
     "type": "library",
     "require": {}
 }
