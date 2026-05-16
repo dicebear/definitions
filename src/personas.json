@@ -34,12 +34,7 @@
         "type": "element",
         "attributes": {
           "id": "personas-a",
-          "style": "mask-type:luminance",
-          "maskUnits": "userSpaceOnUse",
-          "x": "14",
-          "y": "13",
-          "width": "36",
-          "height": "44"
+          "style": "mask-type:luminance"
         },
         "children": [
           {
@@ -72,82 +67,46 @@
         ]
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(20 24)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(9.5 4.5)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "clothes",
+        "type": "component",
         "attributes": {
           "transform": "translate(11 46.2)"
-        },
-        "children": [
-          {
-            "name": "clothes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(27 37.46)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "nose",
+        "type": "component",
         "attributes": {
           "transform": "translate(25 32.25)"
-        },
-        "children": [
-          {
-            "name": "nose",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "facialHair",
+        "type": "component",
         "attributes": {
           "transform": "translate(18 28.7)"
-        },
-        "children": [
-          {
-            "name": "facialHair",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 64,
@@ -230,12 +189,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesSmall-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "10",
-                "y": "0",
-                "width": "22",
-                "height": "18"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -430,12 +384,7 @@
               "type": "element",
               "attributes": {
                 "id": "facialHairBeardMustache-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "28",
-                "height": "21"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -799,12 +748,7 @@
               "type": "element",
               "attributes": {
                 "id": "hairCurly-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "45",
-                "height": "45"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -882,12 +826,7 @@
               "type": "element",
               "attributes": {
                 "id": "hairCurlyHighTop-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "6",
-                "y": "3",
-                "width": "34",
-                "height": "22"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -958,12 +897,7 @@
               "type": "element",
               "attributes": {
                 "id": "hairFade-b",
-                "style": "mask-type:alpha",
-                "maskUnits": "userSpaceOnUse",
-                "x": "8",
-                "y": "10",
-                "width": "29",
-                "height": "15"
+                "style": "mask-type:alpha"
               },
               "children": [
                 {

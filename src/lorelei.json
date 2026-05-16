@@ -19,30 +19,18 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(76 3)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hairAccessories",
+        "type": "component",
         "attributes": {
           "transform": "translate(183 329)"
-        },
-        "children": [
-          {
-            "name": "hairAccessories",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 980,
@@ -83,26 +71,15 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant01-a",
-                    "style": "mask-type:alpha",
-                    "maskUnits": "userSpaceOnUse",
-                    "x": "117",
-                    "y": "56",
-                    "width": "264",
-                    "height": "133"
+                    "style": "mask-type:alpha"
                   },
                   "children": [
                     {
-                      "name": "g",
-                      "type": "element",
+                      "name": "mouth",
+                      "type": "component",
                       "attributes": {
                         "transform": "translate(117 56)"
-                      },
-                      "children": [
-                        {
-                          "name": "mouth",
-                          "type": "component"
-                        }
-                      ]
+                      }
                     }
                   ]
                 },
@@ -155,26 +132,15 @@
                   "type": "element",
                   "attributes": {
                     "id": "beardVariant02-a",
-                    "style": "mask-type:alpha",
-                    "maskUnits": "userSpaceOnUse",
-                    "x": "117",
-                    "y": "56",
-                    "width": "264",
-                    "height": "133"
+                    "style": "mask-type:alpha"
                   },
                   "children": [
                     {
-                      "name": "g",
-                      "type": "element",
+                      "name": "mouth",
+                      "type": "component",
                       "attributes": {
                         "transform": "translate(117 56)"
-                      },
-                      "children": [
-                        {
-                          "name": "mouth",
-                          "type": "component"
-                        }
-                      ]
+                      }
                     }
                   ]
                 },
@@ -999,17 +965,11 @@
         "variant01": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1038,17 +998,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1077,17 +1031,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1105,17 +1053,11 @@
         "variant04": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1144,17 +1086,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1183,17 +1119,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1211,17 +1141,11 @@
         "variant07": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1250,17 +1174,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1300,17 +1218,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1339,17 +1251,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1378,17 +1284,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1406,17 +1306,11 @@
         "variant12": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1445,17 +1339,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1484,17 +1372,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1523,17 +1405,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1562,17 +1438,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1601,17 +1471,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1640,17 +1504,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1679,17 +1537,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1718,17 +1570,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1757,17 +1603,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1796,17 +1636,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1835,17 +1669,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1874,17 +1702,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1902,17 +1724,11 @@
         "variant25": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1941,17 +1757,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -1980,17 +1790,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2019,17 +1823,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2058,17 +1856,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2097,17 +1889,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2136,17 +1922,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2175,17 +1955,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2214,17 +1988,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2242,17 +2010,11 @@
         "variant34": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2281,17 +2043,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2320,17 +2076,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2359,17 +2109,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2398,17 +2142,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2437,17 +2175,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2476,17 +2208,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2515,17 +2241,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2554,17 +2274,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2582,17 +2296,11 @@
         "variant43": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2621,17 +2329,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2660,17 +2362,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2699,17 +2395,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2749,17 +2439,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2788,17 +2472,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(131 168)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "path",
@@ -2898,108 +2576,60 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyes",
+              "type": "component",
               "attributes": {
                 "transform": "translate(159 232)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyebrows",
+              "type": "component",
               "attributes": {
                 "transform": "translate(164 126)"
-              },
-              "children": [
-                {
-                  "name": "eyebrows",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "earrings",
+              "type": "component",
               "attributes": {
                 "transform": "translate(0 338)"
-              },
-              "children": [
-                {
-                  "name": "earrings",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "freckles",
+              "type": "component",
               "attributes": {
                 "transform": "translate(141 343)"
-              },
-              "children": [
-                {
-                  "name": "freckles",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "nose",
+              "type": "component",
               "attributes": {
                 "transform": "translate(359 274)"
-              },
-              "children": [
-                {
-                  "name": "nose",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "mouth",
+              "type": "component",
               "attributes": {
                 "transform": "translate(223 402)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "beard",
+              "type": "component",
               "attributes": {
                 "transform": "translate(106 346)"
-              },
-              "children": [
-                {
-                  "name": "beard",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "glasses",
+              "type": "component",
               "attributes": {
                 "transform": "translate(152 197)"
-              },
-              "children": [
-                {
-                  "name": "glasses",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         },
@@ -3033,108 +2663,60 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyes",
+              "type": "component",
               "attributes": {
                 "transform": "translate(159 232)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyebrows",
+              "type": "component",
               "attributes": {
                 "transform": "translate(164 126)"
-              },
-              "children": [
-                {
-                  "name": "eyebrows",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "earrings",
+              "type": "component",
               "attributes": {
                 "transform": "translate(0 338)"
-              },
-              "children": [
-                {
-                  "name": "earrings",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "freckles",
+              "type": "component",
               "attributes": {
                 "transform": "translate(141 343)"
-              },
-              "children": [
-                {
-                  "name": "freckles",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "nose",
+              "type": "component",
               "attributes": {
                 "transform": "translate(359 274)"
-              },
-              "children": [
-                {
-                  "name": "nose",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "mouth",
+              "type": "component",
               "attributes": {
                 "transform": "translate(223 402)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "beard",
+              "type": "component",
               "attributes": {
                 "transform": "translate(106 346)"
-              },
-              "children": [
-                {
-                  "name": "beard",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "glasses",
+              "type": "component",
               "attributes": {
                 "transform": "translate(152 197)"
-              },
-              "children": [
-                {
-                  "name": "glasses",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         },
@@ -3168,108 +2750,60 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyes",
+              "type": "component",
               "attributes": {
                 "transform": "translate(159 232)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyebrows",
+              "type": "component",
               "attributes": {
                 "transform": "translate(164 126)"
-              },
-              "children": [
-                {
-                  "name": "eyebrows",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "earrings",
+              "type": "component",
               "attributes": {
                 "transform": "translate(0 338)"
-              },
-              "children": [
-                {
-                  "name": "earrings",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "freckles",
+              "type": "component",
               "attributes": {
                 "transform": "translate(141 343)"
-              },
-              "children": [
-                {
-                  "name": "freckles",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "nose",
+              "type": "component",
               "attributes": {
                 "transform": "translate(359 274)"
-              },
-              "children": [
-                {
-                  "name": "nose",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "mouth",
+              "type": "component",
               "attributes": {
                 "transform": "translate(223 402)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "beard",
+              "type": "component",
               "attributes": {
                 "transform": "translate(106 346)"
-              },
-              "children": [
-                {
-                  "name": "beard",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "glasses",
+              "type": "component",
               "attributes": {
                 "transform": "translate(152 197)"
-              },
-              "children": [
-                {
-                  "name": "glasses",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         },
@@ -3303,108 +2837,60 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyes",
+              "type": "component",
               "attributes": {
                 "transform": "translate(159 232)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyebrows",
+              "type": "component",
               "attributes": {
                 "transform": "translate(164 126)"
-              },
-              "children": [
-                {
-                  "name": "eyebrows",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "earrings",
+              "type": "component",
               "attributes": {
                 "transform": "translate(0 338)"
-              },
-              "children": [
-                {
-                  "name": "earrings",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "freckles",
+              "type": "component",
               "attributes": {
                 "transform": "translate(141 343)"
-              },
-              "children": [
-                {
-                  "name": "freckles",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "nose",
+              "type": "component",
               "attributes": {
                 "transform": "translate(359 274)"
-              },
-              "children": [
-                {
-                  "name": "nose",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "mouth",
+              "type": "component",
               "attributes": {
                 "transform": "translate(223 402)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "beard",
+              "type": "component",
               "attributes": {
                 "transform": "translate(106 346)"
-              },
-              "children": [
-                {
-                  "name": "beard",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "glasses",
+              "type": "component",
               "attributes": {
                 "transform": "translate(152 197)"
-              },
-              "children": [
-                {
-                  "name": "glasses",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         }

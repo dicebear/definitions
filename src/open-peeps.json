@@ -55,69 +55,39 @@
         }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.99789 0 0 1 6.3 -58)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "expression",
+        "type": "component",
         "attributes": {
           "transform": "translate(351 275)"
-        },
-        "children": [
-          {
-            "name": "expression",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "facialHair",
+        "type": "component",
         "attributes": {
           "transform": "translate(58 333)"
-        },
-        "children": [
-          {
-            "name": "facialHair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mask",
+        "type": "component",
         "attributes": {
           "transform": "translate(207.5 331)"
-        },
-        "children": [
-          {
-            "name": "mask",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "accessories",
+        "type": "component",
         "attributes": {
           "transform": "translate(190 243)"
-        },
-        "children": [
-          {
-            "name": "accessories",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 704,

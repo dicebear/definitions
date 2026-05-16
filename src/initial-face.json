@@ -19,17 +19,11 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
-          "transform": "translate(13 13)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+          "transform": "translate(13 16)"
+        }
       }
     ],
     "width": 70,
@@ -187,30 +181,18 @@
               "type": "component"
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyes",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(-1 0 0 1 44 0)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "mouth",
+              "type": "component",
               "attributes": {
                 "transform": "translate(12 30)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         }

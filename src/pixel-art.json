@@ -39,99 +39,57 @@
         }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "accessories",
+        "type": "component",
         "attributes": {
           "transform": "translate(1 7)"
-        },
-        "children": [
-          {
-            "name": "accessories",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "clothes",
+        "type": "component",
         "attributes": {
           "transform": "translate(2 12)"
-        },
-        "children": [
-          {
-            "name": "clothes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(4 5)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "glasses",
+        "type": "component",
         "attributes": {
           "transform": "translate(2 4)"
-        },
-        "children": [
-          {
-            "name": "glasses",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "beard",
+        "type": "component",
         "attributes": {
           "transform": "translate(3 6)"
-        },
-        "children": [
-          {
-            "name": "beard",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(6 9)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
         "name": "hair",
         "type": "component"
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hat",
+        "type": "component",
         "attributes": {
           "transform": "translate(1)"
-        },
-        "children": [
-          {
-            "name": "hat",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 16,
@@ -302,12 +260,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant01-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "2",
-                "width": "10",
-                "height": "4"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -368,12 +321,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "2",
-                "y": "5",
-                "width": "6",
-                "height": "3"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -434,12 +382,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant03-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "3",
-                "width": "10",
-                "height": "5"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -500,12 +443,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant04-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "3",
-                "y": "5",
-                "width": "4",
-                "height": "1"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -569,12 +507,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant05-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "10",
-                "height": "6"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -635,12 +568,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant06-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "3",
-                "width": "10",
-                "height": "3"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -701,12 +629,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant07-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "3",
-                "width": "10",
-                "height": "3"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -767,12 +690,7 @@
               "type": "element",
               "attributes": {
                 "id": "beardVariant08-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "10",
-                "height": "6"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {

@@ -19,147 +19,81 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(9 2.7)scale(.71048)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "translate(123.5 168)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(179.7 330.6)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "ears",
+        "type": "component",
         "attributes": {
           "transform": "translate(294 246.9)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "ears",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "ears",
+        "type": "component",
         "attributes": {
           "transform": "matrix(-.71856 0 0 .71856 146 246.9)"
-        },
-        "children": [
-          {
-            "name": "ears",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(152 240)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "details",
+        "type": "component",
         "attributes": {
           "transform": "translate(135.2 300.2)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "details",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "nose",
+        "type": "component",
         "attributes": {
           "transform": "translate(195.6 288)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "nose",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "sideburns",
+        "type": "component",
         "attributes": {
           "transform": "translate(126 244.8)scale(.52237)"
-        },
-        "children": [
-          {
-            "name": "sideburns",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "sideburns",
+        "type": "component",
         "attributes": {
           "transform": "matrix(-.52237 0 0 .52237 314.7 244.8)"
-        },
-        "children": [
-          {
-            "name": "sideburns",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "frontHair",
+        "type": "component",
         "attributes": {
           "transform": "translate(123.6 155)scale(.52237)"
-        },
-        "children": [
-          {
-            "name": "frontHair",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 440,

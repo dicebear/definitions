@@ -19,108 +19,60 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "translate(13 13)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "body",
+        "type": "component",
         "attributes": {
           "transform": "translate(7 57)"
-        },
-        "children": [
-          {
-            "name": "body",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(0 3)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(28.93 45)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(29 35)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "blush",
+        "type": "component",
         "attributes": {
           "transform": "translate(24 38)"
-        },
-        "children": [
-          {
-            "name": "blush",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "glasses",
+        "type": "component",
         "attributes": {
           "transform": "translate(25 31)"
-        },
-        "children": [
-          {
-            "name": "glasses",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mustache",
+        "type": "component",
         "attributes": {
           "transform": "translate(26.5 43)"
-        },
-        "children": [
-          {
-            "name": "mustache",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 64,

@@ -23,65 +23,36 @@
         "type": "element",
         "attributes": {
           "id": "identicon-a",
-          "style": "mask-type:alpha",
-          "maskUnits": "userSpaceOnUse",
-          "x": "0",
-          "y": "0",
-          "width": "5",
-          "height": "5"
+          "style": "mask-type:alpha"
         },
         "children": [
           {
-            "name": "g",
-            "type": "element",
+            "name": "row05",
+            "type": "component",
             "attributes": {
               "transform": "translate(0 4)"
-            },
-            "children": [
-              {
-                "name": "row05",
-                "type": "component"
-              }
-            ]
+            }
           },
           {
-            "name": "g",
-            "type": "element",
+            "name": "row04",
+            "type": "component",
             "attributes": {
               "transform": "translate(0 3)"
-            },
-            "children": [
-              {
-                "name": "row04",
-                "type": "component"
-              }
-            ]
+            }
           },
           {
-            "name": "g",
-            "type": "element",
+            "name": "row03",
+            "type": "component",
             "attributes": {
               "transform": "translate(0 2)"
-            },
-            "children": [
-              {
-                "name": "row03",
-                "type": "component"
-              }
-            ]
+            }
           },
           {
-            "name": "g",
-            "type": "element",
+            "name": "row02",
+            "type": "component",
             "attributes": {
               "transform": "translate(0 1)"
-            },
-            "children": [
-              {
-                "name": "row02",
-                "type": "component"
-              }
-            ]
+            }
           },
           {
             "name": "row01",

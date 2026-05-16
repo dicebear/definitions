@@ -22,7 +22,22 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "transform": "translate(4 4)"
+          "transform": "translate(4 4)",
+          "style": "mix-blend-mode:overlay"
+        },
+        "children": [
+          {
+            "name": "icon",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "translate(4 4)",
+          "opacity": "0.4"
         },
         "children": [
           {
@@ -2999,10 +3014,10 @@
       ]
     },
     "icon": {
-      "notEqualTo": [
-        "background"
-      ],
+      "notEqualTo": [],
+      "contrastTo": "background",
       "values": [
+        "#000000",
         "#ffffff"
       ]
     }

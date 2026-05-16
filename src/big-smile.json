@@ -19,69 +19,39 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.85682 0 0 .85439 52 75.4)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.85472 0 0 .855 222 253.2)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.85472 0 0 .855 261.6 170.8)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.85472 0 0 .85667 1.8 -47.6)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "accessories",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.85472 0 0 .85667 85.6 71)"
-        },
-        "children": [
-          {
-            "name": "accessories",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 480,

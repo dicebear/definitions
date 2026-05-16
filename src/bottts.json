@@ -19,69 +19,39 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "sides",
+        "type": "component",
         "attributes": {
           "transform": "translate(6 66)"
-        },
-        "children": [
-          {
-            "name": "sides",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "top",
+        "type": "component",
         "attributes": {
           "transform": "translate(49 -.6)"
-        },
-        "children": [
-          {
-            "name": "top",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "translate(25 44)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(56 128)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(38 76)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 180,
@@ -449,12 +419,7 @@
               "type": "element",
               "attributes": {
                 "id": "eyesRobocop-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "7",
-                "y": "16",
-                "width": "91",
-                "height": "16"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -706,12 +671,7 @@
               "type": "element",
               "attributes": {
                 "id": "headRound01-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "130",
-                "height": "120"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -745,17 +705,11 @@
                   }
                 },
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "texture",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(-44 -7)"
-                  },
-                  "children": [
-                    {
-                      "name": "texture",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -768,12 +722,7 @@
               "type": "element",
               "attributes": {
                 "id": "headRound02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "130",
-                "height": "120"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -807,17 +756,11 @@
                   }
                 },
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "texture",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(-44 -7)"
-                  },
-                  "children": [
-                    {
-                      "name": "texture",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -830,12 +773,7 @@
               "type": "element",
               "attributes": {
                 "id": "headSquare01-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "130",
-                "height": "120"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -869,17 +807,11 @@
                   }
                 },
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "texture",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(-44 -7)"
-                  },
-                  "children": [
-                    {
-                      "name": "texture",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -892,12 +824,7 @@
               "type": "element",
               "attributes": {
                 "id": "headSquare02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "130",
-                "height": "120"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -929,17 +856,11 @@
                   }
                 },
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "texture",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(-44 -7)"
-                  },
-                  "children": [
-                    {
-                      "name": "texture",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -952,12 +873,7 @@
               "type": "element",
               "attributes": {
                 "id": "headSquare03-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "130",
-                "height": "120"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -991,17 +907,11 @@
                   }
                 },
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "texture",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(-44 -7)"
-                  },
-                  "children": [
-                    {
-                      "name": "texture",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -1014,12 +924,7 @@
               "type": "element",
               "attributes": {
                 "id": "headSquare04-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "0",
-                "width": "130",
-                "height": "120"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -1053,17 +958,11 @@
                   }
                 },
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "texture",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(-44 -7)"
-                  },
-                  "children": [
-                    {
-                      "name": "texture",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -1385,12 +1284,7 @@
               "type": "element",
               "attributes": {
                 "id": "mouthSmile02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "14",
-                "y": "4",
-                "width": "40",
-                "height": "20"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -1475,12 +1369,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesAntenna01-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "11",
-                "width": "156",
-                "height": "51"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -1615,12 +1504,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesAntenna02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "4",
-                "y": "9",
-                "width": "160",
-                "height": "51"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -1762,12 +1646,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesCables01-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "15",
-                "y": "6",
-                "width": "138",
-                "height": "58"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -1918,12 +1797,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesCables02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "15",
-                "y": "0",
-                "width": "138",
-                "height": "72"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -2013,12 +1887,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesRound-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "6",
-                "y": "16",
-                "width": "156",
-                "height": "45"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -2095,12 +1964,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesSquare-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "8",
-                "y": "16",
-                "width": "152",
-                "height": "44"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -2179,12 +2043,7 @@
               "type": "element",
               "attributes": {
                 "id": "sidesSquareAssymetric-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "4",
-                "y": "8",
-                "width": "165",
-                "height": "60"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -2798,12 +2657,7 @@
               "type": "element",
               "attributes": {
                 "id": "topAntenna-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "30",
-                "y": "5",
-                "width": "24",
-                "height": "48"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -2897,12 +2751,7 @@
               "type": "element",
               "attributes": {
                 "id": "topAntennaCrooked-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "30",
-                "y": "12",
-                "width": "24",
-                "height": "41"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -2996,12 +2845,7 @@
               "type": "element",
               "attributes": {
                 "id": "topBulb01-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "14",
-                "y": "0",
-                "width": "56",
-                "height": "53"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -3200,7 +3044,7 @@
                       "type": "element",
                       "attributes": {
                         "in2": "BackgroundImageFix",
-                        "result": "effect1_dropShadow_2934_1925"
+                        "result": "effect1_dropShadow_2935_1925"
                       }
                     },
                     {
@@ -3208,7 +3052,7 @@
                       "type": "element",
                       "attributes": {
                         "in": "SourceGraphic",
-                        "in2": "effect1_dropShadow_2934_1925",
+                        "in2": "effect1_dropShadow_2935_1925",
                         "result": "shape"
                       }
                     },
@@ -3254,7 +3098,7 @@
                       "type": "element",
                       "attributes": {
                         "in2": "shape",
-                        "result": "effect2_innerShadow_2934_1925"
+                        "result": "effect2_innerShadow_2935_1925"
                       }
                     }
                   ]
@@ -3376,7 +3220,7 @@
                       "type": "element",
                       "attributes": {
                         "in2": "BackgroundImageFix",
-                        "result": "effect1_dropShadow_2934_1937"
+                        "result": "effect1_dropShadow_2935_1937"
                       }
                     },
                     {
@@ -3384,7 +3228,7 @@
                       "type": "element",
                       "attributes": {
                         "in": "SourceGraphic",
-                        "in2": "effect1_dropShadow_2934_1937",
+                        "in2": "effect1_dropShadow_2935_1937",
                         "result": "shape"
                       }
                     },
@@ -3430,7 +3274,7 @@
                       "type": "element",
                       "attributes": {
                         "in2": "shape",
-                        "result": "effect2_innerShadow_2934_1937"
+                        "result": "effect2_innerShadow_2935_1937"
                       }
                     }
                   ]
@@ -3446,12 +3290,7 @@
               "type": "element",
               "attributes": {
                 "id": "topHorns-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "0",
-                "y": "13",
-                "width": "84",
-                "height": "40"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -3547,12 +3386,7 @@
               "type": "element",
               "attributes": {
                 "id": "topLights-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "2",
-                "y": "22",
-                "width": "80",
-                "height": "31"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -3662,12 +3496,7 @@
               "type": "element",
               "attributes": {
                 "id": "topPyramid-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "10",
-                "y": "8",
-                "width": "64",
-                "height": "45"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -3732,12 +3561,7 @@
               "type": "element",
               "attributes": {
                 "id": "topRadar-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "29",
-                "y": "0",
-                "width": "36",
-                "height": "53"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {

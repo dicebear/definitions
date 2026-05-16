@@ -19,121 +19,67 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "rearHair",
+        "type": "component",
         "attributes": {
           "transform": "translate(160.62 339.51)"
-        },
-        "children": [
-          {
-            "name": "rearHair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "body",
+        "type": "component",
         "attributes": {
           "transform": "translate(124 556)"
-        },
-        "children": [
-          {
-            "name": "body",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "translate(186.52 139.5)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "clothes",
+        "type": "component",
         "attributes": {
           "transform": "translate(107.32 587.5)"
-        },
-        "children": [
-          {
-            "name": "clothes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(326 487)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "beard",
+        "type": "component",
         "attributes": {
           "transform": "translate(223.48 402.09)"
-        },
-        "children": [
-          {
-            "name": "beard",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(253 367)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyebrows",
+        "type": "component",
         "attributes": {
           "transform": "translate(265.82 287.36)"
-        },
-        "children": [
-          {
-            "name": "eyebrows",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(158.16)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 768,
@@ -934,12 +880,7 @@
               "type": "element",
               "attributes": {
                 "id": "mouthAgape-a",
-                "style": "mask-type:alpha",
-                "maskUnits": "userSpaceOnUse",
-                "x": "37",
-                "y": "0",
-                "width": "41",
-                "height": "52"
+                "style": "mask-type:alpha"
               },
               "children": [
                 {
@@ -995,12 +936,7 @@
               "type": "element",
               "attributes": {
                 "id": "mouthAngry-a",
-                "style": "mask-type:alpha",
-                "maskUnits": "userSpaceOnUse",
-                "x": "9",
-                "y": "0",
-                "width": "98",
-                "height": "48"
+                "style": "mask-type:alpha"
               },
               "children": [
                 {
@@ -1047,12 +983,7 @@
               "type": "element",
               "attributes": {
                 "id": "mouthLaugh-a",
-                "style": "mask-type:alpha",
-                "maskUnits": "userSpaceOnUse",
-                "x": "10",
-                "y": "0",
-                "width": "97",
-                "height": "52"
+                "style": "mask-type:alpha"
               },
               "children": [
                 {

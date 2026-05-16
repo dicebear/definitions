@@ -19,17 +19,11 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "body",
+        "type": "component",
         "attributes": {
           "transform": "translate(5 10)"
-        },
-        "children": [
-          {
-            "name": "body",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 100,
@@ -72,17 +66,11 @@
               }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "head",
+              "type": "component",
               "attributes": {
                 "transform": "translate(24 24)"
-              },
-              "children": [
-                {
-                  "name": "head",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         }
@@ -249,30 +237,18 @@
               "type": "component"
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "eyes",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(-1 0 0 1 44 0)"
-              },
-              "children": [
-                {
-                  "name": "eyes",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "mouth",
+              "type": "component",
               "attributes": {
                 "transform": "translate(7 26)"
-              },
-              "children": [
-                {
-                  "name": "mouth",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         }

@@ -19,134 +19,74 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "head",
+        "type": "component",
         "attributes": {
           "transform": "translate(532 491)"
-        },
-        "children": [
-          {
-            "name": "head",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "clothes",
+        "type": "component",
         "attributes": {
           "transform": "translate(151 1029.3)"
-        },
-        "children": [
-          {
-            "name": "clothes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(266 221.9)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(791 872)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "beard",
+        "type": "component",
         "attributes": {
           "transform": "translate(653 805)"
-        },
-        "children": [
-          {
-            "name": "beard",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "nose",
+        "type": "component",
         "attributes": {
           "transform": "translate(901 669)"
-        },
-        "children": [
-          {
-            "name": "nose",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(805.2 732.6)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "glasses",
+        "type": "component",
         "attributes": {
           "transform": "translate(610.3 681)"
-        },
-        "children": [
-          {
-            "name": "glasses",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyebrows",
+        "type": "component",
         "attributes": {
           "transform": "translate(775 657)"
-        },
-        "children": [
-          {
-            "name": "eyebrows",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "gesture",
+        "type": "component",
         "attributes": {
           "transform": "translate(0 559)"
-        },
-        "children": [
-          {
-            "name": "gesture",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 1744,
@@ -559,12 +499,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesVariant05-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "543",
-                "y": "258",
-                "width": "267",
-                "height": "461"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -585,17 +520,11 @@
               },
               "children": [
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "clothesGraphic",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(424 305.7)"
-                  },
-                  "children": [
-                    {
-                      "name": "clothesGraphic",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             },
@@ -626,12 +555,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesVariant06-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "543",
-                "y": "258",
-                "width": "267",
-                "height": "461"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -652,17 +576,11 @@
               },
               "children": [
                 {
-                  "name": "g",
-                  "type": "element",
+                  "name": "clothesGraphic",
+                  "type": "component",
                   "attributes": {
                     "transform": "translate(424 305.7)"
-                  },
-                  "children": [
-                    {
-                      "name": "clothesGraphic",
-                      "type": "component"
-                    }
-                  ]
+                  }
                 }
               ]
             },
@@ -693,12 +611,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesVariant07-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "480",
-                "y": "287",
-                "width": "392",
-                "height": "433"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -776,12 +689,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesVariant08-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "480",
-                "y": "287",
-                "width": "392",
-                "height": "433"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -867,12 +775,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesVariant09-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "480",
-                "y": "287",
-                "width": "392",
-                "height": "433"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -966,12 +869,7 @@
               "type": "element",
               "attributes": {
                 "id": "clothesVariant10-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "480",
-                "y": "287",
-                "width": "392",
-                "height": "433"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {

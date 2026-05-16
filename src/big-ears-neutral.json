@@ -19,56 +19,32 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(64.7 136.1)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(37 35.4)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "details",
+        "type": "component",
         "attributes": {
           "transform": "translate(20.2 100.7)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "details",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "nose",
+        "type": "component",
         "attributes": {
           "transform": "translate(80.6 88.5)scale(.71856)"
-        },
-        "children": [
-          {
-            "name": "nose",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 210,

@@ -19,30 +19,18 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "mouth",
+        "type": "component",
         "attributes": {
           "transform": "translate(26 72)"
-        },
-        "children": [
-          {
-            "name": "mouth",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "eyes",
+        "type": "component",
         "attributes": {
           "transform": "translate(8 20)"
-        },
-        "children": [
-          {
-            "name": "eyes",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 120,
@@ -410,12 +398,7 @@
               "type": "element",
               "attributes": {
                 "id": "eyesRobocop-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "7",
-                "y": "16",
-                "width": "91",
-                "height": "16"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {
@@ -970,12 +953,7 @@
               "type": "element",
               "attributes": {
                 "id": "mouthSmile02-a",
-                "style": "mask-type:luminance",
-                "maskUnits": "userSpaceOnUse",
-                "x": "14",
-                "y": "4",
-                "width": "40",
-                "height": "20"
+                "style": "mask-type:luminance"
               },
               "children": [
                 {

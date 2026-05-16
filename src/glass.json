@@ -28,17 +28,11 @@
         },
         "children": [
           {
-            "name": "g",
-            "type": "element",
+            "name": "shape02",
+            "type": "component",
             "attributes": {
               "transform": "translate(-25 -24.4)"
-            },
-            "children": [
-              {
-                "name": "shape02",
-                "type": "component"
-              }
-            ]
+            }
           }
         ]
       },
@@ -52,17 +46,11 @@
         },
         "children": [
           {
-            "name": "g",
-            "type": "element",
+            "name": "shape01",
+            "type": "component",
             "attributes": {
               "transform": "translate(-25 -24.4)"
-            },
-            "children": [
-              {
-                "name": "shape01",
-                "type": "component"
-              }
-            ]
+            }
           }
         ]
       },
@@ -105,7 +93,7 @@
                 "type": "element",
                 "attributes": {
                   "stdDeviation": "16",
-                  "result": "effect1_foregroundBlur_2069_38"
+                  "result": "effect1_foregroundBlur_2071_38"
                 }
               }
             ]
@@ -145,7 +133,7 @@
                 "type": "element",
                 "attributes": {
                   "stdDeviation": "16",
-                  "result": "effect1_foregroundBlur_2069_38"
+                  "result": "effect1_foregroundBlur_2071_38"
                 }
               }
             ]

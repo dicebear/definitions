@@ -46,121 +46,67 @@
               "type": "component"
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring02",
+              "type": "component",
               "attributes": {
                 "transform": "translate(10 10)"
-              },
-              "children": [
-                {
-                  "name": "ring02",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring03",
+              "type": "component",
               "attributes": {
                 "transform": "translate(20 20)"
-              },
-              "children": [
-                {
-                  "name": "ring03",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring04",
+              "type": "component",
               "attributes": {
                 "transform": "translate(30 30)"
-              },
-              "children": [
-                {
-                  "name": "ring04",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring05",
+              "type": "component",
               "attributes": {
                 "transform": "translate(40 40)"
-              },
-              "children": [
-                {
-                  "name": "ring05",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring01",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(1 0 0 -1 0 100)"
-              },
-              "children": [
-                {
-                  "name": "ring01",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring02",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(1 0 0 -1 10 90)"
-              },
-              "children": [
-                {
-                  "name": "ring02",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring03",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(1 0 0 -1 20 80)"
-              },
-              "children": [
-                {
-                  "name": "ring03",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring04",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(1 0 0 -1 30 70)"
-              },
-              "children": [
-                {
-                  "name": "ring04",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "ring05",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(1 0 0 -1 40 60)"
-              },
-              "children": [
-                {
-                  "name": "ring05",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
               "name": "circle",

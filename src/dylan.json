@@ -38,43 +38,25 @@
         }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "facialHair",
+        "type": "component",
         "attributes": {
           "transform": "translate(15.71 47)"
-        },
-        "children": [
-          {
-            "name": "facialHair",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "mood",
+        "type": "component",
         "attributes": {
           "transform": "translate(27.82 26.75)"
-        },
-        "children": [
-          {
-            "name": "mood",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "hair",
+        "type": "component",
         "attributes": {
           "transform": "translate(3.78 2.95)"
-        },
-        "children": [
-          {
-            "name": "hair",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 80,

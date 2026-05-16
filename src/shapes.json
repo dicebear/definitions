@@ -19,43 +19,25 @@
   "canvas": {
     "elements": [
       {
-        "name": "g",
-        "type": "element",
+        "name": "shape01",
+        "type": "component",
         "attributes": {
           "transform": "matrix(1.2 0 0 1.2 -10 -190)"
-        },
-        "children": [
-          {
-            "name": "shape01",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "shape02",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.8 0 0 .8 10 -110)"
-        },
-        "children": [
-          {
-            "name": "shape02",
-            "type": "component"
-          }
-        ]
+        }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "shape03",
+        "type": "component",
         "attributes": {
           "transform": "matrix(.4 0 0 .4 30 -30)"
-        },
-        "children": [
-          {
-            "name": "shape03",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 100,

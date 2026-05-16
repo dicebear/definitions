@@ -22,7 +22,22 @@
         "name": "g",
         "type": "element",
         "attributes": {
-          "transform": "matrix(.65 0 0 .65 17.5 17.5)"
+          "transform": "matrix(.65 0 0 .65 17.5 17.5)",
+          "style": "mix-blend-mode:overlay"
+        },
+        "children": [
+          {
+            "name": "rows",
+            "type": "component"
+          }
+        ]
+      },
+      {
+        "name": "g",
+        "type": "element",
+        "attributes": {
+          "transform": "matrix(.65 0 0 .65 17.5 17.5)",
+          "opacity": "0.3"
         },
         "children": [
           {
@@ -47,17 +62,11 @@
         "rows01": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape01",
+              "type": "component",
               "attributes": {
                 "transform": "scale(10)"
-              },
-              "children": [
-                {
-                  "name": "shape01",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ],
           "weight": 0
@@ -65,177 +74,99 @@
         "rows02": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape04",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(5.1 0 0 5.1 49 49)"
-              },
-              "children": [
-                {
-                  "name": "shape04",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape03",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(4.9 0 0 5.1 0 49)"
-              },
-              "children": [
-                {
-                  "name": "shape03",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape02",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(5.1 0 0 4.9 49 0)"
-              },
-              "children": [
-                {
-                  "name": "shape02",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape01",
+              "type": "component",
               "attributes": {
                 "transform": "scale(4.9)"
-              },
-              "children": [
-                {
-                  "name": "shape01",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ]
         },
         "rows03": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape09",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.3 0 0 3.3 67 67)"
-              },
-              "children": [
-                {
-                  "name": "shape09",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape08",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.4 0 0 3.3 33 67)"
-              },
-              "children": [
-                {
-                  "name": "shape08",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape07",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.3 0 0 3.3 0 67)"
-              },
-              "children": [
-                {
-                  "name": "shape07",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape06",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.3 0 0 3.4 67 33)"
-              },
-              "children": [
-                {
-                  "name": "shape06",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape05",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.4 0 0 3.4 33 33)"
-              },
-              "children": [
-                {
-                  "name": "shape05",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape04",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.3 0 0 3.4 0 33)"
-              },
-              "children": [
-                {
-                  "name": "shape04",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape03",
+              "type": "component",
               "attributes": {
                 "transform": "translate(67)scale(3.3)"
-              },
-              "children": [
-                {
-                  "name": "shape03",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape02",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(3.4 0 0 3.3 33 0)"
-              },
-              "children": [
-                {
-                  "name": "shape02",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape01",
+              "type": "component",
               "attributes": {
                 "transform": "scale(3.3)"
-              },
-              "children": [
-                {
-                  "name": "shape01",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ],
           "weight": 0
@@ -243,212 +174,116 @@
         "rows04": {
           "elements": [
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape16",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 75 75)"
-              },
-              "children": [
-                {
-                  "name": "shape16",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape15",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 50 75)"
-              },
-              "children": [
-                {
-                  "name": "shape15",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape14",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 25 75)"
-              },
-              "children": [
-                {
-                  "name": "shape14",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape13",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 0 75)"
-              },
-              "children": [
-                {
-                  "name": "shape13",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape12",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 75 50)"
-              },
-              "children": [
-                {
-                  "name": "shape12",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape11",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 50 50)"
-              },
-              "children": [
-                {
-                  "name": "shape11",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape10",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 25 50)"
-              },
-              "children": [
-                {
-                  "name": "shape10",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape09",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 0 50)"
-              },
-              "children": [
-                {
-                  "name": "shape09",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape08",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 75 25)"
-              },
-              "children": [
-                {
-                  "name": "shape08",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape07",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 50 25)"
-              },
-              "children": [
-                {
-                  "name": "shape07",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape06",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 25 25)"
-              },
-              "children": [
-                {
-                  "name": "shape06",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape05",
+              "type": "component",
               "attributes": {
                 "transform": "matrix(2.5 0 0 2.5 0 25)"
-              },
-              "children": [
-                {
-                  "name": "shape05",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape04",
+              "type": "component",
               "attributes": {
                 "transform": "translate(75)scale(2.5)"
-              },
-              "children": [
-                {
-                  "name": "shape04",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape03",
+              "type": "component",
               "attributes": {
                 "transform": "translate(50)scale(2.5)"
-              },
-              "children": [
-                {
-                  "name": "shape03",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape02",
+              "type": "component",
               "attributes": {
                 "transform": "translate(25)scale(2.5)"
-              },
-              "children": [
-                {
-                  "name": "shape02",
-                  "type": "component"
-                }
-              ]
+              }
             },
             {
-              "name": "g",
-              "type": "element",
+              "name": "shape01",
+              "type": "component",
               "attributes": {
                 "transform": "scale(2.5)"
-              },
-              "children": [
-                {
-                  "name": "shape01",
-                  "type": "component"
-                }
-              ]
+              }
             }
           ],
           "weight": 0
@@ -608,10 +443,10 @@
       ]
     },
     "shape": {
-      "notEqualTo": [
-        "background"
-      ],
+      "notEqualTo": [],
+      "contrastTo": "background",
       "values": [
+        "#000000",
         "#ffffff"
       ]
     }
