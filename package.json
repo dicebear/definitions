@@ -60,6 +60,10 @@
       "types": "./dist/croodles.min.json",
       "default": "./dist/croodles.min.json"
     },
+    "./disco.json": {
+      "types": "./dist/disco.min.json",
+      "default": "./dist/disco.min.json"
+    },
     "./dylan.json": {
       "types": "./dist/dylan.min.json",
       "default": "./dist/dylan.min.json"

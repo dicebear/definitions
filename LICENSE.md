@@ -91,6 +91,14 @@ the following list or in the individual files.
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                              |
 |  Source | [Croodles - Doodle your face](https://www.figma.com/community/file/966199982810283152) |
 
+## Disco
+
+|    File | [src/disco.json](./src/disco.json)                            |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Disco](https://www.dicebear.com)                             |
+
 ## Dylan
 
 |    File | [src/dylan.json](./src/dylan.json)                                                      |
