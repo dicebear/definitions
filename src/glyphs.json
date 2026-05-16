@@ -59,17 +59,11 @@
         }
       },
       {
-        "name": "g",
-        "type": "element",
+        "name": "shape",
+        "type": "component",
         "attributes": {
           "transform": "translate(9.07 12.32)"
-        },
-        "children": [
-          {
-            "name": "shape",
-            "type": "component"
-          }
-        ]
+        }
       }
     ],
     "width": 72,
