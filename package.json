@@ -16,10 +16,6 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    "./abstract.json": {
-      "types": "./dist/abstract.min.json",
-      "default": "./dist/abstract.min.json"
-    },
     "./adventurer-neutral.json": {
       "types": "./dist/adventurer-neutral.min.json",
       "default": "./dist/adventurer-neutral.min.json"
@@ -75,6 +71,10 @@
     "./glass.json": {
       "types": "./dist/glass.min.json",
       "default": "./dist/glass.min.json"
+    },
+    "./glyphs.json": {
+      "types": "./dist/glyphs.min.json",
+      "default": "./dist/glyphs.min.json"
     },
     "./icons.json": {
       "types": "./dist/icons.min.json",
