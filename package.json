@@ -148,6 +148,10 @@
       "types": "./dist/shapes.min.json",
       "default": "./dist/shapes.min.json"
     },
+    "./stripes.json": {
+      "types": "./dist/stripes.min.json",
+      "default": "./dist/stripes.min.json"
+    },
     "./thumbs.json": {
       "types": "./dist/thumbs.min.json",
       "default": "./dist/thumbs.min.json"
@@ -155,6 +159,10 @@
     "./toon-head.json": {
       "types": "./dist/toon-head.min.json",
       "default": "./dist/toon-head.min.json"
+    },
+    "./triangles.json": {
+      "types": "./dist/triangles.min.json",
+      "default": "./dist/triangles.min.json"
     }
   },
   "files": [

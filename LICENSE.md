@@ -267,6 +267,14 @@ the following list or in the individual files.
 | License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 |  Source | [Shapes](https://www.dicebear.com)                            |
 
+## Stripes
+
+|    File | [src/stripes.json](./src/stripes.json)                        |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Stripes](https://www.dicebear.com)                           |
+
 ## Thumbs
 
 |    File | [src/thumbs.json](./src/thumbs.json)                          |
@@ -282,3 +290,11 @@ the following list or in the individual files.
 |  Artist | [Johan Melin](https://www.johanmelin.com)                            |
 | License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)            |
 |  Source | [ToonHead](https://www.figma.com/community/file/1589627891082866389) |
+
+## Triangles
+
+|    File | [src/triangles.json](./src/triangles.json)                    |
+| ------: | :------------------------------------------------------------ |
+|  Artist | [DiceBear](https://www.dicebear.com)                          |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+|  Source | [Triangles](https://www.dicebear.com)                         |
